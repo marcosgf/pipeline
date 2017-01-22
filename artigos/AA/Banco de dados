@@ -1,0 +1,51 @@
+São operados pelos Sistemas Gerenciadores de Bancos de Dados (SGBD), que surgiram na década de 70
+Antes destes, as aplicações usavam sistemas de arquivos do sistema operacional para armazenar suas informações
+Na década de 80, a tecnologia de SGBD relacional passou a dominar o mercado, e atualmente utiliza-se praticamente apenas ela
+Outro tipo notável é o SGBD Orientado a Objetos, para quando sua estrutura ou as aplicações que o utilizam mudam constantemente.
+
+A principal aplicação de Banco de Dados é controle de operações empresariais
+Outra aplicação também importante é gerenciamento de informações de estudos, como fazem os Bancos de Dados Geográficos, que unem informações convencionais com espaciais.
+
+Existem vários Modelos de Base de Dados: Modelo Plano, Modelo em Rede, Modelo Hierárquico, Modelo Relacional, Orientado a objetos, e Objeto-Relacional.
+
+Assim bem diferente dos modelos hierárquico e de rede, não existem quaisquer apontadores, de acordo com o Princípio da Informação: toda informação deve ser representada como dados; qualquer tipo de atributo representa relações entre conjuntos de dados
+As bases de dados relacionais permitem aos utilizadores (incluindo programadores) escreverem consultas ("queries") que não foram antecipadas por quem projetou a base de dados
+Como resultado, bases de dados relacionais podem ser utilizadas por várias aplicações em formas que os projetistas originais não previram, o que é especialmente importante em bases de dados que podem ser utilizadas durante décadas
+Isto tem tornado as bases de dados relacionais muito populares no meio empresarial.
+
+O modelo relacional é uma teoria matemática desenvolvida por Edgar Frank Codd para descrever como as bases de dados devem funcionar
+Embora esta teoria seja a base para o software de bases de dados relacionais, poucos sistemas de gestão de bases de dados seguem o modelo de forma restrita ou a pé da letra - lembre-se das 12 leis do modelo relacional - e todos têm funcionalidades que violam a teoria, desta forma variando a complexidade e o poder
+A discussão se esses bancos de dados merecem ser chamados de relacional ficou esgotada com o tempo, com a evolução dos bancos existentes
+Os bancos de dados hoje implementam o modelo definido como objeto-relacional
+Os primeiros sistemas comerciais baseados no MR foram disponibilizados em 1980 e desde então ele vem sendo implementado em muitos sistemas, tais como Access,Oracle, MySql, entre outros.
+
+Sistemas Gerenciadores de Bancos de dados são usados em muitas aplicações, enquanto atravessando virtualmente a gama inteira de software de computador
+Os Sistemas Gerenciadores de Bancos de dados são o método preferido de armazenamento/recuperação de dados/informações para aplicações multiusuárias grandes onde a coordenação entre muitos usuários é necessária
+Até mesmo usuários individuais os acham conveniente, entretanto, muitos programas de correio eletrônico e organizadores pessoais estão baseados em tecnologia de banco de dados "standard".
+
+É um conjunto de procedimentos, executados num banco de dados, que o usuário percebe como uma única ação.
+
+A integridade de uma transação depende de 4 propriedades, conhecidas como ACID.
+
+Controle de concorrência é um método usado para garantir que as transações sejam executadas de uma forma segura e sigam as regras ACID
+Os SGBD devem ser capazes de assegurar que nenhuma ação de transações completadas com sucesso ("committed transactions") seja perdida ao desfazer transações abortadas ("rollback").
+
+Uma transação é uma unidade que preserva consistência
+Requeremos, portanto, que qualquer escalonamento produzido ao se processar um conjunto de transações concorrentemente seja computacionalmente equivalente a um escalonamento produzido executando essas transações serialmente em alguma ordem
+Diz-se que um sistema que garante esta propriedade assegura a seriabilidade ou também serialização.
+
+Os bancos de dados são utilizados para armazenar diversos tipos de informações, desde dados sobre uma conta de e-mail até dados importantes da Receita Federal
+A segurança do banco de dados herda as mesmas dificuldades que a segurança da informação enfrenta, que é garantir a integridade, a disponibilidade e a confidencialidade
+Um Sistema gerenciador de banco de dados deve fornecer mecanismos que auxiliem nesta tarefa.
+
+Uma forma comum de ataque à segurança do banco de dados, é a injeção de SQL, em bancos de dados que façam uso desta linguagem, mas bancos de dados NoSQL também podem ser vítimas
+Para evitar estes ataques, o desenvolvedor de aplicações deve garantir que nenhuma entrada possa alterar a estrutura da consulta enviada ao sistema.
+
+Os bancos de dados SQL implementam mecanismos que restringem ou permitem acessos aos dados de acordo com papeis ou roles fornecidos pelo administrador
+O comando GRANT concede privilégios específicos para um objeto (tabela, visão, banco de dados, função, linguagem procedural, esquema ou espaço de tabelas) para um ou mais usuários ou grupos de usuários.
+
+Existem alguns mecanismos capazes de permitir a recuperação de um banco de dados de alguma inconsistência causada por falhas internas (erros de consistência, como recuperação de um estado anterior à uma transação que deu erro) e externas (queda de energia, catástrofe ambiental)..
+
+Os mecanismos mais comuns são o Log de dados, no qual é usado em conjunto dos outros métodos; utilização de Buffer no qual, apesar de normalmente ser feito pelo próprio sistema operacional, é controle por rotinas de baixo nível pelo Sistema de gerenciamento de banco de dados
+Possui também o as possibilidades de e informações das transações possibilitando o "REDO" (refazer) e o "UNDO" (desfazer), assim sempre possibilitando a volta do banco de dados à um estado anterior consistente, além de cópias de sombra dos logs e dos últimos dados alterados do banco de dados.
+

@@ -1,0 +1,142 @@
+Engenharia de Software é uma área da computação voltada à especificação, desenvolvimento, manutenção e criação de sistemas de "software", com aplicação de tecnologias e práticas de gerência de projetos e outras disciplinas, visando organização, produtividade e qualidade
+Atualmente, essas tecnologias e práticas englobam linguagens de programação, banco de dados, ferramentas, plataformas, bibliotecas, padrões, processos e a questão da qualidade de software.
+
+Os fundamentos científicos para a engenharia de software envolvem o uso de modelos abstratos e precisos que permitem ao engenheiro especificar, projetar, implementar e manter sistemas de software, avaliando e garantindo suas qualidades
+Além disso, a engenharia de software deve oferecer mecanismos para se planejar e gerenciar o processo de desenvolvimento de um sistema computacional.
+
+Friedrich Ludwig Bauer foi o primeiro dizendo: "Engenharia de "Software" é a criação e a utilização de sólidos princípios de engenharia a fim de obter software de maneira econômica, que seja confiável e que trabalhe em máquinas reais"
+Margaret Hamilton é creditada por ter criado o termo "engenharia de software".
+O próprio significado de engenharia já traz os conceitos de criação, construção, análise, desenvolvimento e manutenção.
+
+A Engenharia de "Software" se concentra nos aspectos práticos da produção de um sistema de "software", enquanto a ciência da computação estuda os fundamentos teóricos dos aspectos computacionais.
+
+O termo foi criado na década de 1960 e utilizado oficialmente em 1968 na "NATO Science Committee"
+Sua criação surgiu numa tentativa de contornar a crise do software e dar um tratamento de engenharia (mais sistemático e controlado) ao desenvolvimento de sistemas de "software" complexos
+Um sistema de "software" complexo se caracteriza por um conjunto de componentes abstratos de "software" (estruturas de dados e algoritmos) encapsulados na forma de procedimentos, funções, módulos, objetos ou agentes e interconectados entre si, compondo a arquitetura do software, que deverão ser executados em sistemas computacionais.
+
+Os fundamentos científicos envolvem o uso de modelos abstratos e precisos que permitem ao engenheiro especificar, projetar, implementar e manter sistemas de "software", avaliando e garantindo suas qualidades
+Além disto, deve oferecer mecanismos para se planejar e gerenciar o processo de desenvolvimento
+Empresas desenvolvedoras de "software" passaram a empregar esses conceitos sobretudo para orientar suas áreas de desenvolvimento, muitas delas organizadas sob a forma de Fábrica de Software.
+
+A engenharia de sistemas é uma área mais ampla por tratar de todos os aspectos de sistemas baseados em computadores, incluindo "hardware" e engenharia de processos além do "software".
+
+A Universidade Federal de Goiás foi a primeira instituição no país a criar o curso de graduação em Engenharia de Software, tendo em constante evolução de sua grade curricular.
+
+Segundo o SWEBOK (Corpo de Conhecimento da Engenharia de Software), versão 2004, as áreas de conhecimento da Engenharia de Software são:
+
+Conforme Pressman, a Engenharia de Software (ES) é uma tecnologia em camadas
+E a base de todas essas camadas é o foco na qualidade do software desenvolvido
+Portanto, inclusive do ponto de vista didático, é interessante estudarmos a ES em suas camadas de Processo, Métodos e Ferramentas.
+
+Processo de "software", ou processo de engenharia de software, é uma seqüência coerente de práticas que objetiva o desenvolvimento ou evolução de sistemas de "software"
+Estas práticas englobam as atividades de especificação, projeto, implementação, testes e caracterizam-se pela interação de ferramentas, pessoas e métodos.
+
+SEE e PSEE são os ambientes voltados ao desenvolvimento e manutenção de processos
+O projeto ExPSEE é uma continuação dos estudos de processos, principalmente do ambiente PSEE.
+
+Devido ao uso da palavra projeto em muitos contextos, por questões de clareza, há vezes em que se prefira usar o original em inglês design.
+
+Um modelo de processo de desenvolvimento de software, ou simplesmente modelo de processo, pode ser visto como uma representação, ou abstração dos objetos e atividades envolvidas no processo de software
+Além disso, oferece uma forma mais abrangente e fácil de representar o gerenciamento de processo de software e consequentemente o progresso do projeto.
+
+Exemplos de alguns modelos de processo de software;
+
+Os modelos de maturidade são um metamodelo de processo
+Eles surgiram para avaliar a qualidade dos processos de "software" aplicados em uma organização (empresa ou instituição)
+O mais conhecido é o "Capability Maturity Model Integration" (CMMi), do Software Engineering Institute - SEI.
+
+O CMMI pode ser organizado através de duas formas: Contínua e estagiada.
+
+Pelo modelo estagiado, mais tradicional e mantendo compatibilidade com o CMM, uma organização pode ter sua maturidade medida em 5 níveis:
+
+O (MPS.BR), ou Melhoria de Processos do Software Brasileiro, é simultaneamente um movimento para a melhoria e um modelo de qualidade de processo voltada para a realidade do mercado de pequenas e médias empresas de desenvolvimento de software no Brasil
+O MPS.BR contempla 7 níveis de maturidade, de A a G, sendo a primeira o mais maduro
+Até agosto/2012, no Brasil, há somente 2 empresas neste nível.
+
+O termo metodologia é bastante controverso nas ciências em geral e na Engenharia de Software em particular
+Muitos autores parecem tratar metodologia e método como sinônimos, porém seria mais adequado dizer que uma metodologia envolve princípios filosóficos que guiam uma gama de métodos que utilizam ferramentas e práticas diferenciadas para realizar algo.
+
+Assim teríamos, por exemplo, a Metodologia Estruturada, na qual existem vários métodos, como Análise Estruturada e Projeto Estruturado (muitas vezes denominados SA/SD, e Análise Essencial).
+
+Dessa forma, tanto a Análise Estruturada quanto a Análise Essencial utilizam a ferramenta Diagrama de Fluxos de Dados para modelar o funcionamento do sistema.
+
+Segue abaixo as principais Metodologias e Métodos correspondentes no desenvolvimento de software:
+
+A abstração do sistema de "software" através de modelos que o descrevem é um poderoso instrumento para o entendimento e comunicação do produto final que será desenvolvido.
+
+A maior dificuldade nesta atividade está no equilíbrio ("tradeoff") entre simplicidade (favorecendo a comunicação) e a complexidade (favorecendo a precisão) do modelo.
+
+Para a modelagem podemos citar 3 métodos:
+
+A engenharia de software aborda uma série de práticas e tecnologias, principalmente estudadas pela ciência da computação, enfocando seu impacto na produtividade e qualidade de "software".
+
+Destacam-se o estudo de linguagem de programação, banco de dados e paradigmas de programação, como:
+
+Outro ponto importante é o uso de ferramentas CASE (do inglês "Computer-Aided Software Engineering")
+Essa classificação abrange toda ferramenta baseada em computadores que auxiliam atividades de engenharia de "software", desde a análise de requisitos e modelagem até programação e testes.
+
+Os ambientes de desenvolvimento integrado (IDEs) têm maior destaque e suportam, entre outras coisas:
+
+A gerência de projetos se preocupa em entregar o sistema de "software" no prazo e de acordo com os requisitos estabelecidos, levando em conta sempre as limitações de orçamento e tempo.
+
+A gerência de projetos de software se caracteriza por tratar sobre um produto intangível, muito flexível e com processo de desenvolvimento com baixa padronização.
+
+O planejamento de um projeto de desenvolvimento de "software" inclui:
+
+Essas atividades sofrem com dificuldades típicas de desenvolvimento de "software"
+A produtividade não é linear em relação ao tamanho da equipe e o aumento de produtividade não é imediato devido aos custos de aprendizado de novos membros
+A diminuição de qualidade para acelerar o desenvolvimento constantemente prejudica futuramente a produtividade.
+
+A estimativa de dificuldades e custos de desenvolvimentos são muito difíceis, além do surgimento de problemas técnicos
+Esses fatores requerem uma análise de riscos cuidadosa.
+
+Além da própria identificação dos riscos, há que ter em conta a sua gestão
+Seja evitando, seja resolvendo, os riscos necessitam ser identificados (estimando o seu impacto) e devem ser criados planos para resolução de problemas.
+
+As atividades de análise concentram-se na identificação, especificação e descrição dos requisitos do sistema de "software"
+Em resumo, requisito é uma necessidade que o "software" deve cumprir.
+
+Há várias interpretações e classificações sobre requisitos, entre elas:
+
+É comum que o cliente não saiba o que ele realmente deseja, que haja problemas na comunicação e ainda que haja mudança constante de requisitos
+Todos esses fatores são recrudescidos pela intangibilidade sobre características de sistemas de "software", principalmente sobre o custo de cada requisito.
+
+A Engenharia de requisitos é um processo que envolve todas as atividades exigidas para criar e manter o documento de requisitos de sistema (SOMMERVILLE)
+Segundo RUMBAUGH, alguns analistas consideram a engenharia de Requisitos como um processo de aplicação de um método estrutura como a análise orientada a objetos
+No entanto, a Engenharia de requisitos possui muito mais aspectos do que os que estão abordados por esses métodos.
+
+Abaixo um pequeno Processo de Engenharia de Requisitos (SOMMERVILLE).
+
+Estudo da viabilidade → "Relatório de Viabilidade"
+
+Obtenção e Análise de Requisitos → "Modelos de Sistema"
+
+Especificação de Requisitos → "Requisitos de Usuário e de Sistema"
+
+Validação de Requisitos → "Documento de Requisitos"
+
+O primeiro processo a ser realizado num Sistema novo é o Estudo de Viabilidade
+Os resultados deste processo devem ser um relatório com as recomendações da viabilidade técnica ou não da continuidade no desenvolvimento do Sistema proposto
+Basicamente um estudo de viabilidade, embora seja normalmente rápido, deverá abordar fundamentalmente as seguintes questões:
+
+Existem cinco tipo de gestões: pessoal, produto, processo, projeto e material.
+
+A Engenharia de Software (ES) surgiu em meados dos anos 1970 numa tentativa de contornar a crise do software e dar um tratamento de engenharia (mais sistemático e controlado) ao desenvolvimento de sistemas de software complexos
+Um sistema de software complexo se caracteriza por um conjunto de componentes abstratos de software (estruturas de dados e algoritmos) encapsulados na forma de procedimentos, funções, módulos, objetos ou agentes interconectados entre si, compondo a arquitetura do software, que deverão ser executados em sistemas computacionais.
+
+Atualmente existe um destaque todo especial para a Engenharia de Software na Web
+Também utilizado por Presmann a sigla WebE, é o processo usado para criar WebApps (aplicações baseadas na Web) de alta qualidade
+Embora os princípios básicos da WebE sejam muito próximos da Engenharia de Software clássica, existem peculiaridades específicas e próprias.
+
+Com o advento do B2B (e-business) e do B2C (e-commerce), e ainda mais com aplicações para a Web 2.0, maior importância ficou sendo esse tipo de engenharia
+Normalmente adotam no desenvolvimento a arquitetura MVC (Model-View-Controller).
+
+Outra área de tendência em Engenharia de Software trata da aplicação de técnicas otimização matemática para a resolução de diversos problemas da área
+A área, denominada Search-based software engineering, ou Otimização em engenharia de software em Português, apresenta vários resultados interessantes
+Para mais detalhes em Português, ver texto com aplicações da otimização em engenharia de software.
+
+O Brasil atualmente conta com diversos cursos de nível superior em Engenharia de Software nas seguintes instituições reconhecidas pelo MEC: UnB, UFRN, Universidade do Estado de Santa Catarina, Universidade Federal do Ceará, Universidade Federal de Goiás, Universidade de Rio Verde, Unipampa, UniCesumar, UTFPR e PUCRS
+
+Eventos acadêmicos também mostram tópicos interessantes sobre futuras tendências de engenharia de software
+O Brasil em 2013 sedia grandes eventos de engenharia como a Conferência Internacional de Engenharia de Requisitos e a Escola Latino Americana de Engenharia de Software.
+

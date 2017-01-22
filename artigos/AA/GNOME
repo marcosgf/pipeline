@@ -1,0 +1,44 @@
+GNOME (acrônimo para GNU Network Object Model Environment) é um projeto de software livre abrangendo o Ambiente de Trabalho GNOME, para os usuários, e a Plataforma de Desenvolvimento GNOME, para os desenvolvedores
+O projeto dá ênfase especial a usabilidade, acessibilidade e internacionalização.
+
+O desenvolvimento do GNOME é supervisionado pela Fundação GNOME, que representa oficialmente o projeto junto a empresas, organizações e a sociedade como um todo
+O projeto conta ainda com uma série de equipes com missões específicas, inclusive com uma equipe de engenharia de lançamentos, responsável pelo característico calendário de lançamentos semestrais.
+
+A comunidade de desenvolvimento do GNOME conta tanto com voluntários quanto com empregados de várias empresas, inclusive grandes empresas como Hewlett-Packard, IBM, Mandriva, Novell, Red Hat, Sun e Endless OS
+Por sua vez, o GNOME é filiado ao Projeto GNU, de onde herdou a missão de prover um ambiente de trabalho composto inteiramente por software livre.
+
+O projeto GNOME dá ênfase à simplicidade, usabilidade, e fazer as coisas simplesmente funcionarem
+As outras metas do projeto são:
+
+O projeto GNOME foi criado em 15 de agosto de 1997 pelos mexicanos Miguel de Icaza e Federico Mena Quintero, como uma resposta ao Windows 95
+O projeto KDE já estava em andamento, mas para ser usado ou desenvolvido era necessário instalar o Qt, um conjunto de ferramentas que na época não tinha uma licença livre
+Miguel de Icaza descartou a ideia de reimplementar a API do Qt usando software livre porque projetos análogos, como o GNUstep, Wine and LessTif, mostravam um progresso muito lento
+Antes da criação do GNOME, Miguel e Federico tinham tentado colaborar com o GNUstep, mas desistiram por considerar sua comunidade desorganizada, e seu código cheio de erros.
+
+A plataforma de desenvolvimento aproveitou e aprimorou o GTK, um conjunto de ferramentas usado pelo editor de imagens GIMP, em cujo desenvolvimento Federico Quintero estava também envolvido
+Miguel de Icaza ficou muito impressionado com a arquitetura COM quanto passou por uma entrevista na Microsoft, e o reflexo foi o desenvolvimento da biblioteca Bonobo, incorporada ao GNOME 1.4
+Além de permitir o reaproveitamento de componentes de software, o Bonobo colaborou para que o desenvolvimento de aplicativos para o GNOME pudesse ser feito com qualquer linguagem de programação
+Outra característica da plataforma de desenvolvimento do GNOME é ser completamente escrita em C, o que também facilita a criação de bindings para outras linguagens de programação
+A plataforma de desenvolvimento do GNOME tem suporte a C++, Java, Perl e Python, e mais recentemente a JavaScript
+Toda a plataforma de desenvolvimento do GNOME usa a licença GNU Lesser General Public License, uma licença livre que permite a utilização da plataforma GNOME por software proprietário.
+
+O lançamento do GNOME 2.0 marcou uma guinada nos rumos do projeto, que passou a enfatizar a usabilidade em vez da configurabilidade
+A plataforma foi quase inteiramente reescrita, trazendo várias melhorias como melhoria de desempenho, melhor internacionalização (usando Unicode internamente), suavização da renderização de fontes, e principalmente a estreia de sua plataforma de acessibilidade.
+
+Inúmeras distribuições suportam o GNOME, alguns exemplos são Ubuntu, Fedora, OpenSUSE, Debian, Arch Linux e Gentoo
+
+A partir da versão 3.14 do GNOME 3, distros de alta tecnologia (Arch Linux ou Fedora Linux) tem suporte parcial ao Wayland e a partir da versão 3.16 do GNOME 3, terá suporte quase total ao Wayland.
+
+O GNOME conta com uma coleção rica de ferramentas, bibliotecas, e dos componentes para desenvolver aplicações poderosas em linux e em Unix.
+
+A distribuição completa do GNOME inclui uma suite para escritório ("Office") através da integração de vários projectos independentes: processador de texto (AbiWord), folha de cálculo (Gnumeric), gestão de projetos (Planner), editor de diagramas (Dia), programa para desenhos vetoriais (Inkscape) e de imagem (GIMP).
+
+Devido a mudança "agressiva" de visual e de usabilidade do GNOME 2 para o GNOME 3, vários usuários criticaram a nova versão, dentre eles Linus Torvalds, fazendo surgir o ambiente MATE como uma alternativa ao GNOME 3.
+
+O projeto GNOME foi um dos primeiros a oferecer um desktop inteiramente livre para sistemas baseados em Linux e Unix
+Software livre significa apoderar os usuários, e garantir direitos sobre os softwares que eles usam
+Com Software Livre, o usuário possui vários direitos:
+
+Estes direitos e liberdades estão no núcleo do projeto GNOME
+São as mesmas liberdades que o projeto GNU promove e que a FSF define.
+

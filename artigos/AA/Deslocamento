@@ -1,0 +1,101 @@
+Em Física, o deslocamento de um corpo é uma grandeza vetorial (possui módulo, direção e sentido) definida como a variação de posição de um corpo em um dado intervalo de tempo
+Dessa forma, o vetor deslocamento pode ser obtido pela diferença entre as posições final e inicial.
+
+O deslocamento é independente da trajetória e seu módulo representa a menor distância entre o ponto inicial e final de um corpo em movimento; pode ser expresso na forma vetorial ou em módulo
+(Os respectivos símbolos são formula_1 e formula_2).
+
+No espaço cartesiano, o vector deslocamento une o ponto de partida ao ponto de chegada
+Para a determinação do deslocamento escalar pode ser necessário utilizar o cálculo.
+
+Na figura abaixo, o móvel deslocou-se de s a s, portanto, formula_3.
+
+Considerando certo intervalo de tempo, podem haver duas possibilidades de o deslocamento reduzir-se a zero: (1) o objeto em estudo permaneceu parado ou (2) o objeto moveu-se e retornou para a posição inicial
+Deste exemplo, conclui-se que o deslocamento espacial não pode ser tomado sempre como o espaço total percorrido pelo móvel, mas sim como a variação do espaço percorrida em certo intervalo de tempo.
+
+Consideramos um ponto ocupando um instante , denominado formula_4, a Posição formula_5 cujo espaço chamamos de formula_6
+Em um instante posterior formula_7 o ponto ocupa a posição formula_8 do espaço
+Entre essas posições, a variação do espaço escrevemos assim:
+
+formula_9
+
+O vetor formula_10 representado pelo ponto de origem formula_5 , e seu ponto de extremidade formula_8 recebe a nomenclatura de vetor deslocamento dos instantes 
+
+formula_5 e formula_8.
+
+Em uma situação de ilustração, em que a trajetória é curvilínea , o módulo do vetor de deslocamento é menor do que o módulo da variação do espaço
+formula_15
+
+Em uma situação de uma trajetória ser retilínea, o módulo do vetor deslocamento é igual ao módulo da variação do espaço formula_16 .
+
+A velocidade vetorial média formula_17 é o quociente entre o vetor deslocamento e o correspondente intervalo de tempo , representado por formula_18:
+
+formula_19
+
+Onde a velocidade vetorial média possui a mesma direção e sentido do vetor de deslocamento (d)
+Seu módulo é representado por:
+
+formula_20
+
+Portanto , em trajetórias curvilíneas, temos formula_15 e por conseguinte formula_22 para trajetórias em movimento retilíneo, 
+
+temos:
+
+formula_23 porque formula_24
+Nos movimentos variados, defini-se a aceleração escalar como sendo o quociente entre a variação da velocidade escalar formula_25 pelo intervalo de tempo correspondente formula_26.
+
+De um modo análogo, podemos caracterizar a aceleração vetorial média formula_27 sendo formula_28 a velocidade vetorial de um ponto no instante formula_4 e formula_30 a velocidade posterior no instante formula_7
+Calcula-se a aceleração vetorial média , por:
+
+formula_32
+
+Exemplificando , uma partícula passando pelo ponto formula_5, no instante formula_4 , com velocidade formula_35 e , no instante formula_7 chega no ponto formula_8 com velocidade formula_38 assim: formula_39.
+
+Observamos que formula_35 e formula_38 são tangentes à trajetória dos pontos formula_5 e formula_8 e os mesmos têm o sentido do movimento.
+
+Ou seja:
+
+formula_44 
+
+Conclui-se: 
+
+formula_45
+
+Entende-se como ,aceleração vetorial instantânea formula_46, sendo uma aceleração vetorial média, quando o intervalo de tempo formula_18 é muito pequeno.
+
+Havendo sempre variação de velocidade vetorial formula_48, também vai haver a aceleração vetorial.
+
+A velocidade vetorial pode variar no módulo e na direção
+Portanto a aceleração vetorial é bipartida em: aceleração tangencial formula_49, estando relacionada com a variação do módulo de formula_48, e a aceleração centrípeta formula_51, que está relacionada com a variação da direção da velocidade vetorial.
+
+A aceleração tangencial formula_52 se dá através de diversas características como:
+
+- A direção é tangente à trajetória;
+
+- O sentido é o mesmo da velocidade vetorial , se o movimento for acelerado, ou oposto ao de formula_48 se o movimento for desacelerado
+Em movimentos uniformes, o módulo da velocidade vetorial não varia e , por conseguinte, a aceleração tangencial é 0
+A formula_52 só existe em movimentos variados e é independente do tipo de trajetória (retilínea ou curvilínea).
+
+A aceleração centrípeta formula_51 tem as seguintes características:
+
+- O seu módulo é dado pela expressão formula_56, em que "v" é a velocidade escalar do móvel e "R" é o raio da curvatura da trajetória.
+
+- A direção é perpendicular à velocidade vetorial formula_48 em cada ponto da trajetória
+
+- O sentido orienta-se para o centro da curvatura de uma trajetória.
+
+Em movimentos retilíneos, a direção da velocidade vetorial não varia e a aceleração centrípeta é 0
+Esta , só existe em movimentos de trajetórias curvas e é independente do tipo de movimento aplicado (uniforme ou variado).
+
+A aceleração vetorial é o resultado da soma da aceleração centrípeta com a tangencial
+Onde sua expressão é representada por:
+
+formula_58
+
+No módulo:formula_59
+
+onde formula_46 está relacionada coma variação da velocidade vetorial formula_48
+
+Sabemos que a velocidade média formula_62 é a relação entre o deslocamento, formula_63,
+
+e o intervalo de tempo empregado para realizá-loformula_18 
+

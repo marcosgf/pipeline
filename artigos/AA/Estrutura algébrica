@@ -1,0 +1,40 @@
+Em álgebra abstracta, uma estrutura algébrica consiste num conjunto associado a uma ou mais operações sobre o conjunto que satisfazem certos axiomas
+Caso não existam ambiguidades, geralmente identifica-se o conjunto com a estrutura algébrica
+Por exemplo, um grupo ("G",*) refere-se geralmente apenas como grupo "G".
+
+Em algumas estruturas algébricas além do conjunto principal existe mais um conjunto, denominado conjunto de escalares
+Neste caso a estrutura terá dois tipos de operações: operações internas, que operam os objetos principais entre si e operações externas, que representam ações dos escalares sobre elementos do conjunto principal
+Por exemplo, um espaço vectorial tem dois conjuntos, um conjunto de vectores e outro de escalares
+Assim, se v1 e v2 são dois vetores e k é um escalar v1 * v2 seria o produto (interno) de vetores e k * v1 seria o produto (externo) de um escalar por um vetor.
+
+O conceito de estrutura algébrica pode ser considerado sinônimo de Álgebra e Álgebra universal.
+
+É comum representar uma estrutura algébrica por uma "n-upla" do tipo "(G,F,+,-,f,<,1)"
+Nesta notação, são enumerados os conjuntos que fazem parte da estrutura, seguido de constantes, funções e relações.
+
+Dependendo das operações e axiomas, as estruturas algébricas ganham os seus nomes específicos.
+
+O que se segue é uma lista parcial de estruturas algébricas:
+
+Nas estruturas seguintes, temos dois conjuntos, um deles (auxiliar), chamado de "conjunto de escalares" e outro, o conjunto principal
+Além das operações internas sobre o conjunto principal, podemos ter operações conectando os dois conjuntos:
+
+As proposições que se aplicam colectivamente a todas as estruturas algébricas são investigadas no ramo da matemática conhecido como álgebra universal.
+
+As estruturas algébricas também podem ser definidas em conjuntos com estruturas não-algébricas adicionais, como os espaços topológicos
+Por exemplo, um grupo topológico é um espaço topológico com uma estrutura de grupo tal que as operações de multiplicação e inversão são contínuas; um grupo topológico possui quer uma estrutura topológica, quer uma estrutura algébrica
+Outros exemplos comuns são espaços vectoriais topológicos e grupos de Lie.
+
+Cada estrutura algébrica tem a sua própria noção de homomorfismo, uma função que é compatível com a operação ou as operações dadas
+Desta forma, cada estrutura algébrica define uma categoria
+Por exemplo, a categoria dos grupos tem como objectos todos os grupos e como morfismos todos os homomorfismos desses grupos
+Esta categoria, uma vez que é uma categoria concreta, pode ser vista como uma categoria de conjuntos com estrutura extra, no sentido teórico das categorias
+Analogamente, a categoria dos grupos topológicos (com os homomorfismos contínuos de grupo como morfismos) é uma categoria de espaços topológicos com estrutura extra.
+
+Além das estruturas algébricas, existem mais duas estruturas fundamentais na matemática
+São elas:
+
+A partir destas três estruturas podem ser definidas estruturas mistas, quando para um conjunto são considerados operações, relações e partes de forma combinada
+Por exemplo, um grupo topológico é um espaço topológico com uma estrutura de grupo tal que as operações de multiplicação e inversão são contínuas; um grupo topológico possui quer uma estrutura topológica, quer uma estrutura algébrica
+Outros exemplos comuns são espaços vectoriais topológicos e grupos de Lie.
+

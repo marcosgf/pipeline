@@ -1,0 +1,114 @@
+A análise numérica é o estudo de algoritmos que buscam resultados numéricos de problemasdas mais diferentes áreas do conhecimento humano, modelados matematicamente
+Em geral, os algoritmos de métodos numéricos se dividem em diretos, recursivos e iterativos
+Os iterativos apresentam uma sucessão de passos que converge ou não para o valor aproximado da solução exata
+É objetivo da análise numérica encontrar sucessões que aproximem os valores exatos com um número mínimo de operações elementares..
+
+Um dos escritos matemáticos mais antigos é o "tablet" babilônio YBC 7289, que fornece uma aproximação sexagesimal de formula_1, o comprimento da diagonal de um quadrado unitário.
+
+Ser capaz de calcular as faces de um triângulo (e assim, sendo capaz de calcular raízes quadradas) é extremamente importante, por exemplo, em carpintaria e construção
+Em uma parede quadrada que tem dois metros por dois metros, uma diagonal deve medir formula_2 metros.
+
+Embora a "análise numérica" tenha sido concebida antes dos computadores, tal como o entendemos hoje, o assunto se relaciona a uma interdisciplinaridade entre a "matemática" e a tecnologia da informação
+Também é muito referido na disciplina de "cálculo numérico."
+
+Os procedimentos mais elementares de tal metodologia são o método de Newton e o Método de Newton-Raphson.
+
+Pelo "método de Newton", se determinam dois valores extremos, entre os quais deve estar o resultado do problema
+A função, então, é aplicada à média dos dois valores e esta, na iteração posterior, passa a ser um dos valores extremos, em substituição a um dos anteriores, dependendo do resultado da função.
+
+No "método de Newton-Raphson", o número de iterações para se chegar a um resultado com uma determinada aproximação é diminuído pelo uso da derivada da função.
+
+O objetivo do campo de análise numérica é projetar e analisar técnicas para encontrar soluções aproximadas, porém precisas, para problemas complexos, cuja variedade é demonstrada a seguir.
+
+O campo da análise numérica antecede a invenção do computador em séculos
+Interpolação linear é usada há mais de 2000 anos
+Grandes matemáticos no passado trabalharam com análise numérica, o que é obviamente percebido pelo nome de importantes algoritmos como: Método de Newton, Polinômio de Lagrange, Eliminação Gaussiana, ou Método de Euler.
+
+Para facilitar os cálculos manuais, grandes livros foram produzidos, com fórmulas e tabelas de dados como pontos de interpolação e coeficientes de funções
+Utilizando estas tabelas, freqüentemente calculadas até a 16ª casa decimal ou além, qualquer um poderia olhar os valores e inseri-los nas fórmulas e encontrar estimações numéricas aproximadas para algumas funções
+Este trabalho culminou em uma publicação do NIST em 1964, de um livro de mais de 1000 páginas editado por Abramowitz e Stegun com um grande número de formulas e funções comumente utilizadas e seus valores em diversos pontos
+Os valores das funções não são mais de grande utilidade quando temos um computador à disposição, mas as diversas fórmulas podem ainda ser bastante úteis.
+
+As calculadoras mecânicas também foram desenvolvidas como uma ferramenta para cálculos a mão
+Estas calculadoras evoluíram para computadores eletrônicos nos anos 40, quando então se percebeu que estes computadores seriam úteis para fins administrativos
+Mas a invenção do computador também influenciou campo da análise numérica, uma vez que cálculos maiores e mais complexos poderiam ser resolvidos.
+
+Métodos diretos calculam a solução de um problema em um número finito de passos
+Estes métodos resultariam na resposta precisa se eles fossem realizados com precisão infinita
+Exemplos incluem a Eliminação Gaussiana, o método de fatoração QR para a resolução de sistemas lineares de equações e o Algoritmo simplex de programação linear
+Na prática, é utilizada precisão finita e o resultado é uma aproximação da solução real (assumindo estabilidade).
+
+Em contraste aos métodos diretos, Métodos Iterativos não terminam em um determinado número de passos
+Atribuído um valor inicial, métodos iterativos realizam sucessivas aproximações que convergem para a solução exata em seu limite
+Um teste de convergência é especificado para decidir quando uma solução suficientemente precisa foi encontrada
+Mesmo usando uma precisão infinita, estes métodos (geralmente) não chegariam à solução em um número finito de passos
+Exemplos incluem o Método de Newton, Método da Bissecção e a Interação de Jacob
+Em matrizes de álgebra computacionais, métodos iterativos são geralmente necessários para problemas complexos.
+
+Métodos iterativos são mais usuais do que métodos diretos em análise numérica
+Alguns métodos são diretos em seu princípio, mas são utilizados como se não fossem; e.g Método do resíduo mínimo generalizado e o Método do gradiente conjugado
+Para estes métodos o número de passos necessários para se obter a solução exata é tão grande que a aproximação é a aceita da mesma maneira que no método iterativo.
+
+Além disso, problemas contínuos devem as vezes ser substituídos por problemas discretos cuja solução é conhecidamente próxima da do problema contínuo; este processo é chamado “discretização”
+Por exemplo, a solução da uma Equação diferencial é a Função
+Esta função deve ser representada por uma quantidade limitada de dados, por exemplo, por seu valor em um número finito de números em seu domínio, apesar de seu domínio ser contínuo.
+
+Um dos problemas mais simples é a avaliação de uma função num determinado ponto
+Mas mesmo a avaliação de um polinómio não é sempre "trivial": o esquema de Horner é muitas vezes mais eficiente do que o método "óbvio"
+De forma geral, é importante estimar e controlar o erro de arredondamento que resulta do uso do sistema de ponto flutuante na aritmética.
+
+Resolver uma equação não linear, consiste basicamente em determinar os zeros de f(x)=0 em [a,b].
+
+Para que possamos usar algum método numérico temos de localizar um intervalo para um zero
+Para termos uma ideia onde o zero se localiza teremos de fazer uma análise gráfica da função
+Por exemplo, fazer o gráfico na calculadora ou com programas de computador, como por exemplo o Mathematica ou MATLAB.
+
+Para garantir que a raiz existe e seja única temos de verificar os seguintes teoremas:
+
+1) Seja formula_3
+Se formula_4, então existe pelo menos um formula_5 tal que formula_6.
+
+2) Seja formula_7
+Se formula_8 existe e tem sinal constante em formula_9 então f não pode ter mais de um zero em formula_9.
+
+Um dos métodos numéricos para o cálculo de zeros num intervalo é o método da bissecção
+Este método consiste na divisão do intervalo em dois
+Haverá um intervalo em que o zero estará e outro não
+Para o localizarmos usamos o teorema 1
+Rejeitamos o intervalo que não tem o zero e ficamos com o subintervalo que tem o zero
+Repetimos este procedimento o número de vezes necessárias de modo a obtermos um erro inferior ao pretendido.
+
+Para encontrarmos o erro de ordem "k" usamos a seguinte fórmula:
+
+Fórmula para o cálculo do zero da função:
+
+formula_12
+
+Um sistema de equações lineares "S" é um conjunto de "n" equações com "n" incógnitas
+Os sistemas de equações lineares possuem diversas aplicações na matemática e na física sendo um dos principais temas tratados pelo cálculo numérico.
+
+Genericamente um sistema linear pode ser representado como:
+
+, ou ainda: formula_14.
+
+Um "sistema linear" pode ainda ser representado utilizando-se matrizes, na forma: formula_15, sendo:
+
+formula_16
+
+formula_17
+
+e
+
+formula_18
+
+Os sistemas lineares podem ser resolvidos através de métodos diretos (exatos) e métodos iterativos (aproximativos).
+
+Os métodos diretos, ou exatos, possibilitam encontrar a solução exata de um sistema de equações lineares a partir de um número finito de operações.
+
+Os métodos iterativos, ou aproximativos, são aqueles em que a solução do sistema de equações linear é obtida a partir de uma sequência de aproximações sucessivas x, x, ..
+, x partindo-se de uma aproximação inicial x.
+
+Várias outras aplicações existem da análise numérica, como resolução de problemas de autovalores ou valores singulares; Cálculo de integrais; Equações diferenciais.
+
+Em geral, operações que envolvem limite são facilmente aplicadas em análise numérica, já que os respectivos algoritmos seguem a própria definição de limite.
+

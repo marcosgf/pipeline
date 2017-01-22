@@ -1,0 +1,66 @@
+EEPROM (também escrita EPROM, e pronunciada "e-e-prom"), sigla do inglês de "Electrically-Erasable Programmable Read-Only Memory", é um tipo de memória não-volátil usada em computadores e outros dispositivos eletrônicos para armazenar pequenas quantidades de dados que precisam ser salvos quando a energia é removida, por exemplo, dados de configuração do dispositivo
+Apesar de no nome se declarar Read-Only, esse foi classificado incorretamente, pois é tanto Read/Ler, quanto Write/Escrever, pelo fato de que códigos de erro no OBD-II poderem ser removidos independentemente, dentre outras características
+Este se assemelha à denominação incorreta de ROM dos smartphones, conforme a Ciência da Computação
+Ao contrário da maioria dos outros tipos de memória não-volátil, bytes individuais em uma EEPROM tradicional pode ser lidos, apagados e re-escrita de forma independente
+Atualmente já existe uma memória não-volátil mais moderna, derivada da EEPROM, a memória flash
+Quando grandes quantidades de dados estáticos devem ser armazenados (por exemplo, em unidades flash USB) a memória flash é mais econômica do que os dispositivos tradicionais de EEPROM
+Enquanto uma EPROM é programada por um dispositivo eletrônico que dá voltagens maiores do que os usados normalmente em circuitos elétricos e pode ser apagada apenas por exposição a uma forte luz ultravioleta, a EEPROM pode ser programada e apagada dentro do próprio circuito, eletricamente, pela aplicação de sinais de programação especiais
+Originalmente, EEPROMs foram limitados a operações de byte único que os fizeram mais lento, mas EEPROMs modernos permitem operações com múltiplos bytes
+Embora uma EEPROM possa ser lida, um número praticamente ilimitado de vezes, ela possui uma vida útil limitada - isto é, o número de vezes que pode ser reprogramada (apagada e programada novamente) foi limitado a dezenas ou centenas de milhares de vezes, devido a contínua deterioração interna do "chip" durante o processo de exclusão que requer uma tensão elétrica mais elevada
+Essa limitação foi estendido para um milhão de operações de gravação em EEPROM modernos
+Entretanto essa vida útil da EEPROM, se torna uma importante consideração a ser feita, quando seu uso em um computador, por exemplo, tenha uma previsão de frequentes reprogramações
+É por esta razão que EEPROMs foram utilizados para informações de configuração, ao invés de memória de acesso aleatório
+Como cada novo dado gravado no "chip" requer o apagamento do anterior, considera-se apagamento e gravação como uma só operação, porém seria possível gravar o mesmo endereço de memória um bit de cada vez, fazendo então oito gravações com um só prévio apagamento
+Entretanto a maioria das memórias EEPROM faz o apagamento do conteúdo do endereço automaticamente antes da gravação
+Tecnologias mais novas como FRAM e MRAM estão aos poucos substituindo as EEPROMs em algumas aplicações.
+
+Eli Harari na Hughes Aircraft, inventou a EEPROM em 1977 utilizando, o tunelamento de Fowler-Nordheim, esse processo utiliza de uma tensão elétrica, geralmente entre 10 a 13 volts, aplicados à porta flutuante, para mudar o valor da célula para "0", corrente essa que vem da coluna, ou bitline (linha de bits), entra na porta flutuante e é drenada para a fonte
+E com uma tensão mais alta é possível fazer com que os elétrons nas células do chip de mémoria se tornem "1"
+A "Hughes" passou a produzir os primeiros dispositivos EEPROM
+Em 1978, George Perlegos na Intel desenvolveu o Intel 2816, que foi construído anteriormente com a tecnologia EPROM, mas passou a utilizar uma camada de óxido de porta flutuante permitindo que o chip pudesse apagar seus próprios dados sem uma fonte de UV
+Perlegos e outros desenvolvedores, deixaram a Intel para formar Seeq Technology, que utilizou novos dispositivos de carga para abastecer as altas voltagens necessárias para a programação de EEPROMs.
+
+Existem diferentes tipos de interfaces elétricas para dispositivos EEPROM 
+Principais categorias de estes tipos de interface são:
+
+Como o dispositivo é operado depende da sua interface elétrica.
+
+Os tipos de interface seriais mais comuns são , I²C, , , e 1-Wire
+Estas interfaces requerem entre um e quatro sinais de controle para o funcionamento, resultando em um dispositivo de memória de oito pinos (ou menos) de pacote.
+
+A EEPROM serial (ou SEEPROM) opera tipicamente em três fases: Fase de Código de Operação("OP-Code"), Fase de Endereçamento e Fase de Dados
+O OP-Code é geralmente os 8 primeiros bits de entrada no pino serial do dispositivo EEPROM (ou com a maioria dos dispositivos I²C , está implícito); seguido de 8 a 24 bits de endereçamento, dependendo da profundidade do dispositivo, em seguida, os dados a serem lidos ou escritos.
+
+Cada dispositivo EEPROM normalmente não tem o seu próprio conjunto de OP-Codes de instruções para mapear diferentes funções
+Algumas das operações comuns em dispositivos EEPROM SPI são:
+
+Outras operações suportadas por alguns dispositivos EEPROM são:
+
+Dispositivos EEPROM paralelos normalmente têm um barramento de dados de 8 bits e um barramento de endereços grande o suficiente para cobrir o restante da memória
+A maioria dos dispositivos têm seletor de chips e pinos com escrita protegida
+Alguns microcontroladores também têm integrado EEPROM paralelo.
+
+Operação de uma EEPROM paralela é simples e rápido quando comparado a EEPROM serial, mas estes dispositivos são maiores devido à maior quantidade de pinos (28 pinos ou mais) e sua popularidade têm vindo a diminuir em relação a EEPROM serial ou Flash.
+
+Memória EEPROM, também é usada para habilitar recursos em outros tipos de produtos que não são estritamente produtos de memória
+Produtos como relógios em tempo real, potenciômetros digitais, sensores de temperatura digital, entre outros, podem ter pequenas quantidades de EEPROM contendo informação para a calibração desses dispositivos ou outros dados que precisam estar disponíveis em caso de perda de energia
+Ela também foi usada em cartuchos de jogos de vídeo game para salvar o progresso do jogo e configurações, antes do uso de memórias flash externo e interno.
+
+Existem duas limitações quanto ao armazenamento de dados, a resistência e a retenção de dados.
+
+Durante regravações, a camada de óxido em transistores de porta flutuante gradualmente acumula elétrons presos
+O campo elétrico dos elétrons presos acrescenta aos elétrons na porta flutuante, baixando a janela entre as tensões de zeros e uns
+Depois de um número suficiente de ciclos de reescrita, a diferença torna-se demasiada pequena para ser reconhecível, a célula é presa no estado programado, e a falha de resistência ocorre
+Os fabricantes normalmente especificam o número máximo de reescritas sendo 1 milhão ou mais.
+
+Durante o armazenamento, os elétrons injetados na porta flutuante pode ser movimentado através do isolador, aumentando a temperatura e causando perda de carga, revertendo a célula ao estado apagado
+Os fabricantes normalmente garante a retenção de dados de 10 anos ou mais.
+
+A memória flash é uma variação moderna da EEPROM, mas existe na indústria uma convenção para reservar o termo EEPROM para as memórias de escrita bit a bit, não incluindo as memórias de escrita bloco a bloco, como as memórias flash
+As EEPROM necessitam de maior área que as memórias flash, pois como são organizadas como matrizes de transistores de porta flutuante, cada célula geralmente necessita de um transistor de leitura e outro de escrita, ao passo que as células da memória flash só necessitam de um, justamente por utilizarem blocos
+Tecnologias de memória não-volátil, mais recentes como FeRAM e MRAM estão substituindo lentamente as EEPROMs em algumas aplicações, mas todavia uma fração do mercado deverá manter o uso de EEPROM em um futuro próximo
+A diferença entre EPROM e EEPROM está na maneira que as memórias são programadas e apagadas
+EEPROM pode ser programada e apagada eletricamente usando emissão de elétrons de campo (mais comumente conhecida na indústria como "o tunelamento de Fowler-Nordheim")
+As EPROMs não pode ser apagadas eletricamente, e são programados através de um mecanismo conhecido como aplicado na porta flutuante, e a exclusão é através de uma fonte de luz ultravioleta, embora na prática, muitas EPROM são encapsuladas em plástico que é opaco a luz UV, tornando-os "programável apenas uma vez "
+Já a memória Flash é um estilo de programação híbrida e a exclusão,embora mais abrangente, se baseia na exclusão da EEPROM.
+

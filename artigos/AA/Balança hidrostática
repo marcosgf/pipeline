@@ -1,0 +1,18 @@
+Uma balança hidrostática é um mecanismo experimental destinado ao estudo da força de impulsão exercida por líquidos sobre os corpos neles imersos
+Foi inventada por Galileu Galilei.
+
+Seu funcionamento se baseia no princípio de Arquimedes (um corpo perde aparentemente um peso igual à quantidade de líquido ou gás deslocado) e está especialmente concebida para a determinação de densidades de sólidos e líquidos.
+
+Este tipo de balança é constituída por: prumo, termómetro, copo, alça, parafuso de compensação, escala graduada, cursor superior deslizante, encaixe, cursor inferior deslizante, pontas, parafuso para acerto e suporte
+Estas balanças necessitam de ser calibradas antes de se efectuar a medição de densidades.
+
+O procedimento a ser seguido :
+
+A densidade relativa será calculada dividindo-se o peso do mineral a seco pela diferença do peso a seco e do peso imerso em água, pois esta diferença nos dá, pelo Princípio de Arquimedes, o empuxo a que está sendo submetido o mineral, que é igual ao peso do volume de água deslocado pelo mineral, sendo que este volume é o volume do mineral.
+
+A densidade relativa formula_1 é dada por:
+
+formula_2) × ρ do fluido
+
+onde formula_3 é o peso a seco e formula_4 o peso imerso na água.
+

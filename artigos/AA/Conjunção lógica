@@ -1,0 +1,39 @@
+A conjunção é uma operação na lógica matemática, que pode ser ligada à operação de interseção de conjuntos
+A conjunção é representada pelo conectivo lógico ∧, e em programação por AND ou &&.
+
+A conjunção lógica pode ainda ser representada pelo símbolo do produto.
+
+Em lógica binária, ocorrem apenas dois estados:
+
+A conjunção é uma operação que verifica a seguinte tabela de verdade: 
+
+ou de forma equivalente
+
+Portanto pode ainda ser representada pela multiplicação, que dá o mesmo resultado, se a e b forem 0 ou 1.
+
+Outra interpretação é a da lógica fuzzy, que generaliza pela equivalência com o mínimo(a,b).
+
+A operação de conjunção lógica está ainda relacionada com a interseção de conjuntos
+Um elemento está na intersecção dos conjuntos apenas se for verdade que está em ambos.
+
+Segue a representação dessa operação no diagrama de Venn.
+
+A operação lógica da conjunção funciona da mesma forma que a conjunção semântica e
+Suponham-se duas frases quaisquer:
+
+A conjunção só é verdadeira se ambas as frases forem
+Se não estiver chovendo, a conjunção é falsa (se não estiver dentro de casa, também).
+
+Convém notar que na linguagem vulgar a conjunção "e" pode ter um significado aditivo, não relacionado com o significado lógico.
+
+A conjunção relaciona dois valores, mas usando o seu resultado podem ser feitas operações com mais valores.
+
+Com uma tabela de verdade pode demonstrar-se a propriedade associativa 
+
+e portanto neste caso basta escrever 
+
+sem necessidade de parentesis, já que o resultado é o mesmo.
+
+A conjunção lógica tem diversas propriedades
+Destacam-se:
+

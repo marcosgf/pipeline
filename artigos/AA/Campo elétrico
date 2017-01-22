@@ -1,0 +1,207 @@
+Um é o campo de força provocado pela ação de cargas elétricas, (elétrons, prótons ou íons) ou por sistemas delas
+Cargas elétricas colocadas num campo elétrico estão sujeitas à ação de forças elétricas, de atração e repulsão.
+
+A equação usada para se calcular a intensidade do vetor campo elétrico (E) é dada pela relação entre a força elétrica (F) e a carga de prova (q):
+
+Unidade no Sistema Internacional de Unidades:
+
+Os estudos a respeito da eletricidade estática, criadora dos campos eléctricos, remontam ao filósofo grego Tales de Mileto no século VI a.C
+O filósofo e estudioso da natureza descreveu o fenômeno que consiste em uma barra de âmbar (seiva petrificada) que atrai pequenos objetos depois de atritada com uma pele de coelho
+No cotidiano, é o mesmo que esfregar uma caneta de plástico (material isolante) contra um pano ou o próprio cabelo
+Em ambas as situações, o objeto fica eletricamente carregado.
+
+A explicação da força entre partículas através da existência de um campo vem desde a época em que foi desenvolvida a teoria da gravitação universal
+A dificuldade em aceitar que uma partícula possa afetar outra partícula distante, sem existir nenhum contato entre elas, foi ultrapassada na física clássica com o conceito do campo de força
+No caso da força eletrostática, o campo mediador que transmite a força eletrostática foi designado por éter; a luz seria uma onda que se propaga nesse éter lumínico
+No século XIX foram realizadas inúmeras experiências para detectar a presença do éter, sem nenhum sucesso.
+
+No fim do século chegou-se à conclusão de que não existe tal éter
+No entanto, o campo elétrico tem existência física, no sentido de que transporta energia e que pode subsistir até após desaparecerem as cargas que o produzem
+Na física quântica a interação elétrica é explicada como uma troca de partículas mediadoras da força, que são as mesmas partículas da luz, os fotões
+Cada carga lança alguns fotões que são absorvidos pela outra carga; no entanto, neste capítulo falaremos sobre a teoria clássica do campo, onde o campo é como um fluido invisível que arrasta as cargas elétricas.
+
+O campo elétrico em um ponto é uma grandeza vetorial, portanto é representado por um vetor
+Para verificarmos a sua presença neste ponto, colocamos neste uma carga de prova positiva
+Se esta ficar sujeita a uma força eletrostática, dizemos que a região em que a carga se encontra está sujeita a um campo elétrico
+O vetor campo elétrico tem sempre a mesma direção da força a que a carga está sujeita e, no caso da carga ser positiva, o mesmo sentido
+Se negativa o oposto
+O módulo é calculado da seguinte forma:
+
+formula_3 onde, caso a carga seja puntiforme, formula_4 (lei de Coulomb)
+
+O módulo do vetor campo elétrico pode ser definido por:
+
+formula_5
+
+Substituindo formula_6
+
+formula_7, é a constante eletrostática do meio e formula_8 é a constante de permissividade do vácuo.
+
+Nota-se, por essa expressão, que o campo elétrico gerado por uma carga em um ponto é diretamente proporcional ao seu valor e inversamente proporcional ao quadrado da distância.
+
+O campo elétrico sempre "nasce" nas cargas positivas (vetor) e "morre" nas cargas negativas
+Isso explica o sentido do vetor mencionado acima
+Quando duas cargas positivas são colocadas próximas uma da outra, o campo elétrico é de afastamento, gerando uma região entre as duas cargas isenta de campo elétrico
+O mesmo ocorre para cargas negativas, com a diferença de o campo elétrico ser de aproximação
+Já quando são colocadas próximas uma carga positiva e uma negativa, o campo "nasce" na primeira, e "morre" na segunda.
+
+Na equação: F = K.Q.q/d² , K é a constante eletrostática do meio e não a constante dielétrica.
+
+É definido como uma região em que todos os pontos possuem o mesmo vetor campo elétrico em módulo, direção e sentido
+Sendo assim, as linhas de força são paralelas e equidistantes.
+
+Para produzir um campo com essas características, basta utilizar duas placas planas e paralelas eletrizadas com cargas de mesmo módulo e sinais opostos
+Um capacitor pode ser citado como exemplo de criador de um campo elétrico uniforme.
+
+As cargas de prova positivas encontram-se em movimento dentro de um campo elétrico
+A partir da trajetória dessas cargas, traçam-se linhas que são denominadas linhas de força, que têm as seguintes propriedades:
+
+Quando uma esfera está eletrizada, as cargas em excesso repelem-se mutuamente e por isso migram para a superfície externa da esfera, atingindo o equilíbrio eletrostático
+Assim, o campo elétrico dentro da esfera (em equilíbrio eletrostático) é nulo.
+
+A equação para o módulo do campo produzido por uma carga pontual pode ser escrita de forma vetorial
+Se a carga Q estiver na origem, o resultado obtido é:
+
+formula_12
+
+sendo r a distância até a origem, e formula_13 o vetor unitário que aponta na direção radial, afastando-se da carga
+Se a carga for negativa, a equação anterior continua válida, dando um vetor que aponta no sentido oposto de formula_13 (campo atrativo).
+
+O vetor unitário formula_13 calcula-se dividindo o vetor posição formula_16 pelo seu módulo, r
+Se a carga não estiver na origem mas numa posição formula_17 a equação acima pode ser generalizada facilmente, dando o resultado:
+
+formula_18
+
+O campo produzido por um sistema de cargas pontuais obtém-se somando vetorialmente os campos produzidos por cada uma das cargas
+Por exemplo o lado esquerdo na figura acima à direita mostra os campos produzidos por duas cargas pontuais de 4 nC e 9 nC em alguns pontos
+O lado direito mostra o campo resultante, obtido somando vetorialmente os dois campos.
+
+A equação anterior pode ser generalizada para um sistema de "n" cargas pontuais
+Vamos escrever a equação explicitamente, em função das coordenadas cartesianas no plano xy (a generalização para o espaço xyz será evidente)
+Se as cargas formula_19estiverem nos pontos formula_20 , o resultado é:
+
+formula_21
+
+O fluxo elétrico produzido por várias cargas pontuais, através de uma superfície fechada, é igual à soma dos fluxos produzidos por cada uma das cargas
+O fluxo das cargas pontuais que estejam fora da superfície fechada será nulo, e o fluxo das cargas que estejam dentro da superfície será formula_22 vezes o valor da carga
+Por exemplo, no caso da figura abaixo, unicamente as duas cargas formula_23 e formula_24 produzem fluxo, porque a carga formula_25 encontra-se fora da superfície
+O fluxo total é:
+
+formula_26
+
+O resultado do exemplo da figura acima pode ser generalizado para qualquer sistema de cargas e qualquer superfície fechada, e é designado de Lei de Gauss:
+
+O fluxo através de qualquer superfície fechada é igual à carga total no interior da superfície, multiplicada por formula_22
+
+Em termos matemáticos, a lei de Gauss determina que o fluxo elétrico através de qualquer superfície fechada é:
+
+formula_28
+
+Se a carga total no interior for positiva, o fluxo será positivo, indicando que há linhas de campo a saírem da superfície
+Se a carga interna total for negativa, o fluxo é negativo porque há linhas de campo a entrar na superfície.
+
+O fluxo elétrico total à volta de uma carga pontual é diretamente proporcional à carga
+Em alguns casos é possível desenhar um número de linhas de campo proporcional à carga, para dar uma ideia mais aproximada do valor do fluxo em diferentes regiões; por exemplo, na figura anterior foram desenhadas 8 linhas de campo a saírem da carga de 4 nC, e 18 linhas a saírem da carga de 9 nC.
+
+A lei de Gauss é muito útil para calcular campos elétricos de sistemas com simetria.
+
+Consideremos um plano, com carga distribuída uniformemente
+Visto de lado, o plano aparece como um segmento de reta, e as linhas de campo serão semelhantes às linhas representadas no lado direito da figura ao lado.
+
+Nas regiões perto do centro do plano, as linhas de campo são aproximadamente paralelas entre si
+Quanto maior for o plano, maior será a região onde as linhas são aproximadamente paralelas
+No caso idealizado de um plano infinito, as linhas serão completamente paralelas e equidistantes, já que a aparência do plano seria a mesma em qualquer ponto.
+
+Para calcular o campo elétrico usando a lei de Gauss, imaginamos um cilindro com as tampas paralelas ao plano, como se mostra na figura.
+
+Nas paredes laterais do cilindro não existe fluxo elétrico, porque o campo é paralelo à superfície
+Em cada uma das tampas circulares do cilindro, o campo é perpendicular e, com módulo constante, devido a que todos os pontos na tampa estão à mesma distância do plano
+Assim, o fluxo em cada uma das tampas do cilindro é ,formula_29 , em que A é a área da tampa, e o fluxo total através do cilindro é:
+
+formula_30
+
+De acordo com a lei de Gauss, esse fluxo também deverá ser igual a:
+
+formula_31
+
+Onde Q é a carga na parte do plano que está dentro do cilindro
+Igualando as duas últimas equações obtemos o módulo do campo:
+
+formula_32
+
+Em que formula_33 é a carga superficial; nomeadamente, carga por unidade de área:
+
+formula_34
+
+Consideremos um fio retilíneo, muito comprido, com carga distribuída uniformemente
+As linhas de campo deverão ser nas direções radiais
+Imaginemos uma superfície fechada que é um cilindro de raio R e altura L, com eixo sobre o fio, como mostra a figura abaixo.
+
+Nas tampas circulares do cilindro o fluxo é nulo, porque o campo é paralelo à superfície; na parede lateral do cilindro, o campo é perpendicular e com módulo constante
+Assim, o fluxo total será:
+
+formula_35
+
+onde E é o módulo do campo à distância R do fio
+De acordo com a lei de Gauss, esse fluxo deverá ser também igual a:
+
+formula_31
+
+onde Q é a carga do fio que está dentro do cilindro S
+Igualando as duas equações anteriores,
+
+obtemos o módulo do campo:
+
+formula_37
+
+em que formula_38 é a carga linear (carga por unidade de comprimento): formula_39
+
+Numa esfera condutora, com carga Q e raio a, a força repulsiva entre as cargas do mesmo sinal, faz com que as cargas se distribuam em forma uniforme, na superfície da esfera
+Existe assim simetria esférica, e as linhas de campo deverão apontar na direção radial.
+
+Para calcular o campo, imaginamos uma esfera de raio r,concêntrica com a esfera condutora
+Na superfície dessa esfera, o campo será perpendicular, e com módulo constante E ; consequentemente o fluxo será:
+
+formula_40
+
+Segundo a lei de Gauss, o fluxo através da esfera de raio r será nulo, se formula_41 se formula_42
+Portanto, o campo elétrico é nulo, no interior da esfera
+Fora da esfera o campo é:
+
+formula_43
+
+Que é idêntico ao campo produzido por uma carga Q concentrada no centro da esfera.
+
+Um campo magnético variável no tempo induz um campo elétrico, e um campo elétrico variável induz um campo magnético.
+
+O campo elétrico induzido é proporcional à derivada do fluxo magnético, e o campo magnético induzido é proporcional à derivada do fluxo elétrico
+Quando um campo é uniforme, o fluxo através de uma superfície é maior se a superfície for perpendicular ao campo; isso implica que o campo induzido é perpendicular ao campo variável.
+
+A figura ao lado mostra o campo elétrico induzido por um campo magnético uniforme mas variável, e o campo magnético induzido por um campo elétrico uniforme e variável
+No primeiro caso, devido ao sinal negativo , o campo elétrico induzido é no sentido oposto ao obtido com a regra da mão direita em relação à derivada do campo magnético; como o campo magnético está a diminuir, a derivada do campo aponta para baixo e a regra da mão direita indica rotação no sentido horário; portanto, as linhas do campo induzido estão orientadas no sentido anti-horário.
+
+O sinal positivo do último termo implica que as linhas do campo magnético induzido seguem a regra da mão direita em relação ao aumento do campo elétrico
+No caso do campo elétrico variável no lado direito da figura , como o campo está a diminuir, a derivada do campo elétrico aponta para baixo, e a regra da mão direita indica que o campo magnético induzido é no sentido horário.
+
+O campo elétrico pode ser representado por vetores que indicam o valor do campo em vários pontos do espaço, como foi feito na figura acima
+O problema com essa representação é que o campo varia rapidamente com a distância, o que faz com que o vetor seja muito grande em alguns pontos e muito pequeno em outros pontos.
+
+A representação usando linhas de campo é mais conveniente
+As linhas de campo seguem a direção do campo
+Em cada ponto numa dessas curvas, o campo é tangente à curva e no sentido indicado pelas setas.
+
+As linhas de campo elétrico têm várias propriedades:
+
+Um nó pode ser atrativo ou repulsivo
+Se for atrativo, será um ponto onde existe uma carga pontual negativa; se for repulsivo, será um ponto onde existe uma carga pontual positiva
+Os pontos de sela são pontos onde o campo é nulo, mas não existe nenhuma carga nesse ponto.
+
+Outro exemplo são as linhas de campo de um dipolo elétrico, formado por duas cargas iguais mas de sinais opostos
+Se admitirmos que as duas cargas estão localizadas nos pontos ( 1, 0) e (1, 0), o campo desenha-se assim:
+
+O resultado aparece no lado esquerdo acima à direita
+
+Uma distribuição contínua de cargas pode ser aproximada por uma série de cargas pontuais
+Por exemplo, se existirem cargas distribuídas uniformemente no segmento do eixo dos x entre x = - 3 e x = 3, podemos admitir um sistema de cargas pontuais, equidistantes, sobre o segmento entre x = - 3 e x = 3
+Com 7 cargas pontuais, o gráfico obtido é apresentado no lado direito da figura ao lado.
+

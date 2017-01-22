@@ -1,0 +1,601 @@
+GNU FDL (Free Documentation License) é uma licença para conteúdos abertos
+Todos os conteúdos da Wikipédia e Nupedia são cobertos por esta licença na sua versão 1.1 ou superiores.
+
+Esta é uma tradução não oficial da Licença de Documentação Livre
+
+GNU em Português Brasileiro
+Ela não é publicada pela Free Software
+
+Foundation, e não se aplica legalmente a distribuição de textos que
+
+usem a GFDL - apenas o texto original em Inglês da GNU FDL faz
+
+isso
+Entretanto, nós esperamos que esta tradução ajude falantes de
+
+português a entenderem melhor a GFDL.
+
+Licença de Documentação Livre
+
+GNU
+
+Versão 1.1, Março de 2000
+
+0
+INTRODUÇÃO
+
+O propósito desta Licença é deixar um manual, livro-texto ou
+
+outro documento escrito "livre" no sentido de liberdade:
+
+assegurar a qualquer um a efetiva liberdade de copiá-lo ou
+
+redistribuí-lo, com ou sem modificações, comercialmente ou não.
+
+Secundariamente, esta Licença mantém para o autor e editor uma
+
+forma de ter crédito por seu trabalho, sem ser considerado
+
+responsável pelas modificações feitas por terceiros.
+
+Esta licença é um tipo de "copyleft" ("direitos
+
+revertidos"), o que significa que derivações do documento precisam
+
+ser livres no mesmo sentido
+Ela complementa a GNU Licença Pública
+
+Geral (GNU GPL), que é um copyleft para software livre.
+
+Nós fizemos esta Licença para que seja usada em manuais de
+
+software livre, porque software livre precisa de documentação
+
+livre: um programa livre deve ser acompanhado de manuais que
+
+forneçam as mesmas liberdades que o software possui
+Mas esta
+
+Licença não está restrita a manuais de software; ela pode ser usada
+
+para qualquer trabalho em texto, independentemente do assunto ou se
+
+ele é publicado como um livro impresso
+Nós recomendamos esta
+
+Licença principalmente para trabalhos cujo propósito seja de
+
+instrução ou referência.
+
+1
+APLICABILIDADE E DEFINIÇÕES
+
+Esta Licença se aplica a qualquer manual ou outro texto que
+
+contenha uma nota colocada pelo detentor dos direitos autorias
+
+dizendo que ele pode ser distribuído sob os termos desta Licença
+O
+
+"Documento", abaixo, se refere a qualquer tal manual ou texto.
+
+Qualquer pessoa do público é um licenciado e é referida como
+
+"você".
+
+Uma "Versão Modificada" do Documento se refere a qualquer
+
+trabalho contendo o documento ou uma parte dele, quer copiada
+
+exatamente, quer com modificações e/ou traduzida em outra
+
+língua.
+
+Uma "Seção Secundária" é um apêndice ou uma seção inicial do
+
+Documento que trata exclusivamente da relação dos editores ou dos
+
+autores do Documento com o assunto geral do Documento (ou assuntos
+
+relacionados) e não contém nada que poderia ser incluído
+
+diretamente nesse assunto geral
+(Por exemplo, se o Documento é em
+
+parte um livro texto de matemática, a Seção Secundária pode não
+
+explicar nada de matemática)
+Essa relação poderia ser uma questão
+
+de ligação histórica com o assunto, ou matérias relacionadas, ou de
+
+posições legais, comerciais, filosóficas, éticas ou políticas
+
+relacionadas ao mesmo.
+
+As "Seções Invariantes" são certas Seções Secundárias cujos
+
+títulos são designados, como sendo de Seções Invariantes, na nota
+
+que diz que o Documento é publicado sob esta Licença.
+
+Os "Textos de Capa" são certos trechos curtos de texto que são
+
+listados, como Textos de Capa Frontal ou Textos da Quarta Capa, na
+
+nota que diz que o texto é publicado sob esta Licença.
+
+Uma cópia "Transparente" do Documento significa uma cópia que
+
+pode ser lida automaticamente, representada num formato cuja
+
+especificação esteja disponível ao público geral, cujos conteúdos
+
+possam ser vistos e editados diretamente e sem mecanismos especiais
+
+com editores de texto genéricos ou (para imagens compostas de
+
+pixels) programas de pintura genéricos ou (para desenhos) por algum
+
+editor de desenhos grandemente difundido, e que seja passível de
+
+servir como entrada a formatadores de texto ou para tradução
+
+automática para uma variedade de formatos que sirvam de entrada
+
+para formatadores de texto
+Uma cópia feita em um formato de
+
+arquivo outrossim Transparente cuja constituição tenha sido
+
+projetada para atrapalhar ou desencorajar modificações subsequentes
+
+pelos leitores não é Transparente
+Uma cópia que não é
+
+"Transparente" é chamada de "Opaca".
+
+Exemplos de formatos que podem ser usados para cópias
+
+Transparentes incluem ASCII simples sem marcações, formato de
+
+entrada do Texinfo, formato de entrada do LaTeX, SGML ou XML usando
+
+uma DTD disponibilizada publicamente, e HTML simples, compatível
+
+com os padrões, e projetado para ser modificado por pessoas.
+
+Formatos opacos incluem PostScript, PDF, formatos proprietários que
+
+podem ser lidos e editados apenas com processadores de texto
+
+proprietários, SGML ou XML para os quais a DTD e/ou ferramentas de
+
+processamento e edição não estejam disponíveis para o público, e
+
+HTML gerado automaticamente por alguns editores de texto com
+
+finalidade apenas de saída.
+
+A "Página do Título" significa, para um livro impresso, a
+
+página do título propriamente dita, mais quaisquer páginas
+
+subseqüentes quantas forem necessárias para conter, de forma
+
+legível, o material que esta Licença requer que apareça na página
+
+do título
+Para trabalhos que não tenham uma tal página do título,
+
+"Página do Título" significa o texto próximo da aparição mais
+
+proeminente do título do trabalho, precedendo o início do corpo do
+
+texto.
+
+2
+FAZENDO CÓPIAS EXATAS
+
+Você pode copiar e distribuir o Documento em qualquer meio, de
+
+forma comercial ou não comercial, desde que esta Licença, as notas
+
+de copyright, e a nota de licença dizendo que esta Licença se
+
+aplica ao documento estejam reproduzidas em todas as cópias, e que
+
+você não acrescente nenhuma outra condição quaisquer que sejam às
+
+desta Licença.
+
+Você não pode usar medidas técnicas para obstruir ou controlar a
+
+leitura ou confecção de cópias subsequentes das cópias que você
+
+fizer ou distribuir
+Entretanto, você pode aceitar compensação em
+
+troca de cópias
+Se você distribuir uma quantidade grande o
+
+suficiente de cópias, você também precisa respeitar as condições da
+
+seção 3.
+
+Você também pode emprestar cópias, sob as mesmas condições
+
+colocadas acima, e você também pode exibir cópias
+
+publicamente.
+
+3
+FAZENDO CÓPIAS EM QUANTIDADE
+
+Se você publicar cópias do Documento em número maior que 100, e
+
+a nota de licença do Documento obrigar Textos de Capa, você precisa
+
+incluir as cópias em capas que tragam, clara e legivelmente, todos
+
+esses Textos de Capa: Textos de Capa da Frente na capa da frente, e
+
+Textos da Quarta Capa na capa de trás
+Ambas as capas também
+
+precisam identificar clara e legivelmente você como o editor dessas
+
+cópias
+A capa da frente precisa apresentar o título completo com
+
+todas as palavras do título igualmente proeminentes e visíveis.
+
+Você pode adicionar outros materiais às capas
+Fazer cópias com
+
+modificações limitadas às capas, tanto quanto estas preservem o
+
+título do documento e satisfaçam essas condições, pode tratado como
+
+cópia exata em outros aspectos.
+
+Se os textos requeridos em qualquer das capas for muito volumoso
+
+para caber de forma legível, você deve colocar os primeiros (tantos
+
+quantos couberem de forma razoável) na capa verdadeira, e continuar
+
+os outros nas páginas adjacentes.
+
+Se você publicar ou distribuir cópias Opacas do Documento em
+
+número maior que 100, você precisa ou incluir uma cópia
+
+Transparente que possa ser lida automaticamente com cada cópia
+
+Opaca, ou informar em ou com cada cópia Opaca a localização de uma
+
+cópia Transparente completa do Documento acessível publicamente em
+
+uma rede de computadores, à qual o público usuário de redes tenha
+
+acesso a download gratuito e anônimo utilizando padrões públicos de
+
+protocolos de rede
+Se você utilizar o segundo método, você precisa
+
+tomar cuidados razoavelmente prudentes, quando iniciar a
+
+distribuição de cópias Opacas em quantidade, para assegurar que
+
+esta cópia Transparente vai permanecer acessível desta forma na
+
+localização especificada por pelo menos um ano depois da última vez
+
+em que você distribuir uma cópia Opaca (diretamente ou através de
+
+seus agentes ou distribuidores) daquela edição para o público.
+
+É pedido, mas não é obrigatório, que você contate os autores do
+
+Documento bem antes de redistribuir qualquer grande número de
+
+cópias, para lhes dar uma oportunidade de prover você com uma
+
+versão atualizada do Documento.
+
+4
+MODIFICAÇÕES
+
+Você pode copiar e distribuir uma Versão Modificada do Documento
+
+sob as condições das seções 2 e 3 acima, desde que você publique a
+
+Versão Modificada estritamente sob esta Licença, com a Versão
+
+Modificada tomando o papel do Documento, de forma a licenciar a
+
+distribuição e modificação da Versão Modificada para quem quer que
+
+possua uma cópia da mesma
+Além disso, você precisa fazer o
+
+seguinte na versão modificada:
+
+Se a Versão Modificada incluir novas seções iniciais ou
+
+apêndices que se qualifiquem como Seções Secundárias e não
+
+contenham nenhum material copiado do Documento, você pode optar por
+
+designar alguma ou todas aquelas seções como invariantes
+Para
+
+fazer isso, adicione seus títulos à lista de Seções Invariantes na
+
+nota de licença da Versão Modificada
+Esses títulos precisam ser
+
+diferentes de qualquer outro título de seção.
+
+Você pode adicionar uma seção intitulada "Endossos";, desde
+
+que ela não contenha qualquer coisa além de endossos da sua Versão
+
+Modificada por várias pessoas ou entidades - por exemplo,
+
+declarações de revisores ou de que o texto foi aprovado por uma
+
+organização como a definição oficial de um padrão.
+
+Você pode adicionar uma passagem de até cinco palavras como um
+
+Texto de Capa da Frente , e uma passagem de até 25 palavras como um
+
+Texto de Quarta Capa, ao final da lista de Textos de Capa na Versão
+
+Modificada
+Somente uma passagem de Texto da Capa da Frente e uma
+
+de Texto da Quarta Capa podem ser adicionados por (ou por acordos
+
+feitos por) qualquer entidade
+Se o Documento já incluir um texto
+
+de capa para a mesma capa, adicionado previamente por você ou por
+
+acordo feito com alguma entidade para a qual você esteja agindo,
+
+você não pode adicionar um outro; mas você pode trocar o antigo,
+
+com permissão explícita do editor anterior que adicionou a passagem
+
+antiga.
+
+O(s) autor(es) e editor(es) do Documento não dão permissão por
+
+esta Licença para que seus nomes sejam usados para publicidade ou
+
+para assegurar ou implicar endossamento de qualquer Versão
+
+Modificada.
+
+5
+COMBINANDO DOCUMENTOS
+
+Você pode combinar o Documento com outros documentos publicados
+
+sob esta Licença, sob os termos definidos na seção 4 acima para
+
+versões modificadas, desde que você inclua na combinação todas as
+
+Seções Invariantes de todos os documentos originais, sem
+
+modificações, e liste todas elas como Seções Invariantes de seu
+
+trabalho combinado em sua nota de licença.
+
+O trabalho combinado precisa conter apenas uma cópia desta
+
+Licença, e Seções Invariantes Idênticas com múltiplas ocorrências
+
+podem ser substituídas por apenas uma cópia.Se houver múltiplas
+
+Seções Invariantes com o mesmo nome mas com conteúdos distintos,
+
+faça o título de cada seção único adicionando ao final do mesmo, em
+
+parênteses, o nome do autor ou editor original daquela seção, se
+
+for conhecido, ou um número que seja único
+Faça o mesmo ajuste nos
+
+títulos de seção na lista de Seções Invariantes nota de licença do
+
+trabalho combinado.
+
+Na combinação, você precisa combinar quaisquer seções
+
+intituladas "Histórico"; dos diversos documentos originais,
+
+formando uma seção intitulada "Histórico"; da mesma forma combine
+
+quaisquer seções intituladas "Agradecimentos", ou
+
+"Dedicatórias"
+Você precisa apagar todas as seções intituladas
+
+como "Endosso".
+
+6
+COLETÂNEAS DE DOCUMENTOS
+
+Você pode fazer uma coletânea consistindo do Documento e outros
+
+documentos publicados sob esta Licença, e substituir as cópias
+
+individuais desta Licença nos vários documentos com uma única cópia
+
+incluída na coletânea, desde que você siga as regras desta Licença
+
+para cópia exata de cada um dos Documentos em todos os outros
+
+aspectos.
+
+Você pode extrair um único documento de tal coletânea, e
+
+distribuí-lo individualmente sob esta Licença, desde que você
+
+insira uma cópia desta Licença no documento extraído, e siga esta
+
+Licença em todos os outros aspectos relacionados à cópia exata
+
+daquele documento.
+
+7
+AGREGAÇÃO COM TRABALHOS INDEPENDENTES
+
+Uma compilação do Documento ou derivados dele com outros
+
+trabalhos ou documentos separados e independentes, em um volume ou
+
+mídia de distribuição, não conta como uma Versão Modificada do
+
+Documento, desde que não seja reclamado nenhum copyright de
+
+compilação seja reclamado pela compilação
+Tal compilação é chamada
+
+um "agregado", e esta Licença não se aplica aos outros trabalhos
+
+auto-contidos compilados junto com o Documento, só por conta de
+
+terem sido assim compilados, e eles não são trabalhos derivados do
+
+Documento.
+
+Se o requerido para o Texto de Capa na seção 3 for aplicável a
+
+essas cópias do Documento, então, se o Documento constituir menos
+
+de um quarto de todo o agregado, os Textos de Capa do Documento
+
+podem ser colocados em capas adjacentes ao Documento dentro do
+
+agregado
+Senão eles precisam aparecer nas capas de todo o
+
+agregado.
+
+8
+TRADUÇÃO
+
+A tradução é considerada como um tipo de modificação, então você
+
+pode distribuir traduções do Documento sob os termos da seção 4
+A
+
+substituição de Seções Invariantes por traduções requer uma
+
+permissão especial dos detentores do copyright das mesmas, mas você
+
+pode incluir traduções de algumas ou de todas as Seções Invariantes
+
+em adição as versões originais dessas Seções Invariantes
+Você pode
+
+incluir uma tradução desta Licença desde que você também inclua a
+
+versão original em Inglês desta Licença
+No caso de discordância
+
+entre a tradução e a versão original em Inglês desta Licença, a
+
+versão original em Inglês prevalecerá.
+
+9
+TÉRMINO
+
+Você não pode copiar, modificar, sublicenciar, ou distribuir o
+
+Documento exceto como expressamente especificado sob esta Licença.
+
+Qualquer outra tentativa de copiar, modificar, sublicenciar, ou
+
+distribuir o Documento é nula, e resultará automaticamente no
+
+término de seus direitos sob esta Licença
+Entretanto, terceiros
+
+que tenham recebido cópias, ou direitos, de você sob esta Licença
+
+não terão suas licenças terminadas tanto quanto esses terceiros
+
+permaneçam em total acordo com esta Licença.
+
+10
+REVISÕES FUTURAS DESTA LICENÇA
+
+A Free Software Foundation pode publicar novas versões revisadas
+
+da Licença de Documentação Livre GNU de tempos em tempos
+Tais
+
+novas versões serão similares em espírito à versão presente, mas
+
+podem diferir em detalhes ao abordarem novos problemas e
+
+preocupações
+Veja http://www.gnu.org/copyleft/.
+
+A cada versão da Licença é dado um número de versão distinto
+Se
+
+o Documento especificar que uma versão particular desta Licença
+
+"ou qualquer versão posterior" se aplica ao mesmo, você tem a
+
+opção de seguir os termos e condições daquela versão específica, ou
+
+de qualquer versão posterior que tenha sido publicada (não como
+
+rascunho) pela Free Software Foundation
+Se o Documento não
+
+especificar um número de Versão desta Licença, você pode escolher
+
+qualquer versão já publicada (não como rascunho) pela Free Software
+
+Foundation.
+
+ADENDO: Como usar esta Licença para
+
+seus documentos
+
+Para usar esta Licença num documento que você escreveu, inclua
+
+uma cópia desta Licença no documento e ponha as seguintes notas de
+
+copyright e licenças logo apos a página de título:
+
+Se você não tiver nenhuma Seção Invariante, escreva "sem Seções
+
+Invariantes" ao invés de dizer quais são invariantes
+Se você não
+
+tiver Textos de Capa da Frente, escreva "sem Textos de Capa da
+
+Frente" ao invés de "com os Textos da Capa da Frente sendo
+
+LISTE"; o mesmo para os Textos da Quarta Capa.
+
+Se o seu documento contiver exemplos não triviais de código de
+
+programas, nós recomendamos a publicação desses exemplos em
+
+paralelo sob a sua escolha de licença de software livre, tal como a
+
+GNU General Public License, para permitir o seu uso em software
+
+livre.
+

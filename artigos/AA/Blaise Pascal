@@ -1,0 +1,104 @@
+Blaise Pascal (Clermont-Ferrand, — Paris, ) foi um físico, matemático, filósofo moralista e teólogo francês.
+
+Blaise Pascal era filho de Étienne Pascal, professor de matemática, e de Antoinette Begon
+Perdeu a sua mãe com três anos de idade
+Seu pai tratou da sua educação por ele ser o único filho do sexo masculino, orientando-o com vistas ao desenvolvimento correto da sua razão e do seu juízo
+O recurso aos jogos didácticos era parte integrante desse ensino que incluía disciplinas tão variadas como história, geografia e filosofia.
+
+O talento precoce para as ciências físicas levou a família a Paris, onde ele se consagra ao estudo da matemática.
+
+Acompanha o pai quando este é transferido para Rouen e lá realiza as primeiras pesquisas no campo da Física
+Suas experiências sobre sons resultaram em um pequeno tratado (1634)
+No ano seguinte chega à dedução de 32 proposições de geometria estabelecidas por Euclides
+Publica "Essay pour les coniques" (1640), obra na qual está formulado o célebre teorema de Pascal.
+
+Blaise Pascal contribuiu decisivamente para a criação de dois novos ramos da matemática: a Geometria Projetiva e a Teoria das probabilidades
+Em Física, estudou a mecânica dos fluidos, e esclareceu os conceitos de pressão e vácuo, ampliando o trabalho de Evangelista Torricelli
+É ainda o autor de uma das primeiras calculadoras mecânicas, a "Pascaline", e de estudos sobre o método científico.
+
+Como matemático, interessou-se pelo cálculo infinitesimal, pelas sequências, tendo enunciado o princípio da recorrência matemática
+O cálculo diferencial e integral de Newton e Leibniz que seria a base da física clássica foi inspirado em um tratado publicado por Blaise Pascal sobre os senos num quadrante de um círculo onde buscou a integração da função seno, que também viria a ser a base da matemática moderna
+Criou um tipo de máquina de calcular que chamou de "La pascaline" (1642), uma das primeiras calculadoras mecânicas que se conhece, conservada no Museu de Artes e Ofícios de Paris
+Anders Hald escreveu:
+
+"Para aliviar o trabalho do seu pai como agente fiscal, Pascal inventou uma máquina de calcular para adição e subtração assegurando sua construção e venda." Seguindo o programa de Galileu e Torricelli, refutou o conceito de "horror ao vazio"
+Os seus resultados geraram numerosas controvérsias entre os aristotélicos tradicionais.
+
+Em 1646 a família converte-se ao Jansenismo.
+
+De volta a Paris (1647), influenciado pelas experiências de Torricelli, enunciou os primeiros trabalhos sobre o vácuo e demonstrou as variações da pressão atmosférica
+A partir de então, desenvolveu extensivas pesquisas utilizando sifões, seringas, foles e tubos de vários tamanhos e formas e com líquidos como água, mercúrio, óleo, vinho, ar, etc., no vácuo e sob pressão atmosférica.
+
+Em 1651 o seu pai morreu.
+
+Na sequência de uma experiência mística, em finais 1654, faz a sua "segunda conversão" e abandona as ciências para se dedicar exclusivamente à filosofia e à teologia, num período marcado pelo conflito entre jansenistas e jesuítas
+No ano seguinte, recolhe-se à abadia de Port-Royal-des-Champs, centro do jansenismo
+Só voltaria às ciências após "novo milagre" (1658)
+São desse período as suas principais contribuições no campo filosófico-religioso: "Les Provinciales" (1656-1657), conjunto de 18 cartas escritas em defesa do jansenista Antoine Arnauld - oponente dos jesuítas que estava em julgamento pelos teólogos de Paris - e "Pensées" fragmentos publicados postumamente (1670), nos quais estão formuladas suas ideias sobre a espiritualidade e a defesa do cristianismo
+Entre os "Pensées" (Pensamentos) encontra-se também a sua frase mais citada: "O coração tem suas razões, que a própria razão desconhece".
+
+Como teólogo e escritor destacou-se como um dos mestres do racionalismo e irracionalismo modernos, e sua obra influenciou os ingleses Charles e John Wesley, fundadores da Igreja Metodista.
+
+Pascal aperfeiçoou o barômetro de Torricelli e, na matemática, com o "Traité du triangle arithmétique" ("Tratado do triângulo aritmético", mais conhecido como triângulo de Pascal), de 1654, estabeleceu, juntamente com Pierre de Fermat, as bases da teoria das probabilidades e da análise combinatória, que o holandês Huygens desenvolveria posteriormente (1657)
+Entre 1658 e 1659, escreveu sobre o ciclóide e a sua utilização no cálculo do volume de sólidos
+Após obter resultado sobre os quadrados dos cicloides publicados em 1658, desafiou matemáticos da época a solucionarem problemas relacionados aos ciclóides e chegarem aos resultados por ele já alcançados.
+
+Um dos seus tratados sobre hidrostática, "Traité de l'équilibre des liqueurs", só foi publicado um ano após sua morte (1663)
+Pascal também esclareceu os princípios barométricos, da prensa hidráulica e da transmissibilidade de pressões
+Estabeleceu o princípio de Pascal que diz: em um líquido em repouso ou equilíbrio, as variações de pressão transmitem-se igualmente e sem perdas para todos os pontos da massa líquida
+É o princípio de funcionamento do macaco hidráulico
+Na Mecânica é homenageado com a unidade de tensão mecânica (ou pressão) Pascal (1Pa = 1 N/m²; 10 N/m² = 1 bar).
+
+Pascal, que sempre teve uma saúde frágil, adoeceu gravemente em 1659
+Morreu em 19 de agosto de 1662, dois meses após completar 39 anos
+Seu corpo foi sepultado na Igreja de Saint-Étienne-du-Mont, Ilha de França, Paris na França.
+
+Pascal continuou a influenciar a matemática ao longo de sua vida
+Seu "Traité du triangle arithmétique" ("Tratado sobre o Triângulo aritmético") de 1653 descreveu uma apresentação tabular conveniente para os coeficientes binomiais, agora chamado triângulo de Pascal
+O triângulo também pode ser representado:
+
+Ele define os números no triângulo por recursão: Chame o número na (m+1)-ésima linha e na (n+1)-ésima coluna por t
+Então t = t + t, para m = 0, 1, 2..
+e n = 0, 1, 2..
+As condições de contorno são t = 0, t para m = 1, 2, 3..
+e n = 1, 2, 3..
+O gerador t = 1
+Pascal conclui com a prova,
+
+Em 1654, solicitado por um amigo interessado em problemas de jogos, ele correspondeu-se com Pierre de Fermat sobre o assunto e desta colaboração nasceu a teoria matemática das probabilidades
+O amigo era Antoine Gombaud e o problema específico foi o de dois jogadores que querem terminar um jogo mais cedo e, dadas as atuais circunstâncias do jogo, querem dividir as apostas de forma justa, com base na chance que cada um tem de ganhar o jogo a partir desse ponto
+A partir desta discussão, a noção de valor esperado foi introduzida
+Pascal mais tarde (nos seus "Pensées") usou um argumento probabilístico, a Aposta de Pascal para justificar a crença em Deus e uma vida virtuosa
+O trabalho realizado por Fermat e Pascal para o cálculo de probabilidades estabeleceu os fundamentos importantes para a formulação de Leibniz do cálculo infinitesimal.
+
+A grande contribuição de Pascal para a filosofia da matemática veio com o seu "De l'Esprit géométrique" ("Do Espírito Geométrico"), originalmente escrito como um prefácio para um livro de geometria para um dos famosos ""Petites écoles de Port-Royal" ("Escolinhas de Port-Royal")"
+O trabalho ficou inédito até mais de um século após sua morte
+Aqui, Pascal estudou a questão da descoberta de verdades, argumentando que o ideal de um tal método seria encontrar todas as proposições sobre as verdades já estabelecidas
+Ao mesmo tempo, no entanto, ele alegou que isso era impossível porque tais verdades estabelecidas exigiriam outras verdades para apoiá-las — os primeiros princípios, portanto, não podiam ser alcançadas
+Com base nisso, Pascal argumentou que o procedimento utilizado em geometria era tão perfeito quanto possível, com alguns princípios assumidos e outras proposições desenvolvidas a partir deles
+No entanto, não havia nenhuma maneira de saber se os princípios assumidos eram, de fato, verdade.
+
+Pascal também utilizou o "De l'Esprit géométrique" para desenvolver uma teoria da definição
+Ele distingue entre as definições que são rótulos convencionais definidas pelo escritor e definições que estão dentro da linguagem e compreendidas por todos, pois naturalmente designam seu referente
+O segundo tipo seria característica da filosofia do essencialismo
+Pascal afirmou que apenas as definições do primeiro tipo são importantes para a ciência e a matemática, argumentando que esses campos devem adotar a filosofia do formalismo, tal como formulado por Descartes.
+
+No "De l'Art de persuader" ("Sobre a Arte da Persuasão"), Pascal estudou de forma mais profunda o método axiomático da geometria, especificamente a questão de como as pessoas vem a ser convencidas dos axiomas sobre os quais conclusões posteriores se baseiam
+Pascal concordou com Montaigne que alcançar a certeza nestes axiomas e as conclusões através de métodos humanos é impossível
+Ele afirmou que esses princípios só podem ser apreendidos através da intuição, e que este fato ressaltou a necessidade de submissão a Deus na busca de verdades.
+
+Em honra de suas contribuições científicas, o nome Pascal foi dado à unidade SI de pressão, a uma linguagem de programação, à lei de Pascal (um importante princípio da hidrostática), e o triângulo de Pascal e a aposta de Pascal ainda levam o seu nome.
+
+O desenvolvimento de Pascal da teoria da probabilidade foi a sua contribuição mais influente para a matemática
+Originalmente aplicada ao jogo de azar, hoje é extremamente importante na economia, especialmente na ciência atuarial
+John Ross escreveu: "A teoria das probabilidades e as descobertas após essa mudaram a nossa forma de encarar a incerteza, risco, tomada de decisão, e a capacidade de um indivíduo ou da sociedade de influenciar o curso dos eventos futuros." No entanto, deve notar-se que Pascal e Fermat, embora fazendo um trabalho inicial importante na teoria das probabilidades, não desenvolveram o campo muito mais longe
+Christiaan Huygens, aprendendo do tema a partir da correspondência de Pascal e Fermat, escreveu o primeiro livro sobre o assunto
+Mais tarde, pessoas que continuaram o desenvolvimento da teoria incluem Abraham de Moivre e Pierre-Simon Laplace.
+
+Na literatura, Pascal é considerado um dos autores mais importantes do período clássico francês e é lido hoje como um dos maiores mestres da prosa francesa
+Seu uso da sátira e do humor influenciou polemistas posteriores
+O conteúdo de sua obra literária é mais lembrado por sua forte oposição ao racionalismo de René Descartes e a afirmação simultânea que a principal filosofia de compensação, o empirismo, também era insuficiente para determinar verdades importantes.
+
+Na França, prestigiosos prêmios anuais, Cadeiras de pesquisa Blaise Pascal são dadas a prominentes cientistas internacionais para realizar a sua investigação na região de "Ile de France"
+Uma das universidades de Clermont-Ferrand, França - Université Blaise Pascal - é nomeada em sua homenagem.
+

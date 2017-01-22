@@ -1,0 +1,113 @@
+O FreeBSD é um sistema operacional livre do tipo Unix descendente do BSD desenvolvido pela Universidade da Califórnia em Berkeley
+Legalmente não pode ser chamado de UNIX nem nenhum outro derivado devido ao tipo de licença
+É a distribuição BSD de código aberto mais utilizado.
+
+É desenvolvido por uma equipe de engenheiros
+O kernel, comandos de sistema, bibliotecas e shell são mantidas pela mesma equipe, em contraste com o GNU/Linux
+Uma instalação típica não inclui ambiente gráfico
+É muito bem documentado
+Está disponível para as plataformas Intel x86, Sparc, PowerPC e PC98 assim como para as arquiteturas baseadas em processadores de 64 bits: IA-64 e AMD64.
+
+Considerado como robusto e estável, geralmente é utilizado em servidores, como de Internet ou Proxies, mas também pode ser utilizado como estação de trabalho.
+
+O kernel usado é monolítico, podendo usar módulos quando necessário
+Quando instalado, é sempre usado o kernel monolítico que contém embutido o suporte ao hardware
+É possível compilar um kernel menor com módulos para o hardware
+Neste aspecto, assemelha-se ao Linux.
+
+O sistema de ficheiros usado é o UFS, melhorado para UFS2; tem suporte para outros sistemas como o ZFS.
+
+O Sistema de Ports, também chamado de Coleção de Ports ou simplesmente Ports, é um "sistema de instalação" de pacotes prático e eficiente utilizado pelo FreeBSD
+Consiste numa estrutura de diretórios, os quais possuem arquivos ("Makefiles") que especificam todos os pré-requisitos da instalação, como se deve compilar o código fonte, e o necessário para a instalação dos binários criados de um determinado pacote no sistema
+Isto de forma praticamente automática, com pouca ou nenhuma intervenção do usuário.
+
+O suporte do Ports é tão abrangente, possuindo atualmente mais de 24.000 pacotes (2014), que dificilmente é necessário procurar programas em outras fontes.
+
+Arquivos binários pré-compilados do Ports são chamados de "pacotes" e estão disponíveis para download
+Eles podem ainda ser automaticamente instalados sabendo-se o nome do pacote e passando este como parâmetro para o comando "pkg_add -r".
+
+A maioria dos programas encontrados no Ports, existem para Linux e em muitos casos não é preciso alterar o código fonte
+Significa isto que os ambientes gráficos e as aplicações mais comuns usadas no Linux estão presentes no FreeBSD
+O código pode não ter diferenças, mas a compilação cria binários distintos.
+
+O FreeBSD fornece compatibilidade binária com muitas outras variações do Unix
+O mesmo também é compatível com o sistema operativo GNU/Linux
+A razão por trás disso está em poder utilizar programas desenvolvidos para Linux, geralmente comerciais, que só são distribuídos em forma binária e que por isso não podem ser portados para o FreeBSD sem a vontade de seus criadores.
+
+Esta extensão permite que os usuários usem a maioria dos programas que são distribuídas apenas em binários Linux
+Quando comparado com o número de programas nativos disponíveis pelo Ports, a quantidade desses programas é insignificante.
+
+Alguns aplicativos que podem ser utilizados sobre a compatibilidade Linux incluem StarOffice, Netscape, Adobe Acrobat, RealPlayer, VMware, Oracle, WordPerfect, Skype, Doom 3, Quake 4, a série Unreal Tournament, Firefox com suporte ao Adobe flash e outros
+Geralmente não há perda de desempenho na utilização de binários Linux em vez de programas nativos do FreeBSD.
+
+Os derivados do BSD em geral tem como mascote um diabinho vermelho chamado "Daemon" que significa espirito em grego, mas na realidade se refere a programas que rodam na memória autonomamente para servir requisições.
+
+Até 2005, o Beastie era o "logotipo" do FreeBSD, quando foi aberta uma competição para escolher um novo símbolo para o projeto
+Em 8 de outubro, ganhou o desenho feito por Anton K
+Gural para ser o novo símbolo do FreeBSD.
+
+O lema do FreeBSD é "The Power to Serve", ou seja, "O Poder de servir"
+Apesar do lema remeter a algo relacionando com servidores ao que aparenta, o FreeBSD é um sistema para propósito de uso geral, ou seja, estação de trabalho, servidores etc
+O lema remete ao mascote como citado acima.
+
+O projeto FreeBSD teve seu nascimento no início de 1993, em parte como uma consequência do conjunto de manutenção não-oficial do 386BSD ("Unofficial 386BSD Patchkit")
+O primeiro lançamento oficial foi o FreeBSD 1.0 em dezembro de 1993, coordenado por Jordan Hubbard, Nate Williams e Rod Grimes.
+
+O objetivo original era produzir um snapshot intermediário do 386BSD, de forma a poder corrigir uma série de problemas com este sistema, que o mecanismo de manutenção não era capaz de resolver
+Alguns se lembrarão do nome inicial do projeto que era "386BSD 0.5" ou "386BSD Interim" em referência a este fato.
+
+386BSD era o sistema operacional de Bill Jolitz, que já estava naquele instante sofrendo quase um ano de negligência
+Como o mecanismo de manutenção patchkit se tornava mais e mais desconfortável a cada dia que passava, foi decidido que algo tinha que ser feito ao que ofereceram a ele este "snapshot" "interim"
+Tais planos foram bruscamente interrompidos quando Bill Jollitz decidiu repentinamente retirar sua sanção ao projeto sem nenhuma indicação clara do que deveria ser feito
+Não levou muito para ficar claro que o objetivo continuava a valer a pena, mesmo sem a ajuda de Bill, e foi adotado o nome "FreeBSD", sugerido por David Greenman.
+
+Os objetivos iniciais foram definidos depois de consultar os usuários recentes do sistema e, uma vez estando claro que o projeto estava na estrada para, talvez, tornar-se uma realidade, entraram em contato com a Walnut Creek CDROM, com o olho aberto à possibilidade de aperfeiçoar os canais de distribuição do FreeBSD para as pessoas que não tinham acesso à Internet
+Walnut Creek CDROM não apenas aprovou a idéia de distribuir o FreeBSD em CD, mas também foi mais longe, ao ponto de oferecer ao projeto uma máquina para trabalho dedicado e uma conexão rápida com a Internet
+Sem esta confiança, sem precedentes, da Walnut Creek CDROM no que era, naquele momento, um projeto completamente desconhecido, é muito provável que o FreeBSD não tivesse chegado tão longe e tão rápido ao ponto em que está hoje.
+
+A primeira distribuição em CDROM (e na Internet em geral) foi o FreeBSD 1.0, lançado em novembro de 1993
+Era baseado na fita 4.3BSD-Lite (Net/2) da Universidade da Califórnia, Berkeley ("U.C
+Berkeley"), com muitos componentes originados do 386BSD e da Fundação do Software Livre ("Free Software Foundation")
+Foi um sucesso razoavelmente grande para uma primeira aparição e continuaram o ciclo com uma versão altamente bem sucedida, o FreeBSD 1.1 release de maio de 1994.
+
+Por volta desta época (1994), conforme a Novell e U.C
+Berkeley acertaram ao longo do processo penal entre ambas, a respeito da situação legal da fita contendo o Net/2 de Berkeley
+Uma das condições do acordo eram as concessões da U.C
+Berkeley que implicava que grandes trechos do Net/2 fossem códigos "impedidos" e de propriedade da Novell, que havia por sua vez adquirido-os da AT&T algum tempo antes
+O que a Berkeley recebeu em retribuição foi a "bênção" da Novell para o lançamento da versão 4.4BSD-Lite que, quando acontecesse, seria declarado como "impedido" e todos os usuários do Net/2 seriam fortemente encorajados a mudar de sistema para a nova versão
+Isso incluiu o FreeBSD, ao projeto foi dado o prazo final de julho de 1994 para parar de distribuir seu produto baseado na versão Net/2
+Sob tais termos de acordo, o projeto poderia lançar uma última versão antes do prazo em questão, o que originou o FreeBSD 1.1.5.1.
+
+O FreeBSD definiu então a árdua tarefa de literalmente se reinventar a partir de um sistema completamente novo e consideravelmente incompleto, o 4.4BSD-Lite
+As versões "Lite" continham grandes blocos de código a menos, removidos pelo CSRG de Berkeley (devido a várias decisões legais), códigos necessários para a construção de um sistema inicializável e que podia ser utilizado em produção e o fato é, que a conversão do 4.4 para a plataforma Intel era altamente incompleta
+O projeto levou até novembro de 1994 para concluir esta transição, quando lançou a versão 2.0 do FreeBSD na rede mundial e em CDROM (em dezembro)
+Apesar de um pouco bruta naquele instante, a versão teve um sucesso significante, e foi seguida pelo FreeBSD 2.0.5, mais robusto e de mais fácil instalação, em junho de 1995.
+
+Foi lançado o FreeBSD 2.1.5 em agosto de 1996, que foi bastante popular entre os provedores de internet (ISP) e as empresas a ponto de justificar a viabilidade de outra versão no ramo 2.1-STABLE
+Esta versão foi o FreeBSD 2.1.7.1, lançado em fevereiro de 1997, que marcou o término do desenvolvimento mainstream do 2.1-STABLE
+Agora em manutenção, apenas aperfeiçoamentos de segurança e outras correções críticas são realizadas neste ramo (RELENG_2_1_0).
+
+O ramo 2.2 do FreeBSD foi iniciado a partir da série parcial de desenvolvimento ("-CURRENT") em novembro de 1996, foi intitulado ramo RELENG_2_2, e a primeira versão completa (2.2.1) foi lançada em abril de 1997
+Versões posteriores ao longo do ramo 2.2 foram criadas no verão e outono de 1998, sendo a última delas (2.2.8) lançada em novembro de 1998, marcando o início do fim do ramo 2.2.
+
+A árvore foi ramificada mais uma vez, em 20 de janeiro de 1999, iniciando os ramos 4.0-CURRENT e 3.X-STABLE
+A partir da 3.X-STABLE, a versão 3.1 foi lançada, em 15 de fevereiro de 1999; a versão 3.2 foi lançada em 15 de maio de 1999; a 3.3 em 16 de setembro de 1999; a versão 3.4 em 20 de dezembro de 1999, e a 3.5 em 24 de junho de 2000, que foi complementada um pouco depois com uma pequena atualização de segurança, o 3.5.1, que incorporava algumas correções de segurança de última hora para o Kerberos
+Esta se tornou a versão final para o ramo 3.X.
+
+Outro ramo foi iniciado em 13 de março de 2000, de forma emergencial na metade do ramo 4.X-STABLE, considerado agora o "ramo -STABLE corrente"
+Posteriormente houve várias versões desta série: 4.0-RELEASE foi apresentado ao mundo em março de 2000, e a versão mais recente, 4.10-RELEASE surgiu em maio de 2004
+Existiriam versões adicionais ao longo do ramo 4.X-STABLE (RELENG_4) ainda em 2003.
+
+A versão 5.0-RELEASE, muito aguardada, foi anunciada em 19 de janeiro de 2003
+O resultado culminante de aproximadamente três anos de trabalho, esta versão colocou o FreeBSD no caminho do suporte avançado a multiprocessamento simétrico, suporte avançado a aplicações "multithread" e apresentou ao público suporte às plataformas UltraSPARC e IA64
+Esta versão foi seguida pela 5.1 em junho de 2003
+Em novembro de 2005 foi lançada a versão 6.0, sendo melhorada até à versão 6.4, lançada em novembro de 2008.
+
+No ano de 2008 em fevereiro foi lançada a versão 7.0.
+
+A versão 8.0 foi lançada em novembro de 2009 e em junho de 2013 a 8.4.
+
+O lançamento da versão 9.0 foi feito em janeiro de 2012, desde setembro de 2013 está disponível a 9.2
+
+A última versão estável é a 10.0, havendo suporte para as versões 9.2 e 8.4, conhecidas como Legacy.
+

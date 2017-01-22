@@ -1,0 +1,81 @@
+Em eletrônica, um circuito integrado (também conhecido como CI, microchip ou chip) é um circuito eletrônico miniaturizado (composto principalmente por dispositivos semicondutores) sobre um substrato fino de material semicondutor.
+
+Os circuitos integrados são usados em quase todos os equipamentos eletrônicos usados hoje e revolucionaram o mundo da eletrônica.
+
+Um circuito integrado híbrido é um circuito eletrônico miniaturizado constituído de dispositivos semicondutores individuais, bem como componentes passivos, ligados a um substrato ou placa de circuito.
+
+Os circuitos integrados foram possíveis por descobertas experimentais que mostraram que os dispositivos semicondutores poderiam desempenhar as funções de tubos de vácuo, e desde meados do século XX, pelos avanços da tecnologia na fabricação de dispositivos semicondutores
+A integração de um grande número de pequenos transistores em um chip pequeno foi uma enorme melhoria sobre o manual de montagem de circuitos com componentes eletrônicos discretos
+A capacidade do circuito integrado de produção em massa, a confiabilidade e a construção de bloco de abordagem para projeto de circuito assegurou a rápida adaptação de circuitos integrados padronizados no lugar de desenhos utilizando transístores pequenos.
+
+Há duas principais vantagens de circuitos integrados sobre circuitos discretos: custo e desempenho
+O custo é baixo porque os chips, com todos os seus componentes, são impressos como uma unidade por fotolitografia: um puro cristal de silício, chamada de substrato, que são colocados em uma câmara
+Uma fina camada de dióxido de silício é depositada sobre o substrato, seguida por outra camada química, chamada de fotoresiste
+Além disso, muito menos material é usado para construir um circuito como um circuitos integrados do que como um circuito discreto
+O desempenho é alto, visto que os componentes alternam rapidamente e consomem pouca energia (em comparação com os seus homólogos discretos) porque os componentes são pequenos e estão próximos
+A partir de 2006, as áreas de chips variam de poucos milímetros quadrados para cerca de 350 mm², com até 1 milhão de transístores por mm².
+
+A ideia de um circuito integrado foi levantada por Geoffrey WA Dummer (1909-2002), um cientista que trabalhava para o "Royal Radar Establishment" (do Ministério da Defesa britânico)
+Dummer publicou a ideia em 7 de maio de 1952 no "Symposium on Progress in Quality Electronic Components" em Washington, D.C.
+Ele deu muitas palestras públicas para propagar suas ideias.
+
+O circuito integrado pode ser considerado como sendo inventado por Jack Kilby de Texas Instruments e Robert Noyce, da Fairchild Semiconductor, trabalhando independentemente um do outro
+Kilby registrou suas ideias iniciais sobre o circuito integrado em julho de 1958 e demonstrou com sucesso o primeiro circuito integrado em função em 12 de setembro de 1958 Em seu pedido de patente de 6 de fevereiro de 1959, Kilby descreveu o seu novo dispositivo como "a body of semiconductor material ..
+wherein all the components of the electronic circuit are completely integrated."
+
+Kilby ganhou em 2000 o Prêmio Nobel de Física por sua parte na invenção do circuito integrado
+Robert Noyce também veio com sua própria ideia de circuito integrado, meio ano depois de Kilby
+O "chip" de Noyce tinha resolvido muitos problemas práticos que o "microchip", desenvolvido por Kilby, não tinha
+O "chip" de Noyce, feito em Fairchild, era feito de silício, enquanto o "chip" de Kilby era feito de germânio.
+
+Marcante evolução do circuito integrado remontam a 1949, quando o engenheiro alemão Werner Jacobi (Siemens AG) entregou uma patente que mostrou o arranjo de cinco transístores em um semicondutor
+A utilização comercial de sua patente não foi relatado.
+
+A ideia de precursor da IC foi a criação de pequenos quadrados de cerâmica (pastilhas), cada um contendo um único componente miniaturizado
+Esta ideia, que parecia muito promissora em 1957, foi proposta para o Exército dos Estados Unidos por Jack Kilby
+No entanto, quando o projeto foi ganhando força, Kilby veio em 1958 com um design novo e revolucionário: o circuito integrado.
+
+Com os componentes de larga escala de integração, (do inglês: "Large Scale Integration", LSI), nos anos oitenta, e a integração em muito larga escala, ("Very-large-scale integration", VLSI), nos anos noventa, vieram os microprocessadores de alta velocidade de tecnologia MOS, que nada mais são que muitos circuitos integrados numa só mesa epitaxial.
+
+Atualmente a eletrônica está entrando na era da nanotecnologia
+Os componentes eletrônicos se comportam de maneiras diferentes do que na eletrônica convencional e microeletrônica, nestes a passagem de corrente elétrica praticamente não altera o seu estado de funcionamento
+Nos nanocomponentes, a alteração de seu estado em função da passagem de corrente deve ser controlada, pois existe uma sensibilidade maior às variações de temperatura, e principalmente à variações dimensionais
+Estas causam alterações nas medidas físicas do componente de tal forma, que podem vir a danificá-la
+Por isso a nanotecnologia é tão sensível sob o ponto de vista de estabilidade de temperatura e pressão.
+
+A importância da integração está no baixo custo e alto desempenho, além do tamanho reduzido dos circuitos aliado à alta confiabilidade e estabilidade de funcionamento
+Uma vez que os componentes são formados ao invés de montados, a resistência mecânica destes permitiu montagens cada vez mais robustas a choques e impactos mecânicos, permitindo a concepção de portabilidade dos dispositivos eletrônicos.
+
+No circuito integrado completo ficam presentes os transístores, condutores de interligação, componentes de polarização, e as camadas e regiões isolantes ou condutoras obedecendo ao seu projeto de arquitetura.
+
+No processo de formação do "chip", é fundamental que todos os componentes sejam implantados nas regiões apropriadas da pastilha
+É necessário que a isolação seja perfeita, quando for o caso
+Isto é obtido por um processo chamado difusão, que se dá entre os componentes formados e as camadas com o material dopado com fósforo, e separadas por um material dopado com boro, e assim por diante.
+
+Após sucessivas interconexões, por boro e fósforo, os componentes formados ainda são interconectados externamente por uma camada extremamente fina de alumínio, depositada sobre a superfície e isolada por uma camada de dióxido de silício.
+
+Dependendo do tamanho os circuitos integrados apresentam informações de identificação incluindo 4 seções comuns: o nome ou logotipo do fabricante, seu número, número do lote e/ou número serial e um código de 4 dígitos identificando a data da fabricação
+A data de fabricação é comumente representada por 2 dígitos do ano, seguido por dois dígitos informando a semana
+Exemplo do código 8341: O circuito integrado foi fabricado na semana 41 do ano de 1983, ou aproximadamente em outubro de 83.
+
+Desde que os circuitos integrados foram criados, alguns "designers" de "chips" tem usado a superfície de silício para códigos, imagens e palavras não funcionais
+Eles são algumas vezes referenciados como "chip art", "silicon art", "silicon graffiti" ou "silicon doodling".
+
+Na década de 80, foi criado o dispositivo lógico programável
+Esses dispositivos contêm um circuito com função lógica e conectividade que podem ser programados pelo usuário, ao contrário de ser fixada diretamente pelo fabricante do CI
+Isso permite que um único "chip" possa ser programado para implementar diferentes funções como portas lógicas, somadores e registradores
+Os dispositivos atualmente nomeados "Field Programmable Gate Arrays" (Arranjo de Portas Programável em Campo) podem agora implementar dezenas ou milhares de circuitos LSI em paralelo e operar acima de 550 MHz.
+
+As técnicas aperfeiçoadas pela indústria de circuitos integrados nas últimas três décadas têm sido usadas para criar máquinas microscópicas, conhecidos como sistemas microeletromecânicos (do inglês: "microelectromechanical systems", MEMS, ver também: microtecnologia)
+Esses dispositivos são usados em uma variedade de aplicações comerciais e militares
+Exemplo de aplicações comerciais incluem a tecnologia processamento digital de luz em videoprojetores, impressoras de jato de tinta e acelerômetros usados em "airbags" de automóveis.
+
+Desde 1998, um grande número de "chips" de rádios tem sido criado usando CMOS possibilitando avanços tecnológicos como o telefone portátil DECT da Intel ou o "chipset" 802.11 da empresa Atheros.
+
+As futuras criações tendem a seguir o paradigma dos processadores multinúcleo, já utilizados pelos processadores "dual-core" da Intel e AMD
+A Intel recentemente apresentou um protótipo não comercial, que tem 80 microprocessadores
+Cada núcleo é capaz de executar uma tarefa independentemente dos outros
+Isso foi em resposta do limite calor vs velocidade no uso de transístores existentes
+Esse design traz um novo desafio a programação de "chips"
+X10 é uma nova linguagem "open-source" criada para ajudar nesta tarefa.
+

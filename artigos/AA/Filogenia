@@ -1,0 +1,87 @@
+Em biologia, filogenia (ou filogênese) é o estudo da relação evolutiva entre grupos de organismos (por exemplo, espécies, populações), que é descoberto por meio de sequenciamento de dados moleculares e matrizes de dados morfológicos
+O termo "filogenética" deriva dos termos gregos "File" (φυλή) e "Filon" (φῦλον), denotando "tribo" e "raça", e o termo "genético" (γενετικός), denotando "em relação ao nascimento", da gênese (γένεσις) "origem" ou "nascimento"
+O resultado dos estudos filogenéticos é a história evolutiva dos grupos taxonômicos, ou seja, sua filogenia.
+
+Taxonomia, a classificação, identificação e designação dos organismos, é ricamente baseada em informações da filogenia, mas são metodologicamente distintas
+Os campos de filogenia com sobreposição na taxonomia forma a sistemática filogenética - Uma metodologia cladística com características derivadas (sinapomorfias) usadas ​​para encontrar o ancestral descendente na árvore (cladogramas e delimitam o taxon (clados)
+Na sistemática biológica como um todo, as análises "filogenéticas" tornaram-se essenciais na pesquisa da árvore evolucionária da vida.
+
+A evolução é considerada um processo de ramificação, onde as populações são alteradas ao longo do tempo e formam especiação em ramificações separadas, hibridizam juntas ou terminam em extinção
+Isto pode ser visualizado em uma árvore filogenética.
+
+O problema da filogenia é que os dados genéticos estão disponíveis apenas para taxons vivos e nos registros fósseis (dados osteometricos) contendo poucos dados e características morfológicas ambíguas
+Uma árvore filogenética representa uma hipótese da ordem dos eventos evolucionários ocorridos.
+
+Cladística é o atual método de escolha para inferir árvores filogenéticas
+Os métodos mais comumente usados ​​para inferir filogenias incluem máxima parcimônia, semelhanças e MCMC baseada em inferência bayesiana
+Fenética, popular no século XX, mas agora em grande parte obsoleto, usa Matriz de distâncias baseados em métodos para a construção de árvores baseadas em semelhanças globais, que muitas vezes assumem relações filogenéticas aproximadas
+Todos os métodos dependem de um modelo matemático explícito ou implícito que descreve a evolução das características observadas nas espécies e são normalmente utilizados pela Filogenética molecular, no qual os caracteres são alinhadas em sequências de nucleótidos ou aminoácidos.
+
+Existem alguns termos que descrevem a natureza de um agrupamento em tais árvores
+Por exemplo, todas as aves e répteis se acredita que descendem de um único ancestral comum, por isso este agrupamento taxonômico (amarelo no diagrama) é chamado monofilético
+Os "Répteis Modernos" (ciano no diagrama) é um agrupamento que contém um ancestral comum, mas não contém todos os descendentes desse ancestral (aves são excluídas)
+Este é um exemplo de um grupo parafilético
+Um agrupamento como animais de sangue quente que incluem mamíferos e aves (vermelho / laranja no diagrama) e é chamado polifilético porque não inclui o mais recente ancestral comum de seus membros.
+
+As conexões evolutivas entre organismos são representados graficamente através de árvores filogenéticas
+Devido ao fato da evolução ocorrer durante longos períodos de tempo algumas características não pode ser observadas diretamente, os biólogos devem reconstruir filogenias examinando marcadores genéticos comuns entre as espécies e levando a inferir as relações evolutivas entre organismos
+Fosseis podem ajudar com a reconstrução de filogenias, no entanto, os registros fósseis pode ter poucas informações para ajudar
+Portanto, os biólogos normalmente estão restrito a análise de organismos atuais para identificar as suas relações evolutivas
+As relações filogenéticas no passado foram reconstruídos olhando para fenótipos das características anatômicas
+Hoje em dia, dados moleculares, que inclui sequências de proteínas e de DNA, são utilizados para a construção de árvores filogenéticas.
+
+O objetivo da Fundação Nacional da Ciência é a montagem da árvore de atividade da vida e resolver as relações evolutivas dos grandes grupos de organismos ao longo da história da vida, com pesquisas que muitas vezes envolvem grandes equipes de trabalho entre as instituições e disciplinas.
+
+No final do século XIX, a Teoria da recapitulação de Ernst Haeckel ou a lei biogenética, foi amplamente aceita
+Esta teoria foi muitas vezes expressa como "ontogenia recapitula a filogenia", isto quer dizer, o desenvolvimento de um organismo reflete exatamente o desenvolvimento evolutivo da espécie
+Primeira versão de Haeckel desta hipótese é "o embrião espelha os adultos ancestrais evoluido", e já foi rejeitada
+A hipótese foi alterada para "o desenvolvimento do embrião é o espelhamento de seus ancestrais evolutivos"
+A maioria dos biólogos modernos reconhecem numerosas conexões entre a ontogenia e filogenia, explicam usando a biologia evolutiva do desenvolvimento ou mostrando como evidência de apoio a essa teoria
+Donald I
+Williamson sugeriu que as larvas e embriões representam adultos em outros táxons que foram transferidos por hibridação (a teoria da transferência das larvas)
+A opinião de Williamson não representa o pensamento dominante na biologia molecular, e há muitas evidências significativas contra a teoria da transferência das larvas.
+
+Em geral, os organismos podem herdar genes de duas formas: "transferência vertical de genes" e transferência horizontal de genes
+Transferência gênica vertical é a passagem de genes de pais para filhos e transferência horizontal de genes ou "transferência lateral de genes" ocorre quando os genes saltam entre organismos não relacionados, um fenômeno comum em procariontes, um bom exemplo disso é a resistência adquirida aos antibióticos como resultado do intercâmbio de gene entre algumas bactérias e o desenvolvimento de múltiplas drogas resistentes para estas bactérias.
+
+Transferência horizontal de genes tem complicado a determinação da filogenia de organismos e inconsistências na filogenia foram relatadas entre grupos específicos de organismos, dependendo dos genes usados ​​para a construção da árvore evolutiva.
+
+"Carl Woese" surgiu com a teoria dos três domínios da vida (archaea, eubactérias e Eucariotos) com base na sua descoberta de que os genes que codificam o RNA ribossômico são antigos e seus ancestrais tranferiram genes e houve transferência de genes com pouco ou nenhum horizontalidade
+Portanto, rRNAs são comumente recomendados como relógios moleculares para reconstruir filogenias.
+
+Isto é particularmente útil para a filogenia de microorganismos, para a qual o conceito de espécie não se aplica e que são morfologicamente simples de classificar com base em características fenotípicas.
+
+Devido ao desenvolvimento de técnicas avançadas de sequenciação em biologia molecular, tornou-se possível recolher grandes quantidades de dados (DNA ou sequências de aminoácidos) para inferir hipóteses filogenéticas
+Não é raro encontrar estudos com matrizes de caracteres baseados em genomas mitocondriais (~ 16.000 nucleotídeos, em muitos animais)
+No entanto, tem sido proposto que isso aumenta do número de taxons na matriz do que aumenta o número de caracteres, porque quanto mais taxons mais robusta é a árvore filogenética resultante.
+
+Isto pode ser em parte devido à ruptura de atração de ramificações longas
+Tem sido argumentado que esta é uma razão importante para incorporar dados de fosseis em filogenias sempre que possível
+Naturalmente, os dados que incluem os taxons filogenéticos fóssil são geralmente baseadas na morfologia, em vez de dados de DNA
+Usando simulações, Derrick Zwickl e David Hillis descobriram que o aumento de amostragem de taxon em inferência filogenética tem um efeito positivo sobre a precisão das análises filogenéticas.
+
+Outro fator importante que afeta a precisão da reconstrução da árvore consiste em saber se os dados analisados ​​na verdade contêm um sinal "filogenético útil", um termo que é usado geralmente para indicar se os organismos relacionados tendem a assemelhar-se com o seu material genético ou características fenotípicas
+Em última análise, não há nenhuma maneira de medir se uma hipótese filogenética é precisa ou não, a menos que as verdadeiras relações entre os táxons examinados já são conhecidas
+O melhor resultado na sistemática pode ser alcançada na árvore com galhos bem suportados em evidências disponíveis.
+
+Quanto mais dados estão disponível na construção de uma árvore, o mais precisa será a árvore resultante
+A falta de dados é mais prejudicial do que ter menos dados, embora o seu impacto é maior quando a maioria dos dados em falta é de um pequeno número de táxons
+Concentrar os dados faltantes em um pequeno número de caráter produz uma árvore mais robusta.
+
+Muitas características morfológicas embrionárias e tecidos moles não podem ser fossilizados e torna a interpretação dos fósseis mais difíceis do que os táxons vivos
+Isso às vezes torna difícil incorporar dados de fósseis à filogenia
+No entanto, apesar destas limitações, a inclusão dos fósseis é de valor inestimável, para fornecer informações em áreas esparsas da árvore
+Quebrando galhos longos e restringindo estados de caráteres intermediários
+Assim os táxons fósseis contribuem tanto para resolver a árvore como os táxons modernos vivos
+Fósseis também pode restringir a idade das linhagens e demonstrar como uma árvore é consistente com o registro estratigráfico.
+
+Filogenias moleculares podem revelar a quantidade da diversificação, mas para definir a quantidade de taxons que se originaram ou se extinguiram, os dados devem ser trazidos dos fósseis
+As técnicas moleculares assumem uma quantidade constante de diversificação, que provavelmente e raramente seja verdade
+No alguns casos, os pressupostos da interpretação do registro fóssil (por exemplo, um registro completo e imparcial) estão mais perto de ser verdadeiros que a hipótese de uma taxa constante, fazendo as descobertas dos fósseis mais precisas do que as reconstruções moleculares.
+
+Certos caracteres tem mais peso que outros e alguns caracteres devem ter menos pêso na reconstrução de uma árvore
+Infelizmente, o único modo objetivo para determinar a importância é pela construção de uma árvore
+Mesmo assim, os caracteres de ponderação homoplasicas conduzem a um melhor suporte nas árvores
+Refinamento adicional pode ser trazido por mudanças de ponderação e alteração em outras
+Por exemplo, a presença de asas torácicas quase garante a colocação de um inseto entre os pterygota, embora as asas sejam frequentemente perdidas, a sua ausência não exclui o taxon do grupo.
+

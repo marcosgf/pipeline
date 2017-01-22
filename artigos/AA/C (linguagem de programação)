@@ -1,0 +1,198 @@
+C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela ISO, criada em 1972, por Dennis Ritchie, no AT&T Bell Labs, para desenvolver o sistema operacional Unix (que foi originalmente escrito em Assembly).
+
+C é uma das linguagens de programação mais populares e existem poucas arquiteturas para as quais não existem compiladores para C
+C tem influenciado muitas outras linguagens de programação, mais notavelmente C++, que originalmente começou como uma extensão para C.
+
+O desenvolvimento inicial de C ocorreu no AT&T Bell Labs entre 1969 e 1973
+de acordo com Ritchie, o período mais criativo ocorreu em 1972
+A linguagem foi chamada "C", porque suas características foram obtidas a partir de uma linguagem anteriormente chamado de "B", que de acordo com a Ken Thompson era versão reduzida da linguagem de programação BCPL.
+
+A versão original PDP-11 do sistema Unix foi desenvolvido em assembly
+Em 1973, com a adição dos tipos codice_1, a linguagem C tornou-se poderosa o suficiente para que a maior parte do "kernel" do Unix fosse reescrito em C
+Este foi um dos primeiros núcleos de sistemas operacionais implementados numa linguagem diferente da linguagem "Assembly"
+Em 1977, foram feitas novas mudanças por Ritchie e Stephen C
+Johnson para facilitar a portabilidade do sistema operacional Unix
+O "Portable C Compiler" de Johnson serviu de base para várias implementações de C em novas plataformas.
+
+A linguagem C não teve um sucesso imediato após a sua criação e o seu uso ficou restrito a alguns laboratórios, mas em 1978 Brian Kernighan e Dennis Ritchie lançam o livro "The C Programming Language"
+que serviu de tutorial e mudou a história da programação em C
+De fato essa primeira versão da linguagem é conhecida como "C Kernigham e Ritchie" ou apenas "C K&R".
+
+Esse livro, conhecido pelos programadores de C como "K&R", serviu durante muitos anos como uma especificação informal da linguagem
+A versão da linguagem C que ele descreve é usualmente referida como "K&R C"
+A segunda edição do livro cobriu o padrão posterior, o "ANSI C"
+K&R C introduziu as seguintes características na linguagem:
+
+K&R C é frequentemente considerado a parte mais básica da linguagem, cujo suporte deve ser assegurado por um compilador C
+Durante muitos anos, mesmo após a introdução do padrão ANSI C, K&R C foi considerado o "menor denominador comum", em que programadores de C se apoiavam quando uma portabilidade máxima era desejada, já que nem todos os compiladores eram actualizados o bastante para suportar o padrão ANSI C.
+
+Nos anos que se seguiram à publicação do K&R C, algumas características "não-oficiais" foram adicionadas à linguagem, suportadas por compiladores da AT&T e de outros vendedores
+Estas incluíam:
+
+Durante os finais da década de 1970, a linguagem C começou a substituir a linguagem BASIC como a linguagem de programação de microcomputadores mais usada
+Durante a década de 1980, foi adaptada para uso no PC IBM, e a sua popularidade começou a aumentar significativamente
+Ao mesmo tempo, Bjarne Stroustrup, juntamente com outros nos laboratórios Bell, começou a trabalhar num projecto onde se adicionavam extras para programação orientada por objectos à linguagem C
+A linguagem que eles produziram, chamada C++, é nos dias de hoje a linguagem de programação de aplicações mais comum no sistema operativo Windows da companhia Microsoft
+A linguagem C permanece a mais popular no mundo Unix.
+
+Em 1983, o instituto norte-americano de padrões (ANSI) formou um comité, X3J11, para estabelecer uma especificação do padrão da linguagem C
+Após um processo longo e árduo, o padrão foi completo em 1989 e ratificado como ANSI X3.159-1989 "Programming Language C"
+Esta versão da linguagem é frequentemente referida como ANSI C
+Em 1990, o padrão ANSI C, após sofrer umas modificações menores, foi adotado pela Organização Internacional para Padronização (ISO) como ISO/IEC 9899:1990, também conhecido como C89 ou C90
+Um dos objetivos do processo de padronização ANSI C foi o de produzir um sobreconjunto do K&R C, incorporando muitas das características não-oficiais subsequentemente introduzidas
+Entretanto, muitos programas tinham sido escritos e que não compilavam em certas plataformas, ou com um certo compilador, devido ao uso de bibliotecas de funções não-padrão e ao fato de alguns compiladores não aderirem ao ANSI C.
+
+Após o processo da padronização ANSI, as especificações da linguagem C permaneceram relativamente estáticas por algum tempo, enquanto a linguagem C++ continuou a evoluir
+(em 1995, a "Normative Amendment 1" criou uma versão nova da linguagem C mas esta versão raramente é tida em conta.) Contudo, o padrão foi submetido a uma revisão nos finais da década de 1990, levando à publicação da norma ISO 9899:1999 em 1999
+Este padrão é geralmente referido como "C99" e foi adoptado como um padrão ANSI em março de 2000
+As novas características do C99 incluem:
+
+O interesse em suportar as características novas de C99 parece depender muito das entidades
+Apesar do GCC e vários outros compiladores suportarem grande parte das novas características do C99, os compiladores mantidos pela Microsoft e pela Borland suportam pouquíssimos recursos do C99, e estas duas companhias não parecem estar muito interessadas em adicionar tais funcionalidades, ignorando por completo as normas internacionais
+A Microsoft parece preferir dar mais ênfase ao C++.
+
+Em 2007, se iniciou o trabalho em antecipação de outra revisão do padrão de C, informalmente chamada de C11 ou C1X
+O comitê dos padrões de C adotou regras para limitar a inserção de novos recursos que não tenham ainda sido testados por implementações existentes.
+
+Em dezembro de 2011 foi publicada a versão estável da especificação, como ISO/IEC 9899:2011.
+
+C é uma linguagem imperativa e procedural, para implementação de sistemas
+Seus pontos de design foram para ele ser compilado, fornecendo acesso de baixo nível à memória e baixos requerimentos do hardware
+Também foi desenvolvido para ser uma linguagem de alto nível, para maior reaproveitamento do código
+C foi útil para muitas aplicações que foram codificadas originalmente em Assembly.
+
+Essa propriedade não foi acidental; a linguagem C foi criada com o objectivo principal em mente: facilitar a criação de programas extensos com menos erros, recorrendo ao paradigma da programação procedural, mas sobrecarregando menos o autor do compilador, cujo trabalho complica-se ao ter de realizar as características complexas da linguagem
+Para este fim, a linguagem C possui as seguintes características:
+
+Algumas características úteis, que faltam em C, podem ser encontradas em outras linguagens, que incluem:
+
+Apesar da lista de características úteis que C possui não ser longa, isso não tem sido um impedimento à sua aceitação, pois isso permite que novos compiladores de C sejam escritos rapidamente para novas plataformas, e também permite que o programador permaneça sempre em controle do que o programa está a fazer
+Isto é o que por várias vezes permite o código de C correr de uma forma mais eficiente que muitas outras linguagens
+Tipicamente, só código de Assembly "afinado à mão" é que corre mais rapidamente, pois possui um controle completo da máquina, mas avanços na área de compiladores juntamente com uma nova complexidade nos processadores modernos permitiram que a diferença tenha sido rapidamente eliminada.
+
+Uma consequência da aceitação geral da linguagem C é que frequentemente os compiladores, bibliotecas e até intérpretes de outras linguagens de nível maior sejam eles próprios implementados em C.
+
+C tem como ponto forte, a sua eficiência, e é a linguagem de programação preferida para o desenvolvimento de sistemas e softwares de base, apesar de também ser usada para desenvolver programas de computador
+É também muito usada no ensino de ciência da computação, mesmo não tendo sido projetada para estudantes e apresentando algumas dificuldades no seu uso
+Outra característica importante de C, é sua proximidade do código de máquina, que permite que um projetista seja capaz de fazer algumas previsões de como o software irá se comportar, ao ser executado.
+
+C tem como ponto fraco, a falta de proteção que dá ao programador
+Praticamente tudo que se expressa em um programa em C, pode ser executado, como por exemplo, pedir o vigésimo membro de um vetor com apenas dez membros
+Os resultados são muitas vezes totalmente inesperados, e os erros, difíceis de encontrar.
+
+C tem um sistema de tipos semelhante ao de alguns descendentes da linguagem ALGOL, tais como Pascal
+Possui tipos para números inteiros de vários tamanhos com e sem sinal, números de ponto flutuante, caracteres e estruturas (codice_1s).
+
+C usa extensivamente ponteiros, um tipo muito simples de referência que guarda o endereço de memória da variável
+O ponteiro pode ser "desreferenciado", uma operação que busca o objeto que se encontra na morada da memória que o ponteiro possui, morada essa que pode ser manipulada através de aritmética de ponteiros
+Durante o tempo de execução, o ponteiro é simplesmente uma morada de máquina tais como aquelas manipuladas em "Assembly", mas em tempo de compilação possui um tipo complexo que indica o tipo do objecto para onde ele aponta, permitindo que se verifique o tipo de expressões, incluindo ponteiros
+O tipo "string" (cadeia ou linha de texto) de C é simplesmente um ponteiro para um vetor de caracteres e alocação dinâmica de memória, descrita abaixo, é efetuada através de ponteiros.
+
+Os ponteiros em C possuem um valor reservado especial, codice_27, que indica que não estão a apontar para uma morada
+O uso desse valor como morada é muito útil na construção de várias estruturas de dados, mas causa comportamento não-definido (possivelmente uma falha de sistema) ao ser desreferenciado
+Um ponteiro que possui o valor codice_27 é chamado "ponteiro nulo"
+Os ponteiros são declarados (e desreferenciados) com um * (asterisco), portanto o tipo "int*" denota um ponteiro para número(s) inteiro(s)
+A linguagem C também fornece um tipo especial de ponteiros, o "void*", que se traduz num ponteiro que aponta para um objeto de tipo desconhecido.
+
+A linguagem C também tem apoio em nível de linguagem para vetores estáticos (de dimensão fixa) de tipos
+As disposições de tipos podem parecer ter mais que uma dimensão apesar de serem tecnicamente disposições de disposições de tipos
+Em memória, tais estruturas são posicionadas com as linhas uma depois da outra (a alternativa seria armazenar os dados em colunas, usado em outras linguagens)
+O acesso a disposições de tipos é feito através de ponteiros e aritmética de ponteiros; o nome da disposição é tratado como se fosse um ponteiro que aponta para o início da disposição
+Em certas aplicações não é razoável usarem-se disposições de tipos de dimensão fixa e por isso a alocação dinâmica de memória pode ser usada para criar disposições de tipos de dimensão variável.
+
+Como a linguagem C é regularmente usada em programação de baixo-nível de sistemas, há casos em que é necessário tratar um número inteiro como sendo um ponteiro, um número de ponto flutuante como sendo um número inteiro ou um tipo de ponteiro como sendo outro
+Para estes casos, a linguagem C fornece a capacidade de "moldagem" (também denominado "conversão de tipo" ou "casting"), uma operação que, caso seja possível, força a conversão de um objeto de um tipo para outro
+Apesar de ser por vezes necessário, o uso de conversões de tipo sacrifica alguma segurança oferecida pelo sistema de tipos.
+
+O tipo de dado int (inteiro) serve para armazenar valores numéricos inteiros
+Existem vários tipos de inteiros, cada um de um tamanho diferente (dependendo do sistema operacional e/ou arquitetura do processador):
+
+Todos estes tipos de inteiros podem ainda ser declarados precedidos da cláusula "unsigned", o que faz com que só suporte números positivos
+Isto faz com que, com o mesmo tamanho, uma variável suporte mais números positivos do que um "signed" (todos os inteiros são signed por omissão).
+
+O tipo char ocupa 1 byte, e serve para armazenar caracteres ou inteiros
+Isso significa que o programa reserva um espaço de 8 bits na memória RAM ou em registradores do processador para armazenar um valor (char de tamanho maior que 8 bits é permitido pela linguagem, mas os casos são raros)
+Com vetores do tipo char é possível criar cadeias de caracteres (strings).
+
+O tipo de dado float serve para armazenar números de ponto flutuante, ou seja, com casas decimais
+O padrão mais utilizado nos últimos 10 anos é o IEEE 754-1985.
+
+O tipo de dado double serve para armazenar números de ponto flutuante de dupla precisão, normalmente tem o dobro do tamanho do float e portanto o dobro da capacidade
+O padrão mais adotado também é o IEEE 754-1985.
+
+Em C podem ser usadas estruturas (chamados de registos em outras linguagens de programação)
+As estruturas são grupos de variáveis organizadas arbitráriamente pelo programador
+Uma estrutura pode criar um novo tipo de variável caso typedef seja usado em sua declaração.
+
+A linguagem de programação C++ foi originalmente derivada do C para suportar programação orientada a objetos
+À medida que as linguagens C e C++ foram evoluindo independentemente, a divisão entre as duas veio a aumentar.
+
+O padrão C99 criou um número de características que entram em conflito
+Hoje, as principais diferenças entre as duas linguagens são:
+
+Algumas características originalmente desenvolvidas em C++ também apareceram em C
+Entre elas encontram-se:
+
+A seguinte aplicação foi publicada na primeira edição de C de K&R, e tornou-se no programa de introdução padrão da maior parte dos livros sobre C
+O programa envia o texto "Olá, Mundo!" para a saída padrão, que é normalmente o console, mas que também pode ser um ficheiro (ou arquivo), um outro dispositivo qualquer, ou até mesmo um "bit bucket", dependendo de como a saída-padrão é mapeada na altura em que o programa é executado.
+
+int main(void)
+
+Apesar do programa acima correr corretamente, atualmente origina algumas mensagens de aviso quando compilado como C ANSI
+Essas mensagens podem ser eliminadas efectuando umas pequenas alterações no programa original:
+
+int main(void)
+
+/* Nova linha após fechar a chave principal */
+
+A primeira linha do programa é uma diretiva de pré-processamento codice_39, que causa com que o pré-processador substitua aquela linha pela totalidade do conteúdo do arquivo qual diretiva se refere
+Neste caso o arquivo padrão codice_40 (que contém protótipos de funções para trabalho com entrada e saída) irá substituir a linha
+Os caracteres codice_41 e codice_42 indicam que o arquivo stdio.h encontra-se no local em que, quando da configuração do compilador, se definiu como padrão para localização dos ficheiros de inclusão ("header files", geralmente com a extensão ".h").
+
+A linha (não-vazia) seguinte indica que uma função denominada "main" será definida
+A função "main" tem um significado especial nos programas em C, pois é a função que é inicialmente executada (em inglês, "entry point")
+Os caracteres codice_43 e codice_44 delimitam a extensão da função
+O termo codice_29 define a função "main" como sendo uma função que retorna um número inteiro
+O termo codice_12 indica que a função não aceita parâmetros
+A função "main", normalmente aceita parâmetros, que são passado pela linha de comando
+Os compiladores e sistemas operacionais atuais reconhecem as seguintes declarações de main:
+
+int main(void);
+
+int main(int argc, char *argv[]);
+
+int main(int argc, char **argv);
+
+A linha seguinte "chama", ou executa uma função chamada codice_47; o arquivo incluído, codice_40, contém a informação que descreve a forma como a função codice_47 deve ser chamada
+Nesta chamada, é passado à função codice_50 um único argumento, a linha de texto constante "Olá, Mundo!"
+A função codice_47 retorna um valor, um codice_29, mas como não é usado, é descartado pelo compilador
+O comando codice_53 retorna o valor 0 para o sistema, que é interpretado pelo mesmo como que a função main() foi executada e encerrada com sucesso (sem erros)
+Por fim, o caracter codice_44 indica o fim da função codice_55
+Note-se que texto rodeado por codice_56 e codice_57 (comentários de texto) é ignorado pelo compilador
+Os compiladores que obedecem à norma C99 também aceitam como comentários as linhas de texto que são precedidos por codice_23.
+
+O seguinte código realiza seis operações matemáticas, adição, subtração, multiplicação, divisão, exponenciação e radiciação, e em seguida envia os seus respectivos resultados para a saída padrão (normalmente o console).
+
+int main()
+
+No exemplo seguinte, é criada uma estrutura composta por 3 elementos de tipos diferentes
+Após ser declarada uma variável "x" do tipo struct "y", onde "y" é o nome da estrutura, para se acessar os elementos usa-se a seguinte sintaxe: codice_59.
+
+struct Pessoa
+
+int main()
+
+Ou, equivalente:
+
+typedef struct Pessoa
+
+} Pessoa;
+
+int main()
+
+O exemplo que se segue apresenta código C de baixo-nível, as funções read e write
+Neste programa vamos ler de N para buf, blocos de bufsize neste caso 1024, para O
+Quando n for igual a 0, é porque a leitura acabou, sai do ciclo while e libera a memória ocupada por buf.
+
+int main(void)
+

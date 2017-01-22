@@ -1,0 +1,190 @@
+Em ciência da computação, uma expressão regular (ou o estrangeirismo regex, abreviação do inglês "regular expression") provê uma forma concisa e flexível de identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrões de caracteres
+Expressões regulares são escritas numa linguagem formal que pode ser interpretada por um processador de expressão regular, um programa que serve um gerador de analisador sintático ou examina o texto e identifica as partes que casam com a especificação dada.
+
+O termo deriva do trabalho do matemático norte-americano Stephen Cole Kleene, que desenvolveu as expressões regulares como uma notação ao que ele chamava de álgebra de conjuntos regulares
+Seu trabalho serviu de base para os primeiros algoritmos computacionais de busca, e depois para algumas das mais antigas ferramentas de tratamento de texto da plataforma Unix.
+
+O uso atual de expressões regulares inclui procura e substituição de texto em editores de texto e linguagens de programação, validação de formatos de texto (validação de protocolos ou formatos digitais), realce de sintaxe e filtragem de informação.
+
+Uma expressão regular (ou, um padrão) descreve um conjunto de cadeias de caracteres, de forma concisa, sem precisar listar todos os elementos do conjunto
+Por exemplo, um conjunto contendo as cadeias ""Handel", "Händel" e "Haendel" pode ser descrito pelo padrão codice_1
+A maioria dos formalismos provê pelo menos três operações para construir expressões regulares.
+
+A primeira delas é a alternância, em que uma barra vertical (codice_2) separa alternativas
+Por exemplo, codice_3 pode casar "psicadélico" ou "psicodélico"
+A segunda operação é o agrupamento, em que parênteses (codice_4, codice_5) são usados para definir o escopo e a precedência de operadores, entre outros usos
+Por exemplo, codice_3 e codice_7 são equivalentes e ambas descrevem "psicadélico" e "psicodélico"
+Por fim, a terceira operação é a quantificação (ou repetição)
+Um quantificador após um "token" (como um caractere) ou um agrupamento especifica a quantidade de vezes que o elemento precedente pode ocorrer
+Os quantificadores mais comuns são codice_8, codice_9 e codice_10
+O ponto de interrogação indica que há zero ou uma ocorrência do elemento precedente
+Por exemplo, codice_11 casa tanto "acção" quanto "ação"
+Já o asterisco indica que há zero ou mais ocorrências do elemento precedente
+Por exemplo, codice_12 casa "ac", "abc", "abbc", "abbbc", e assim por diante
+Por fim, o sinal de adição indica que há uma ou mais ocorrências do elemento precedente
+Por exemplo, codice_13 casa "abc", "abbc", "abbbc", e assim por diante, mas não "ac"".
+
+Essas construções podem ser combinadas arbitrariamente para formar expressões complexas, assim como expressões aritméticas com números e operações de adição, subtração, multiplicação e divisão
+De forma geral, há diversas expressões regulares para descrever um mesmo conjunto de cadeias de caracteres
+A sintaxe exata da expressão regular e os operadores disponíveis variam entre as implementações.
+
+A origem das expressões regulares estão na teoria dos autômatos e na teoria das linguagens formais, e ambas fazem parte da teoria da computação
+Esses campos estudam modelos de computação (autômatas) e formas de descrição e classificação de linguagens formais
+Na década de 1950, o matemático Stephen Cole Kleene descreveu tais modelos usando sua notação matemática chamada de "conjuntos regulares", formando a álgebra de Kleene
+A linguagem SNOBOL foi uma implementação pioneira de casamento de padrões, mas não era idêntica às expressões regulares
+Ken Thompson construiu a notação de Kleene no editor de texto QED como uma forma de casamento de padrões em arquivos de texto
+Posteriormente, ele adicionou essa funcionalidade no editor de texto Unix ed, que resultou no uso de expressões regulares na popular ferramenta de busca grep
+Desde então, diversas variações da adaptação original de Thompson foram usadas em Unix e derivados, incluindo expr, AWK, Emacs, vi e lex.
+
+As expressões regulares de Perl e Tcl foram derivadas da biblioteca escrita por Henry Spencer, e no Perl a funcionalidade foi expandida posteriormente
+Philip Hazel desenvolveu a PCRE (Perl Compatible Regular Expressions), uma biblioteca usada por diversas ferramentas modernas como PHP e o servidor Apache
+Parte do desenvolvimento do Perl 6 foi melhorar a integração das expressões regulares de Perl, e aumentar seu escopo e funcionalidade para permitir a definição de gramáticas de expressão de analisadores sintáticos
+O resultado foi uma mini-linguagem, as regras do Perl 6, usada para definir a gramática do Perl 6 assim como fornecer uma ferramenta para programadores da linguagem
+Tais regras mantiveram as funcionalidades de expressões regulares do Perl 5.x, mas também permitiram uma definição BNF de um analisador sintático descendente recursivo.
+
+O uso de expressões regulares em normas de informação estruturada para a modelagem de documentos e bancos de dados começou na década de 1960, e expandiu na década de 1980 quando normas como a ISO SGML foram consolidadas.
+
+Expressões regulares podem ser expressas através da teoria de linguagens formais
+Elas consistem de constantes e operadores que denotam conjuntos de cadeias de caracteres e operações sobre esses conjuntos, respectivamente
+Dado um alfabeto finito Σ, as seguintes constantes são definidas:
+
+As seguintes operações são definidas:
+
+As constantes e os operadores acima formam a álgebra de Kleene.
+
+Para evitar parênteses, é assumido que o fecho de Kleene possui a maior prioridade, depois a concatenação e por fim a alternância
+Se não houver ambiguidades, os parênteses podem ser omitidos
+Por exemplo, codice_14 pode ser escrito como codice_15, e codice_16 pode ser escrito como codice_17.
+
+A definição formal de expressões regulares é concisa e evita a utilização dos quantificadores redundantes codice_8 e codice_10, que podem ser expressados respectivamente por codice_23 e codice_24
+Por vezes o operador de complemento ~ é adicionado; ~"R" denota o conjunto das cadeias de caracteres de Σ* que não estão em "R"
+Esse operador é redundante, e pode ser expressado usando outros operadores, apesar da computação para tal representação ser complexa.
+
+Expressões regulares podem expressar linguagens regulares, a classe de linguagens aceita por um autômato finito
+Entretanto, há uma diferença significativa na compactação
+Algumas classes de linguagens regulares podem ser descritas somente por autômatos que crescem exponencialmente em tamanho, enquanto o tamanho das expressões regulares requeridas só pode crescer linearmente
+Expressões regulares correspondem ao Tipo-3 das gramáticas da Hierarquia de Chomsky
+Por outro lado, existe um mapeamento simples de expressões regulares para máquinas de estado finito não-determinísticas que não leva ao crescimento desgovernado do tamanho
+Por essa razão, essas máquinas não determinísticas são geralmente usadas como representação alternativa das expressões regulares.
+
+É possível escrever um algoritmo que, para duas expressões regulares dadas, decide se as linguagens descritas são essencialmente iguais
+Reduz-se cada expressão na máquina de estado finito mínima, e determina-se se ambas as máquinas mínimas são isomórficas (equivalentes).
+
+Vale notar que diversas implementações de expressões regulares implementam funcionalidades que não podem ser expressadas na álgebra de Kleene; ver abaixo mais sobre o assunto.
+
+De 1986, a norma IEEE POSIX 1003.2 (POSIX.2) padroniza expressões regulares, e fornece duas especificações, a saber: o conjunto básico (BRE) e o conjunto estendido (ERE).
+
+A sintaxe tradicional de expressões regulares em Unix seguiu convenções comuns, mas diferiu entre as implementações
+A norma IEEE POSIX BRE ("Basic Regular Expressions", do inglês, expressões regulares básicas) foi desenvolvida primordialmente por compatibilidade com a sintaxe tradicional, mas fornecia uma norma comum que desde então foi adotada por diversas ferramentas.
+
+Na sintaxe de BRE, a maioria dos caracteres são tratados como literais — eles casam somente com eles próprios (por exemplo, codice_25 casa "a")
+As exceções são chamadas metacaracteres ou metassequências, definidos abaixo:
+
+Uma característica da BRE é que os metacaracteres geralmente exigem barras invertidas para serem tratador como tal
+Por exemplo, em BRE, codice_26 é composto somente por literais, e casará somente "a{1,2}""
+Para casar entre uma a duas ocorrências de "a", deve-se usar a expressão regular codice_27
+A motivação desse sistema é a compatibilidade com sistemas antigos, já que na época da padronização já havia código Unix legado que usava chaves como literais.
+
+O significado dos metacaracteres serem escapados com a barra invertida é revertido na sintaxe POSIX ERE ("Extended Regular Expression", do inglês, expressões regulares estendidas)
+Isso significa que não são usadas barras invertidas para identificar metacaracteres
+Pelo contrário, elas servem justamente para transformar metacaracteres em literais
+Retomando o exemplo da seção anterior, em ERE, codice_26 casa uma a duas ocorrências de "a", enquanto codice_27 casa o literal "a{1,2}".
+
+Os seguintes metacaracteres foram adicionados:
+
+Ferramentas que adotaram a sintaxe incluem MySQL e PHP, esta, que suporta também as derivações de Perl no modelo do PCRE.
+
+Já que diversos grupos de caracteres dependem duma configuração de locale específica, a POSIX define algumas classes (ou categorias) de caracteres para fornecer um método padrão de acesso a alguns grupos específicos de caracteres bastante utilizados, como mostrado na seguinte tabela:
+
+Notar que as doze classes definidas acima também estão definidas na biblioteca padrão do C, na seção de funções de testes de caracteres do cabeçalho codice_30.
+
+Tais classes só podem ser usadas dentro de expressões de listas de caracteres
+Diferentes locales podem fornecer classes adicionais
+Uma extensão não POSIX difundida é codice_31 (atalho do Perl codice_32), geralmente definida como codice_33 ou traço baixo (codice_34) e codice_35, contendo somente caracteres ASCII (codice_36).
+
+Pode-se negar uma classe de caracteres precedendo um acento circunflexo ao nome da classe
+Por exemplo, para negar codice_37 usa-se codice_38.
+
+A norma POSIX define ainda dois metacaracteres especiais que servem para casar os limites de palavras nas cadeias de caracteres
+Nesse contexto da POSIX, uma palavra é formada por caracteres codice_33 ou traço baixo (codice_34)
+Assim como as âncoras, esses metacaracteres não casam pedaços do texto, elas servem apenas como uma referência
+Eles são:
+
+Perl possui uma sintaxe mais consistente e rica que as normas POSIX BRE e ERE
+Um exemplo é que codice_41 sempre escapa um caractere não alfanumérico
+Devido ao poder de expressão, outras ferramentas adotaram a sintaxe do Perl, como por exemplo Java, JavaScript, PCRE, Python, Ruby e .NET
+Algumas linguagens e ferramentas como PHP suportam diversos tipos de expressões regulares.
+
+Um exemplo de funcionalidade possível em Perl mas não em POSIX é a quantificação preguiçosa
+Os quantificadores padrões das expressões regulares são "gananciosos", isto é, casam o quanto puderem, voltando atrás somente se necessário para casar o resto da expressão regular
+Por exemplo, um novato no assunto tentando encontrar a primeira instância de um item entre os símbolos < e > no texto ""Outra explosão ocorreu em <26 de janeiro> de <2004>" provavelmente usaria o padrão codice_42, ou similar
+Entretanto, esse padrão retornará "<26 de janeiro> de <2004>" ao invés de "<26 de janeiro>", como esperado, pois o quantificador codice_9 é ganancioso — ele consumirá a quantidade máxima de caracteres, e "26 de janeiro> de <2004" possui mais caracteres que "26 de janeiro".
+
+Apesar desse problema ser evitável de diferentes formas (por exemplo, especificando o que não casar: codice_44), a maioria das ferramentas permitem que um quantificador seja preguiçoso, ou não ganancioso, ao suceder o quantificador com um ponto de interrogação
+No exemplo anterior, a alternativa seria codice_45
+Seguem os quantificadores não gulosos:
+
+O PERL define algumas sequências de escape que servem como atalhos para certos metacaracteres:
+
+Além dos quantificadores preguiçosos e das novas sequências de escape, o Perl também adicionou uma forma nova de casamento de padrões que estendem a POSIX
+São um conjunto de metacaracteres que seguem o padrão codice_46, listados abaixo:
+
+Diversas funcionalidades encontradas em bibliotecas atuais de expressões regulares provem um poder de expressão que excede as linguagens regulares
+Por exemplo, a habilidade de agrupar subexpressões com parênteses e chamar novamente o valor casado na mesma expressão significa que o padrão pode casar cadeias de palavras repetidas como "papa" ou "WikiWiki"", os chamados quadrados na teoria de linguagens formais
+O padrão para essas cadeias é codice_47
+Entretanto, a linguagem de quadrados não é regular, nem livre de contexto
+Casamento de padrões com um número indeterminado de referências anteriores, como suportado em ferramentas atuais, é NP-difícil.
+
+Entretanto, as ferramentas que fornecem tais construções ainda usam o termo expressões regulares para os padrões, o que leva a uma nomenclatura que difere da teoria das linguagens formais
+Por essa razão, algumas pessoas usam o termo "regex" ou simplesmente "padrão" para descrever esse conceito mais abrangente.
+
+Existem pelo menos dois algoritmos fundamentalmente diferentes entre si que decidem se e como uma expressão regular casa uma cadeia de caracteres.
+
+O mais antigo e mais rápido faz uso dum princípio da teoria de linguagens formais que permite a todas as máquinas de estado finito não determinísticas serem transformadas em máquinas de estado finito determinísticas
+Geralmente chamado de DFA, o algoritmo realiza ou simula tal transformação e então executa a máquina determinística resultante na cadeia de caracteres, um símbolo de cada vez
+Esse último processo tem complexidade linear relativa ao tamanho da cadeia de caracteres
+Mais precisamente, uma cadeia de caracteres de tamanho "n" pode ser testada numa expressão regular de tamanho "m" no tempo "O"("formula_1") ou "O"("formula_2"), dependendo dos detalhes de implementação
+Esse algoritmo é rápido, mas pode ser usado somente para casamentos e não para a rechamada de grupos de captura, quantificação preguiçosa e diversas outras funcionalidades encontradas nas bibliotecas modernas de expressões regulares
+Também é possível executar a máquina não determinística diretamente, construindo cada estado da máquina determinística quando necessário e então descartando-o no próximo passo
+Isso evita a quantidade exponencial de memória necessária para a construção completa da máquina determinística, ainda que garantindo a busca em tempo linear.
+
+O outro algoritmo é casar o padrão com a cadeia de caracteres através de "backtracking"
+Geralmente chamado de NFA, Seu tempo de execução pode ser exponencial, o que pode acontecer em implementações simples no casamento de expressões como codice_48, que forçam o algoritmo a considerar um número exponencial de subcasos
+Implementações modernas geralmente identificam tais casos, e aceleram e abortam a execução
+Apesar dessas implementações com "backtracking" garantirem tempo exponencial no pior caso, elas fornecem mais flexibilidade e poder de expressão.
+
+Originalmente, as expressões regulares eram usadas com caracteres ASCII, mas várias implementações atuais suportam Unicode
+Na maioria dos casos não há diferença entre conjuntos de caracteres, mas algumas questões são relevantes ao suportar Unicode.
+
+Uma delas é a codificação suportada, já que algumas implementações esperam UTF-8, enquanto outras podem esperar UTF-16 ou UTF-32
+Outra questão é estender as funcionalidades disponíveis para ASCII no Unicode
+Por exemplo, em implementações ASCII, conjuntos de caracteres na forma codice_49 são válidos para quaisquer "x" e "y" no intervalo [0x00,0x7F] desde que o código de "x" seja menor que o código de "y"
+A escolha natural seria permitir o mesmo em Unicode no intervalo de códigos [0,0x10FFFF], o que não é possível pois algumas implementações não permitem que conjuntos de caracteres ultrapassem os blocos de código disponíveis.
+
+Do ponto de vista dos detalhes técnicos do Unicode, também surgem questões
+Como a normalização, pois, em Unicode, mais de um código pode representar o mesmo caractere
+Por exemplo, o caractere "é" pode ser representado por U+0065 (letra latina "e" minúsculo) combinado com U+0301 (diacrítico "acento agudo"), mas também pode ser representado como U+00E9 (letra latina "e" com diacrítico "acento agudo")
+Também há os códigos de controle Unicode, as marcas de ordem de byte e as marcas de direção de texto, que devem ser tratados separadamente.
+
+Expressões regulares são usadas por diversos editores de texto, utilitários e linguagens de programação para procurar e manipular texto baseado em padrões
+Por exemplo, Perl e Tcl possuem suporte a expressões regulares nativamente
+Diversos utilitários de distribuições Unix incluem o editor de texto ed, que popularizou o conceito de expressão regular, e o filtro grep.
+
+Outro uso é a validação de formatos de texto (validação de protocolos ou formatos digitais)
+Por exemplo, ao receber a entrada dum campo de formulário duma aplicação que supõe receber um endereço de "email", pode-se usar uma expressão regular para garantir que o que foi recebido de fato é um endereço de "email".
+
+Mais um uso é a implementação interna dum sistema de realce de sintaxe, como encontrado em ambientes de desenvolvimento integrado
+Expressões regulares podem ser usadas para encontrar palavras reservadas, literais e outros tokens específicos, e para alterar a formatação do texto de acordo com o casamento feito.
+
+Um uso difundido de expressões regulares é a filtragem de informação em bancos de dados de texto
+Por exemplo, num arquivo de texto contendo cadastros de pessoas e suas datas de aniversário como a seguir:
+
+Pode-se filtrar pessoas que nasceram num determinado ano, mês ou dia
+Por exemplo, o uso do padrão codice_50 identifica o nome das pessoas que nasceram em outubro
+Para o cadastro acima seriam retornados dois grupos de captura, codice_51 contendo ""João Alberto" e codice_52 contendo "Carlos Silva"
+Explorando o exemplo anterior e o uso de validação de formatos digitais, é possível usar expressões regulares para validar as datas presentes no arquivo de texto de aniversários acima
+O padrão codice_53 é usado para validar uma data entre 1900-01-01 e 2099-12-31
+Atentar que a separação entre ano, mês e dia pode se dar através de hífen, espaço em branco, barra ou ponto
+Mas deve-se usar o mesmo símbolo de separação entre ano e mês e entre mês e dia, o que é possível através da rechamada do grupo de captura anterior (o trecho codice_52 do padrão)
+Atentar também que o padrão é incompleto na medida em que não diferencia a quantidade de dias em cada mês, o que resulta no casamento duma cadeia de caracteres "2000-02-31"", incorreta de acordo com o calendário gregoriano.
+

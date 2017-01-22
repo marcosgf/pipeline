@@ -1,0 +1,235 @@
+Campos magnéticos cercam materiais em correntes elétricas e são detectados pela força que exercem sobre materiais magnéticos ou cargas elétricas em movimento
+O campo magnético em qualquer lugar possui tanto uma "direção" quanto uma "magnitude" (ou força), por tanto é um campo vetorial.
+
+Para a física dos materiais magnéticos, veja magnetismo e magneto, mais especificamente ferromagnetismo, paramagnetismo e diamagnetismo
+Para campos magnéticos constantes, como os gerados por materiais magnéticos e correntes contínuas, veja magnetoestática
+Um campo magnético variável gera um campo elétrico e um campo elétrico variável resulta em um campo magnético (veja eletromagnetismo).
+
+À luz da relatividade especial, os campos elétrico e magnético são dois aspectos inter-relacionados de um mesmo objeto, chamado de campo eletromagnético
+Um campo elétrico puro em um sistema de referência é observado como uma combinação de um campo elétrico e um campo magnético em um sistema de referência em movimento em relação ao primeiro.
+
+Na física moderna, o campo magnético e o campo elétrico são entendidos como sendo um campo fotônico
+Na linguagem do Modelo Padrão a força magnética é "mediada" por fótons
+Frequentemente esta descrição microscópica não é necessária por que a teoria clássica, mais simples e coberta neste artigo, é suficiente
+A diferença é desprezível na maioria das circunstâncias.
+
+A expressão "campo magnético" é usada para dois campos vetoriais diferentes, simbolizados por B e H.
+
+Existem muitos nomes alternativos para os dois campos (veja tabela ao lado)
+Para evitar confusão, este artigo usa "campo B" e "campo H" para estes campos, e usa "campo magnético" onde qualquer um dos dois campos se aplicar.
+
+O "campo B" pode ser definido de muitas formas equivalentes baseado nos seus efeitos sobre o ambiente
+Por exemplo, uma partícula com carga elétrica, "q", movendo-se em um campo B com uma velocidade "v", experimenta uma força "F":
+
+onde "×" é o produto vetorial
+O campo B é medido em tesla no SI, e em gauss em unidades cgs.
+
+Quando uma partícula carregada "q" está sob a influência dos campos magnéticos e elétrico, duas forças são aplicadas sobre ela
+A soma dessas forças é conhecida como Força de Lorentz:
+
+Tecnicamente, "B" é um pseudovetor (também chamado de "vetor axial" - esta é uma afirmação sobre como o campo magnético se comporta quando você reflete o mundo em um espelho, conhecido como paridade)
+Este fato fica aparente da definição acima de "B".
+
+Apesar da maneira de ver "B" ter mudado com o passar dos anos, este é agora entendido como sendo a quantidade fundamental, enquanto "H" é um campo derivado
+Este é definido como uma modificação de "B" devido a campos magnéticos produzidos pelo meio material, tal que (em unidades do SI):
+
+onde "M" é a magnetização do material e "μ" é a "permeabilidade do vácuo" (ou a "constante magnética")
+O campo H é medido em amperes por metro (A/m) em unidades do SI, e em oersteds (Oe) em unidades cgs.
+
+Em materiais cujo "M" é proporcional a "B" a relação entre "B" e "H" pode ser colocada na forma mais simples: "H" = "B" ⁄ "μ"
+onde "μ" é um parâmetro dependente do material, chamado de permeabilidade
+No vácuo não há magnetização, "M", de forma que "H" = "B" / "μ" ("vácuo")
+Para muitos materiais, entretanto, não há uma relação simples entre "B" e "M"
+Por exemplo, materiais ferromagnéticos e supercondutores possuem uma magnetização que é uma função de múltiplos valores de "B", devido à histerese.
+
+Veja #História abaixo para mais detalhes.
+
+Ímãs permanentes são objetos que produzem seus próprios campos magnéticos persistentes
+Todos os ímãs permanentes possuem os pólos sul e norte
+Eles são feitos de materiais ferromagnéticos como ferro e níquel que foram magnetizados
+A força do ímã é representada pelo seu momento magnético, m; para magnetos simples, m aponta na direção de uma linha desenhada do polo sul ao polo norte do magneto
+Para mais detalhes sobre magnetos veja magnetização abaixo e o artigo ferromagnetismo.
+
+Pólos magnéticos iguais quando aproximados se repelem, enquanto polos opostos se atraem
+Este é um exemplo específico de uma regra geral de que os magnetos são atraídos (ou repelidos dependendo da orientação do magneto) para regiões de campo magnético maior
+Por exemplo, pólos opostos atraem-se por que cada magneto é empurrado no campo magnético maior do pólo do outro
+A força é atrativa por que cada magneto m está na mesma direção do campo magnético B do outro.
+
+Revertendo a direção de m reverte a força resultante
+Magnetos com m oposto a B são empurrados para regiões de campo magnético menor, desde que o magneto, e portanto, m não girar devido ao torque magnético
+Este fenômeno corresponde ao de pólos semelhantes de dois magnetos sendo aproximados
+A capacidade de um campo magnético não uniforme de ordenar dipolos com orientação diferente a base do experimento de Stern-Gerlach, que estabeleceu a natureza quântica dos dipolos magnéticos associados com átomos e elétrons.
+
+Matematicamente, a força em um magneto de momento magnético m é:
+
+onde o gradiente ∇ é a mudança da quantidade m"·"B por unidade de distância e a direção é aquela do aumento máximo de m"·"B
+O produto escalar m"·"B = |m||B|cos("θ"), onde | | representa a magnitude do vetor e "θ" é o ângulo entre eles
+Esta equação somente é válida para magnetos de tamanho zero, mas pode ser usada como uma aproximação para magnetos não muito grandes
+A força magnética em magnetos maiores é determinada pela divisão deles em regiões menores tendo cada uma delas seu próprio m então somando as forças em cada uma destas regiões.
+
+A força entre dois magnetos é bastante complicada e depende da orientação dos magnetos e da distância relativa entre eles
+A força é particularmente sensível a rotações dos magnetos devido ao torque magnético.
+
+Em muitos casos, a força e o torque em um magneto pode ser modelada assumindo uma 'carga magnética' nos pólos de cada magneto e usando um equivalente magnético à lei de Coulomb
+Neste modelo, cada pólo magnético é uma fonte de um campo H que é mais forte próximo ao pólo
+Um campo H externo exerce uma força na direção do H em um pólo norte e oposta a H em um pólo sul
+Em um campo magnético não uniforme cada pólo vê um campo diferente e é sujeito a uma força diferente
+A diferença entre as duas forças move o magneto na direção em que o campo magnético cresce e também pode causar um torque resultante.
+
+Infelizmente, a ideia de "pólos" não reflete com precisão o que acontece dentro de um magneto (veja ferromagnetismo)
+Por exemplo, um pequeno magneto colocado dentro de um magneto grande é sujeito a uma força na direção oposta
+A descrição mais correta fisicamente do magnetismo envolve laços de tamanho atômico de correntes distribuídas pelo magneto.
+
+Um magneto colocado em um campo magnético sofre um torque que tenta alinhá-lo com o campo magnético
+O torque em um magneto devido a um campo magnético externo é fácil de observar: basta colocar dois magnetos próximos, deixando com que um deles gire
+O torque N em um magneto pequeno é proporcional ao campo B aplicado e ao momento magnético m do magneto:
+
+formula_5
+
+onde × representa o produto vetorial.
+
+O alinhamento de um magneto com o campo magnético da Terra é o mecanismo de funcionamento da bússola
+Ele é usado para determinar a direção do campo magnético local também (veja a definição de B abaixo)
+Um pequeno magneto é montado tal que ele possui liberdade para girar (em um dado plano) e seu pólo norte é marcado
+Por definição, a direção do campo magnético local é a direção que o pólo norte de uma bússola (ou qualquer outro magneto) tende a apontar.
+
+O torque magnético é usado para movimentar motores elétricos simples
+Em um projeto simples de motor, um magneto é fixado em um eixo rotativo (formando um rotor) e sujeito a um campo magnético criado por um grupo de eletromagnetos chamado de estator
+Pela mudança contínua da corrente elétrica em cada um dos eletromagnetos, o que muda a polaridade de seus campos magnéticos, o estator coloca pólos de mesmo nome próximos ao rotor
+O torque magnético resultante é transferido ao eixo
+O processo inverso, a transformação do movimento mecânico em energia elétrica, é obtido pelo mecanismo inverso do acima no gerador elétrico.
+
+O mapeamento da força e direção do campo magnético é simples, em princípio
+Primeiro, meça a força e direção do campo magnético em um grande número de posições
+Então marque cada localização com uma seta (chamada de vetor) apontando na direção do campo magnético local com um comprimento proporcional à intensidade do campo magnético
+Um método alternativo de visualizar o campo magnético que simplifica enormemente o diagrama enquanto mantém as mesmas informações é 'conectar' os vetores para formar "linhas de campo magnético".
+
+Vários fenômenos físicos têm o efeito de mostrar as linhas de campo magnético
+Por exemplo, limalhas de ferro colocadas em um campo magnético se alinham de forma a mostrar visualmente a orientação do campo magnético (veja a figura à esquerda)
+Linhas de campo magnético também são apresentadas visualmente por auroras polares, nas quais interações de dipolo de partículas de plasma criam faixas de luz visível que se alinham com a direção local do campo magnético.
+
+As linhas de campo fornecem uma forma simples de apresentar ou desenhar o campo magnético (ou qualquer outro campo vetorial)
+As linhas magnéticas pode ser estimadas a "qualquer" ponto (seja em uma linha de campo ou não) usando a direção e densidade das linhas de campo próximas
+Uma densidade maior de linhas de campo próximas indicam um campo magnético mais forte.
+
+As linhas de campo também são uma boa ferramenta qualitativa para visualizar as forças magnéticas
+Em substâncias ferromagnéticas como o ferro e o plasma, as forças magnéticas podem ser compreendidas imaginando-se que as linhas de campo exercem uma tensão (como uma tira de borracha) ao longo de seu comprimento, e uma pressão perpendicular ao seu comprimento sobre as linhas de campo vizinhas
+Pólos magnéticos 'diferentes' se atraem por que são ligados por muitas linhas de campo; pólos 'iguais' se repelem por que suas linhas de campo não se encontram, mas ficam em paralelo, empurrando umas às outras.
+
+A direção de uma linha de campo magnético pode ser revelada usando uma bússola
+Uma bússola colocada próxima ao pólo norte de um magneto aponta para longe daquele pólo - pólos iguais se repelem
+O oposto acontece com uma bússola colocada próxima ao pólo sul de um magneto
+O campo magnético aponta para fora do magneto no pólo norte e em direção ao magneto no pólo sul
+As linhas de campo magnético "fora do magneto" apontam do pólo norte para o pólo sul
+Nem todos os campos magnéticos são descritíveis em termos de pólos
+Um fio reto conduzindo uma corrente elétrica, por exemplo, produz um campo magnético que não aponta nem em direção nem na direção oposta ao fio, mas circula o mesmo.
+
+As linhas de campo são uma maneira útil de representar qualquer campo vetorial e geralmente revelam propriedades sofisticadas dos campos de forma bastante simples
+Uma propriedade importante do campo 'B' que pode ser verificada com as linhas de campo é que as linhas de campo magnético sempre fazem voltas completas
+Elas não começam nem terminam (embora possam se estender de e para o infinito)
+Até hoje nenhuma exceção a esta regra foi encontrada.
+
+O campo magnético sai do magneto em seu pólo norte e entra em seu pólo sul, mas dentro do magneto as linhas de campo B retornam do pólo sul de volta ao pólo norte
+Se uma linha de campo B entra em um magneto em algum ponto ela deve sair em outro ponto
+Por esta razão, pólos magnéticos sempre vem em pares N e S
+Cortar um magneto ao meio resulta em dois magnetos separados cada um deles com um pólo norte e outro sul.
+
+Campos magnéticos são produzidos por correntes elétricas, que podem ser correntes macroscópicas em fios, ou correntes microscópicas associadas com os elétrons em suas órbitas atômicas
+O campo magnético B é definido em termos da força que move uma carga na lei da força de Lorenz
+A interação de campos magnéticos com cargas leva a muitas aplicações práticas
+A unidade SI para o campo magnético é o tesla, que pode ser visto da parte magnética da equação de força de Lorenz F = qvB como sendo composta de (newton × segundo)/(coulomb × metro)
+Uma unidade menor do campo magnético é o gauss (1 tesla = 10.000 gauss).
+
+Um monopolo magnético é uma partícula hipotética (ou uma classe de partículas) que tem, como o nome sugere, somente um pólo magnético (um pólo sul ou um pólo norte)
+Em outras palavras, ele possui uma "carga magnética" análoga à carga elétrica.
+
+O interesse moderno neste conceito vem da teoria de partículas, notavelmente Teorias da Grande Unificação e a teoria das supercordas, que predizem ou a existência ou possibilidade de existência de monopólos magnéticos
+Estas teorias e outras inspiraram esforços na busca de monopólos
+Apesar destes esforços, nenhum monopólo magnético já foi observado até hoje.
+
+Fora de um magneto, as linhas de campo H são idênticas às linhas de campo B, mas dentro elas apontam em direções opostas
+O campo H, portanto, é análogo ao campo elétrico E que começa como uma carga positiva e termina como uma carga negativa
+É tentador, portanto, modelar magnetos em termos de cargas magnéticas localizadas próximas dos pólos
+Infelizmente, este modelo é incorreto
+Ele falha para determinar o campo magnético dentro de magnetos, por exemplo.
+
+As correntes de cargas elétricas geram um campo magnético e sofrem a ação de uma força devido a um campo B magnético.
+
+Todas as cargas em movimento produzem campos magnéticos
+Cargas pontuais em movimento produzem um campo magnético complicado mas bem conhecido que depende da carga, velocidade, e aceleração da partícula
+Ele forma caminhos fechados em torno de uma linha apontando na direção em que a carga está se movendo.
+
+Condutores com corrente geram campos magnéticos que formam círculos concêntricos
+A direção do campo magnético nestas linhas é determinada pela regra da mão direita
+Quando se movem com a corrente, para a esquerda o campo magnético aponta para cima enquanto que à direita aponta para baixo (veja a figura à direita)
+A intensidade do campo magnético diminui com a distância do condutor.
+
+Se o condutor receber a forma de um laço o campo magnético é concentrado dentro do laço e enfraquecido do lado de fora
+A colocação de mais laços destes para formar um solenóide torna o efeito mais acentuado
+Estes dispositivos, chamados de eletroímãs ou eletromagnetos, são importantes porque podem gerar campos magnéticos fortes e bem controlados
+Um eletromagneto infinitamente longo possui um campo magnético uniforme internamente e nenhum campo magnético do lado de fora
+Um eletromagneto de tamanho finito produz um campo magnético que essencialmente é o mesmo de um magneto permanente da mesma forma e tamanho com uma intensidade (e polaridade) que é controlada pela corrente fornecida.
+
+O campo magnético gerado por uma corrente elétrica contínua "I" (um fluxo constante de cargas elétricas em que a carga não está se acumulando ou sofrendo depleção em nenhum ponto) é descrito pela Lei de Biot-Savart:
+
+onde a soma integral em todo o laço de um condutor com "dl sendo uma parte infinitesimal deste laço, μ" é a constante magnética, "r" é a distância entre a posição de "dl e a localização em que o campo magnético está sendo calculado, e formula_7 é um vetor unitário na direção r.
+
+Uma forma um pouco mais geral de relacionar a corrente "I" com o campo B é através da lei de Ampère:
+
+onde a integral é calculada sobre qualquer caminho fechado arbitrário e "I" é a corrente envolvida pelo caminho
+A lei de Ampère é sempre válida para correntes contínuas e pode ser usada para calcular o campo B para certas situações altamente simétricas, como um condutor infinito ou solenóide infinito.
+
+De uma forma modificada que leva em conta os campos elétricos variáveis, a lei de Ampère é uma das quatro equações de Maxwell que descrevem a eletricidade e o magnetismo.
+
+Uma partícula com carga se movendo em um campo B experimenta uma força "lateral" que é proporcional à intensidade do campo magnético, à componente da velocidade que é perpendicular ao campo magnético e à carga da partícula
+Esta força é conhecida como força de Lorentz e é dada por
+
+onde
+
+F é a força, "q" é a carga elétrica da partícula, v é a velocidade instantânea da partícula e B é o campo magnético (em teslas).
+
+A força de Lorentz é sempre perpendicular tanto com a velocidade da partícula quanto ao campo magnético que a criou
+Partículas estacionárias e partículas que se movem na direção das linhas do campo magnético não experimentam esta força
+Por esta razão, partículas carregadas movem-se em um círculo (ou, de forma mais genérica, uma hélice)) em torno das linhas de campo magnética, este é chamado de movimento de ciclotron
+Como a força magnética é sempre perpendicular ao movimento, o campo magnético não pode realizar trabalho em uma carga isolada
+Ele pode, entretanto, mudar a direção da partícula, ao ponto de forçar a mudança de direção para uma direção perpendicular da direção original
+A força magnética pode realizar trabalho em um dipolo magnético, ou a uma partícula carregada cujo movimento esteja limitado por outras forças.
+
+A força em um condutor com corrente é similar à de uma carga em movimento como esperado, já que um condutor com corrente é uma coleção de cargas em movimento
+Um condutor com corrente percebe uma força lateral na presença de um campo magnético
+A força de Lorentz em uma corrente macroscópica é geralmente chamada de "força de Laplace".
+
+A direção da força sobre uma carga ou corrente positiva é determinada pela regra da mão direita
+Veja a figura à direita
+Usando a mão direita e apontando o polegar na direção do movimento da carga ou corrente positivas e os dedos na direção do campo magnético, a força resultante sobre a carga aponta para fora da palma da mão
+A força em uma partícula de carga negativa está na direção oposta
+Se tanto a velocidade e a carga são revertidas, então a direção da força permanece a mesma
+Por esta razão, uma medida do campo magnético (por si mesma) não pode fazer a distinção entre uma carga positiva movendo-se para a direita ou uma carga negativa movendo-se para a esquerda, pois os dois casos produzem a mesma corrente
+Por outro lado, um campo magnético combinado com um campo elétrico "pode" distinguir entre ambas, veja o efeito Hall abaixo.
+
+As fórmulas derivadas para o campo magnético acima estão corretas quando lidando com a corrente inteira
+Um material magnético colocado dentro de um campo magnético, entretanto, gera sua própria corrente acoplada que pode ser muito difícil de calcular
+Esta corrente acoplada é devido à soma dos laços de correntes de escala atômica e o spin das partículas subatômicas como elétrons que fazem parte do material
+O campo H como definido acima ajuda a fatorar esta corrente acoplada, mas para ver como, é útil introduzir primeiro o conceito de "magnetização".
+
+Embora os campos Elétrico e Magnético já estivessem intrinsecamente interligados antes da Relatividade esta interligação era um dado experimental
+Após a relatividade esta interligação tornou-se uma conclusão teórica
+Assim, em um mundo onde existam o campo elétrico (ou magnético) e a teoria da relatividade deve necessariamente haver o campo eletromagnético
+Imagine um trem carregado com cargas negativas
+A ele é presa uma carga positiva, conforme indica a figura
+Em repouso, tanto um passageiro do trem como um observador no solo concordarão acerca da força que atrai a carga positiva e as cargas negativas
+
+Em movimento, porém, o observador poderia supor que esta força aumentaria devido à diminuição do comprimento do trem prevista na teoria restrita da relatividade
+Haveria, portanto, uma discrepância entre o passageiro e o observador caso não existisse uma misteriosa força de repulsão entre a carga positiva e as cargas negativas
+Esta força misteriosa – que aumenta com a velocidade das cargas – é o resultado do que se convencionou chamar de campo magnético.
+
+No Brasil, a ABNT é o órgão responsável pela padronização de medidas
+Existem diversos instrumentos para a medição de campo magnético, entre eles o magnetômetro fluxgate, bobinas de indução e o sondas de efeito Hall
+Os instrumentos podem apresentar medida em uma ou três dimensões (nesse caso deve indicar o valor r.m.s
+da medida)
+O sistema de medição para campos magnéticos alternados deve indicar o valor r.m.s
+de campos magnéticos uniformes com uma incerteza menor que ± (10% de leitura + 20 nT).
+
+A exposição a campos magnéticos de grande magnitude e/ou por longos períodos pode ser prejudicial a saúde
+A Organização Mundial da Saúde mantém pesquisas sobre os efeitos da exposição a campos elétricos e magnéticos e recomenda que a exposição para público geral a campos magnéticos variáveis no tempo na frequência de 50 a 60 kHz seja de até 83x10 T.
+

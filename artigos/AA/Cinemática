@@ -1,0 +1,503 @@
+Cinemática (do grego "κινημα", movimento) é o ramo da física que se ocupa da descrição dos movimentos dos corpos, sem se preocupar com a análise de suas causas (Dinâmica)
+Geralmente trabalha-se aqui com partículas ou pontos materiais, corpos em que todos os seus pontos se movem de maneira igual e em que são desprezadas suas dimensões em relação ao problema.
+
+Um objeto encontra-se em movimento se a sua posição for diferente em diferentes instantes; se a posição permanecer constante, o objeto estará em repouso
+Para podermos determinar a posição do objeto, será necessário usarmos outros objetos como referência
+Se a posição do corpo em estudo variar em relação ao referencial (objetos em repouso usados como referência), o corpo estará em movimento em relação a esse referencial
+Assim, o movimento é um conceito relativo, já que um objeto pode estar em repouso em relação a um primeiro referencial, mas em movimento em relação a um segundo referencial.
+
+Os graus de liberdade de um sistema são as variáveis necessárias para medirmos a sua posição exata
+Por exemplo, para determinar a posição de uma mosca numa sala, podíamos medir a sua distância até o chão e até duas paredes perpendiculares na sala
+Teríamos assim um sistema de três coordenadas perpendiculares (coordenadas cartesianas), que se costumam designar pelas letras x, y e z.
+
+Mas para além de se deslocar variando o valor das 3 coordenadas x, y e z, a mosca também pode mudar a sua orientação
+Para definir a orientação da reta paralela ao corpo da mosca podemos usar 2 ângulos e seria preciso outro ângulo para indicar a sua rotação em relação a essa reta; assim, temos já 6 graus de liberdade
+Continuando, a mosca pode também esticar
+
+ou dobrar o seu corpo, abrir ou fechar as assas, etc., e, portanto, do ponto de vista físico tem muitos graus de liberdade.
+
+Podemos simular o movimento da mosca como o movimento de 3 corpos rígidos: as duas asas e o bloco constituído por cabeça, tórax e abdómen
+Um corpo rígido é um objeto em que todas as partes mantêm sempre as mesmas distâncias relativas às outras partes
+Os
+
+movimentos desses 3 corpos rígidos são diferentes, as asas têm movimentos oscilatórios, mas não são completamente independentes, já que existe um ponto comum entre cada asa e o tórax.
+
+A posição de um corpo rígido em qualquer instante pode ser determinada indicando a posição de um ponto do corpo, a orientação de um eixo fixo em relação ao corpo e um ângulo de rotação à volta desse eixo.
+
+A posição do ponto de referência é dada por 3 variáveis e para especificar a orientação do eixo são precisos dois ângulos; assim, um corpo rígido é um sistema com seis graus de liberdade: 3 coordenadas de posição para a posição do ponto de referência, dois ângulos para a orientação do eixo e um ângulo à volta desse eixo.
+
+Se o eixo do corpo rígido mantiver a mesma direção enquanto se desloca, o movimento será de translação
+Se existir um ponto dentro do corpo que não se desloca, enquanto outros pontos do corpo estão em movimento, o movimento será de rotação pura
+O movimento mais geral será uma sobreposição de translação e rotação (figura abaixo).
+
+Na segunda e terceira parte na figura acima, o martelo rodou em relação a um eixo que permaneceu sempre perpendicular à página e perpendicular ao plano da translação na terceira parte
+O eixo de rotação poderá não ser o mesmo em diferentes instantes e não ser perpendicular ao plano de translação.
+
+No caso mais simples de translação sem rotação, todos os pontos do corpo rígido seguem a mesma trajetória
+Assim, bastará estudar o movimento de um único ponto qualquer no corpo rígido
+Para definir a posição desse ponto serão precisas, em geral, 3 variáveis e, portanto, o sistema terá 3 graus de liberdade.
+
+Quando existe translação combinada com rotação, a trajetória de cada ponto no corpo rígido será diferente
+Por exemplo, numa roda de um automóvel em movimento, os pontos na superfície dos pneus seguem uma trajetória de cicloide mas existe um ponto que tem
+
+uma trajetória mais simples: o centro da roda
+Será mais fácil estudar o movimento de translação do centro da roda e a esse movimento sobrepor a rotação
+E para estudar a translação do centro teremos novamente 3 graus de liberdade associados com a posição de um ponto.
+
+O caso mais geral do movimento de um ponto no espaço é um movimento em 3 dimensões, porque existem 3 graus de liberdade, x, y e z que variam em função do tempo
+Mas esses três graus de liberdade associados ao movimento de translação do corpo rígido podem ser
+
+reduzidos a dois ou um em alguns casos.
+
+O movimento de um automóvel numa autoestrada pode ser considerado um movimento em uma dimensão (figura ao lado)
+Se o automóvel sofrer uma avaria e o condutor tiver que telefonar para pedir um reboque, bastará dizer em que quilômetro da autoestrada se
+
+encontra para que o condutor do caminhão de reboque saiba para onde tem que se dirigir.
+
+Assim, o movimento dos automóveis na autoestrada é o aumento da distância percorrida ao longo da estrada e essa distância é o único grau de liberdade.
+
+De referir que a distância percorrida não é medida em linha reta, mas ao longo de uma curva no espaço com 3 dimensões; no entanto, como o percurso dessa curva já está estabelecido,basta apenas uma variável para descrever a posição em cada instante
+Se estivéssemos a construir um sistema de condução automático, teríamos que introduzir outra variável, por exemplo, a distância até a berma da estrada, e o movimento em estudo seria em duas dimensões.
+
+Em alguns sistemas em que aparentemente são necessárias várias variáveis para descrever o movimento dos diferentes componentes do sistema, o número de graus de liberdade pode ser menor devido à existência de restrições no movimento
+A figura abaixo mostra um exemplo; enquanto o cilindro desce, o carrinho se desloca sobre a mesa.
+
+O movimento do carrinho pode ser descrito pela variação da distância horizontal formula_1 até o eixo da roldana fixa
+O movimento do cilindro será igual ao movimento da roldana móvel e, portanto, pose ser descrito pela expressão para a distância vertical formula_2 entre os centros das roldanas, em função do tempo.
+
+Mas, enquanto o fio permanecer esticado e sem se quebrar, existirá uma relação entre as velocidades e as acelerações do carrinho e do cilindro
+Para encontrar essa relação, escreve-se a o comprimento do fio, formula_3, em função das distâncias formula_1 e formula_2:
+
+formula_6
+
+Em que formula_7 e formula_8 são os raios das duas roldanas.
+
+O fio toca um quarto do perímetro da roldana fixa formula_9 e metade do perímetro da roldana móvel formula_10
+Tendo em conta que formula_3, formula_12, formula_7 e formula_8 são constantes, e derivando a equação anterior em ordem ao tempo, obtém-se,
+
+formula_15
+
+Ou seja, o valor da velocidade do carrinho será sempre o dobro do valor da velocidade do cilindro
+O sinal negativo na equação acima indica que se o cilindro desce o carrinho desloca-se para a direita e vice-versa.
+
+Derivando novamente essa última equação em ordem ao tempo, conclui-se que a aceleração do carrinho segundo a trajetória também é o dobro do que a aceleração do cilindro segundo a sua trajetória:
+
+formula_16
+
+Estas relações entre as posições, velocidades e acelerações implicam que o sistema tem apenas um grau de liberdade
+Uma vez conhecidas as expressões para a posição, velocidade e aceleração de um dos objetos, as expressões da posição, velocidade e aceleração do outro objeto serão obtidas multiplicando (ou dividindo) por 2.
+
+Um segundo exemplo, com dois graus de liberdade, é o sistema de três roldanas e três cilindros na figura abaixo
+As alturas dos três cilindros são determinadas pelos valores das 3 distâncias formula_17, formula_18 e formula_19; como existe um único fio em movimento, existe apenas uma restrição (comprimento do fio constante), que permitirá expressar uma das três distâncias em função das outras duas.
+
+O comprimento do fio é,
+
+formula_20
+
+Em que a constante é a soma de metade dos perímetros das roldanas, que não é importante conhecer, já que vai desaparecer quando a equação for derivada e só altera as posições num valor constante.
+
+A derivada da equação anterior em ordem ao tempo é,
+
+formula_21
+
+Neste caso existem vários possíveis movimentos; por exemplo, se o cilindro A estiver a subir e o cilindro C estiver a descer com a mesma velocidade, o cilindro B permanecerá estático; ou um dos cilindros poderá estar a descer e os outros dois a subir
+O que sim não é possível é que os 3 cilindros estejam simultaneamente a descer ou a subir.
+
+A derivada da equação anterior conduz à relação entre as acelerações,
+
+formula_22
+
+É um sistema de referência formula_23 em relação ao qual é definido o vetor posição formula_24 do corpo em função do tempo
+Este vetor fornece a posição do corpo em um dado instante formula_25
+Assume-se geralmente como origem do sistema de coordenadas a posição formula_26 do corpo no instante inicial formula_27
+Este instante é escolhido arbitrariamente; para fins práticos pode-se dizer que é o instante em que se dispara o cronômetro para a análise do fenômeno.
+
+Um corpo, em relação a um dado referencial formula_23, ocupa um determinado ponto formula_29 em um dado instante formula_25
+Chama-se de trajetória ao conjunto dos pontos ocupados por um corpo ao longo de um intervalo de tempo qualquer.
+
+É o vetor resultante da subtração do vetor posição final formula_31 pelo vetor posição inicial formula_32:
+
+formula_33
+
+É importante notar que o deslocamento é de natureza vetorial, ou seja, são consideradas sua posição, direção e sentido
+Em certos casos, porém, como em uma corrida de fórmula 1, é mais interessante trabalhar apenas com a distância percorrida formula_34, que é o comprimento da trajetória realizada.
+
+Velocidade média é a razão do deslocamento formula_34 pelo intervalo de tempo formula_36
+A velocidade média pode ser considerada escalar se for considerado apenas o módulo do deslocamento
+Em uma corrida de fórmula 1, por exemplo, se levarmos em conta somente o vetor posição, ao final de cada volta o piloto não terá desenvolvido velocidade, pois não houve deslocamento, uma vez que o vetor formula_37 final é o mesmo que formula_38
+Entretanto, considerando o módulo do espaço percorrido pelo piloto, teremos uma velocidade escalar média diferente de 0, portanto, muito mais útil para as análises necessárias
+No movimento unidimensional, trabalhar tanto com um quanto com outro nos leva aos mesmos resultados
+Pode-se definir a velocidade média como
+
+formula_39
+
+É a taxa de variação da posição de um corpo dentro de um intervalo de tempo formula_40 infinitesimal (na prática, instantâneo)
+Define-se velocidade instantânea formula_41 ou simplesmente velocidade como sendo:
+
+formula_42
+
+Podemos falar também de uma rapidez instantânea, que seria o módulo do vetor velocidade em um dado instante de tempo formula_25.
+
+Aceleração é a taxa de variação da velocidade de um corpo em um dado intervalo de tempo
+Assim como a velocidade, ela apresenta suas interpretações em situações mais globais (aceleração média) e em situações mais locais (aceleração instantânea)
+Elas são definidas como:
+
+formula_44 (aceleração média)
+
+formula_45 (aceleração instantânea)
+
+Define-se a aceleração tangencial no instante formula_46 igual à aceleração média num intervalo
+
+de tempo que inclui o tempo formula_47 , no limite em que o intervalo de tempo,formula_48 , se aproximar
+
+para zero.
+
+formula_49
+
+Usando a notação abreviada com um ponto por cima, temos a seguinte equação:
+
+formula_50
+
+onde os dois pontos por cima da função indicam a sua segunda derivada em função do
+
+tempo.
+
+Repare que a distância percorrida s(t) é uma função do tempo, sempre positiva e crescente, ou constante
+Assim, a sua primeira derivada, formula_51, será sempre positiva, mas a sua segunda derivada, formula_52
+
+, poderá ter qualquer sinal
+Uma aceleração tangencial negativa implica uma diminuição da velocidade e aceleração tangencial nula implica velocidade constante.
+
+A forma mais didática de se iniciar a cinemática é a partir do "movimento unidimensional", embora este seja apenas um caso particular do movimento geral num espaço euclideano tridimensional (como esse em que vivemos)
+O movimento unidimensional consiste no movimento de uma "partícula" restrita a uma reta.
+
+O conceito de partícula que será usado aqui difere do conceito de partícula encontrado na física quântica (ex: quarks, elétrons)
+Definiremos uma partícula como algo que possui apenas duas propriedades: localização e massa
+Assim, note que a partícula não tem extensão nem forma
+Para descrever a posição de um corpo extenso, precisamos dizer a localização de cada pedaço que o compõe, mas isso não é necessário para uma partícula
+Graficamente, podemos pensar na partícula como um ponto que possui massa e se move pelo espaço com a passagem do tempo
+As partículas não existem na realidade, são objetos matemáticos sobre os quais construímos a primeira descrição realmente poderosa do mundo.
+
+Num espaço tridimensional, precisamos definir três números, ou "coordenadas", para dar a posição de uma partícula
+Isso quer dizer que duas partículas que estejam à mesma altura podem não estar na mesma posição: uma pode simplesmente estar mais "para a frente" ou "para o lado" do que a outra
+No entanto, existem casos onde podemos restringir o movimento das partículas a uma reta
+Por exemplo, podemos pensar em partículas que só podem se mover "para os lados", não podendo nem subir ou descer e nem ir para a frente ou para trás
+Assim, tudo o que precisamos para definir a posição da partícula nesse caso é de uma coordenada, que diz o quanto a partícula está "para o lado".
+
+Vamos colocar isso de forma mais precisa
+Definimos uma reta, à qual estão restritos os movimentos das partículas que estamos considerando
+Sobre a reta, definimos um ponto qualquer, chamado de "origem"
+Definimos então uma coordenada "x" para a partícula
+O módulo de x é a distância entre a partícula e a origem; enquanto o sinal é dado como positivo caso a partícula esteja à direita da origem, e negativo caso ela esteja à esquerda
+A escolha da direita como positivo e esquerda como negativo é questão de definição: nada impede que se faça o contrário, tomando os devidos cuidados
+Também nada impede que se faça uma reta vertical, definindo x como positivo quando estiver acima da origem e negativo abaixo dela, por exemplo
+A escolha das "inclinações" da reta são irrelevantes aqui, e espera-se do leitor uma certa abstração quanto a isso.
+
+Com os procedimentos acima, está totalmente caracterizada a posição da partícula nisso que chamamos de movimento unidimensional
+Agora, lembremos de que estamos caminhando para descrever um "movimento"
+O pensamento coloquial diría que isso significa que a partícula se move quando o tempo passa
+Mas isso é vago, além de redundante: o tratamento adequado é:
+
+1- Criar um conjunto, correspondente a um intervalo de números reais
+Ou seja, define-se um número real t1 e um número real t2, e então todos os infinitos números entre t1 e t2 são elementos desse conjunto
+Cada um desses números é um valor do tempo, dentro do intervalo de tempo t1-t2.
+
+2- Criar um outro conjunto, cujos elementos serão valores da coordenada "x"
+Esse conjunto deve ser compatível com o "3":
+
+3- Criar uma função do primeiro ao segundo conjunto
+Ou seja, para cada valor do tempo haverá uma posição bem definida da partícula sobre a reta.
+
+É interessante notar que a "passagem do tempo" inexiste em tal tratamento matemático, de modo que pode-se questionar a sua existência no mundo físico.
+
+A função definida em "3" caracteriza totalmente o movimento unidimensional
+Entretanto, a princípio sería impossível defini-la na prática: teríamos que pegar um por um os infinitos valores do tempo de um certo intervalo e relacionar a cada um deles uma posição diferente para a partícula! Obviamente isso não é necessário no mundo real
+Em primeiro lugar, todos os movimentos que pudemos observar até hoje obedecem certas regras
+Uma dessas regras é a "continuidade"
+Não vamos dar aqui uma definição matemática precisa do que é uma função contínua, mas um olhar qualitativo nos mostra que, em funções contínuas, se pegarmos valores do tempo cada vez mais próximos, veremos que as posições das partículas associadas a eles também se aproximarão arbitrariamente
+Isso implica que a partícula não pode ir de um lugar ao outro sem antes percorrer todo o caminho entre esses dois pontos! Outras regras serão vistas mais tarde, mas a existência dessas regras implica que podemos escrever o movimento através de equações, o que nos permite fazer o trabalho descrito acima (relacionar infinitos elementos de dois conjuntos) com breves rabiscos no papel.
+
+A existência de uma função que relaciona a cada valor do tempo uma posição no espaço é denotada por:
+
+formula_53
+
+Onde t são os valores do tempo.
+
+Agora que a descrição do movimento unidimensional está completamente caracterizada, vamos pensar em conceitos importantes relacionados a ele
+A importância desses conceitos é que eles estão relacionados às regras que regem o movimento, como veremos mais tarde
+O primeiro conceito que colocaremos aqui é a velocidade média, definida por:
+
+formula_54
+
+Ou seja, a velocidade média entre os tempos t1 e t2 é igual à diferença entre as posições da partícula no tempo t2 e no tempo t1, dividido pela diferença entre esses tempos
+Não deve-se pensar que a velocidade média equivale a todo o espaço percorrido em um certo tempo dividido por esse tempo, porque a partícula pode ter retrocedido em seu caminho: pode ter percorrido no total muito mais espaço do que parece a quem vê apenas sua posição inicial e final (como alguém que viaja à Europa e depois de um mês está de volta ao mesmo local)
+Embora a descrição que leve em consideração o espaço total percorrido pareça muito mais "real", isso NÃO é considerado na velocidade média! Só importa a posição inicial e a final, e o tempo decorrido.
+
+Fica claro que, quanto menor é o intervalo de tempo t2 - t1, mais precisa é a descrição dada pela velocidade média
+Se o tempo for de dez anos, alguém poderia ter conhecido o mundo todo antes de voltar para casa nesse período (e pareceria à velocidade média que ele quase não se deslocou)
+Mas se o tempo foi de um segundo, a pessoa não pode ter feito tanta coisa assim
+Isso nos leva a desejar a formulação do conceito de "velocidade instantânea", ou seja, algo análogo à velocidade média, mas com uma precisão infinita
+Para aumentar a precisão da velocidade, é preciso considerar tempos cada vez menores, ou seja, valores de t2 arbitrariamente próximos de t1
+Assim, usamos a operação matemática conhecida como "limite": a velocidade instantânea é o limite da velocidade média quando t2 tende a t1
+Ou seja:
+
+formula_55
+
+A operação acima descrita é chamada uma "derivada"
+Se temos uma função qualquer f(t), então a derivada de f(t) no ponto t1 é:
+
+formula_56
+
+Ou, se definirmos t2 = t1+h,
+
+formula_57
+
+Assim, fica claro que a velocidade instantânea v(t1) é a derivada da função x(t) no ponto t1
+Ou seja, "A velocidade instantânea é a derivada temporal da posição".
+
+Em outras palavras, a velocidade é a taxa de variação da posição: quanto maior a velocidade, mais rápido a posição varia
+Se a velocidade for positiva, a posição muda no sentido que foi definido como positivo para a posição (veja a seção "Partículas e o movimento sobre uma reta") 
+Se for negativa, a posição muda no sentido inverso: o que foi definido negativo para a posição.
+
+Este trecho supõe que o leitor entenda o conceito de integral
+A partir da equação
+
+formula_58
+
+Podemos integrar os dois lados em relação a t, de modo a obter
+
+formula_59
+
+Com a condição v(0) = v0, fica claro que C = v0, ou seja
+
+formula_60
+
+E sabemos que
+
+formula_61
+
+Então, integrando os dois últimos membros, temos
+
+formula_62
+
+Agora, substituindo isso na definição da velocidade média
+
+formula_63
+
+temos
+
+formula_64
+
+Também podemos exprimir este resultado em relação à velocidade instantânea.
+
+formula_65
+
+formula_66
+
+formula_67
+
+Que é uma relação interessante, e expande o significado físico da velocidade média.
+
+Ver "O referencial no movimento unidimensional", no artigo "Referencial" indicado no fim desta página.
+
+Da mesma forma que definimos a velocidade média, podemos definir a "aceleração média" como
+
+formula_68
+
+E, analogamente à velocidade, a aceleração instantânea:
+
+formula_69
+
+Então, "A aceleração instantânea é a derivada temporal da velocidade"
+A aceleração é a taxa de variação da velocidade: quanto maior a aceleração, mais rápido a velocidade varia
+Se a aceleração for positiva, e a velocidade for positiva, então o módulo da velocidade aumenta
+Se ela for negativa, e a velocidade, positiva, então o módulo da velocidade diminui
+Assim, a aceleração "puxa" a velocidade na direção dela, fazendo-a crescer caso ambas estejam no mesmo sentido, e diminuir caso estejam em sentidos opostos.
+
+A relação entre aceleração média e instantânea é a mesma que há entre a velocidade média e a instantânea.
+
+Este movimento é caracterizado pelo simples fato de que não há aceleração agindo sobre a partícula.
+
+Aqui (e na seção "Movimento unidimensional uniformemente variado") iremos demonstrar todos os resultados de forma que não requeira o conhecimento do Cálculo
+No entanto, o leitor que esteja familiarizado à integração pode notar que todos esses resultados vêm facilmente das relações:
+
+formula_70
+
+formula_71
+
+Agora, procuraremos formas de demonstrar as equações do movimento uniforme para quem não conheça os métodos da integração.
+
+Para isso, lembremos que a aceleração é a taxa de variação da velocidade com o tempo
+Sendo assim, em um movimento onde não haja aceleração, a velocidade obviamente não varia com o tempo
+Isto é, ela permanece constante
+Então, no movimento unidimensional uniforme:
+
+formula_72
+
+Então, lembrando que a velocidade é a taxa de variação da posição, e sabendo que ela é constante, vemos que a posição varia uniformemente com o tempo, o que justifica o nome desse movimento
+Ou seja, variação da posição é diretamente proporcional ao tempo, sendo a constante de proporcionalidade a velocidade!
+
+formula_73
+
+Escrevendo delta x = x - x0, temos
+
+formula_74
+
+Essa equação dá uma descrição completa do movimento uniforme.
+
+Esse movimento é caracterizado pelo fato de que a aceleração é constante
+Lembrando que a aceleração é a taxa de variação da velocidade (assim como a velocidade é a taxa de variação da posição), podemos escrever a relação entre a velocidade e a aceleração da mesma forma que escrevemos a relação entre a posição e a velocidade:
+
+formula_75
+
+Para encontrar x, podemos usar a velocidade média:
+
+formula_54
+
+Que leva a
+
+formula_77
+
+Como a velocidade cresce uniformemente, a velocidade média deve ser a média aritmética entre a velocidade final (ou simplesmente v(t)) e a velocidade inicial
+
+formula_78
+
+Assim,
+
+formula_79
+
+E, usando o valor de v(t) encontrado lá em cima, temos:
+
+formula_80
+
+De onde vem:
+
+formula_81
+
+Em certos casos, convém encontrar x em função da velocidade instantânea, e não do tempo
+Para isso, basta encontrar o valor do tempo em função da velocidade através da equação da velocidade:
+
+formula_82
+
+E substituir o tempo por esse valor, na equação de x(t):
+
+formula_83
+
+O que arrumamos para obter uma equação mais singela:
+
+formula_84
+
+formula_85
+
+formula_86
+
+formula_87
+
+formula_88
+
+Que é uma equação bastante útil
+O conceito de trabalho emerge dela, como pode ser visto no artigo "Trabalho", que está indicado no fim desta página.
+
+Note que o movimento uniforme é um caso especial do movimento uniformemente variado
+Basta colocarmos na equação inicial (a=C), C = 0
+Assim, a aceleração é 0, e todas as equações se reduzem às do movimento uniforme:
+
+formula_89
+
+formula_90
+
+A equação 
+
+formula_88
+
+com a=0, nos dá a identidade, já que v = v_0:
+
+formula_92
+
+Isso reflete o fato de que saber a velocidade em um dado instante não é o bastante para saber a posição nesse instante
+De fato, todas as posições correspondem à mesma velocidade.
+
+Se tivermos uma expressão matemática para uma das variáveis cinemáticas em função do tempo, as expressões para as outras duas variáveis podem ser calculadas resolvendo as equações cinemáticas.
+
+Nos casos em que é conhecida uma expressão para a velocidade em função da distância percorrida formula_93, a derivada da velocidade em ordem ao tempo deve ser calculada usando a regra da cadeia para funções implícitas:
+
+formula_94
+
+Esta é outra equação cinemática
+Resumindo, há quatro equações cinemáticas:
+
+formula_95
+
+e quatro variáveis: formula_46, formula_93, formula_98 e formula_99
+Em cada uma das equações cinemáticas aparecem 3 dessas variáveis
+Para poder resolver alguma dessas equações diferenciais de primeira ordem usando os métodos analíticos tradicionais, é necessário conhecer uma expressão que relacione as 3 variáveis na equação, para poder eliminar uma das variáveis; uma equação diferencial ordinária tem sempre duas variáveis, uma delas considerada variável independente.
+
+Por exemplo, a equação formula_100 relaciona as três variáveis formula_98 , formula_93 e formula_46 (o ponto é derivação em ordem a formula_46); para resolver essa equação é necessário conhecer uma expressão para formula_98, em função de formula_93 e formula_46, ou para formula_93 em função de formula_98 e formula_46 ou ainda para formula_46 em função de formula_98 e formula_93.
+
+Em alguns casos é mais conveniente trabalhar com a posição em vez da distância percorrida
+Para medir a posição ao longo do percurso, escolhem-se uma origem e um sentido positivo no percurso
+A posição será indicada por meio de uma coordenada formula_1que pode ser positiva, negativa ou nula
+Essa coordenada poderá ser medida ao longo de um eixo retilíneo (eixo dos formula_1) que não coincide com a trajetória do objeto e, nesse caso, formula_1 indicará a posição da projeção do ponto no eixo dos formula_1.
+
+Mas também é possível usar formula_1 para representar a posição medida ao longo do percurso do objeto e, nesse caso, o eixo formula_1 poderá ser uma curva em vez de uma reta.
+
+A derivada da coordenada formula_1 em ordem ao tempo é a componente a componente da velocidade formula_121 que também poderá qualquer sinal e a derivada de formula_121 em ordem ao tempo será a componente da aceleração segundo a trajetória, formula_123
+O sinal de formula_123 já não indicará diretamente se o objeto está a andar mais depressa ou a abrandar, pois será necessário ter em conta também o sinal de formula_121.
+
+Em função das componentes ao longo do eixo as equações cinemáticas apresentam a mesma forma que as equações cinemáticas:
+
+formula_126
+
+formula_1pode ser também substituído por formula_2, formula_129 ou qualquer outra letra que seja usada para chamar o eixo ao longo do percurso.
+
+A relação das componentes da velocidade e da aceleração com a velocidade e a aceleração segundo a trajetória é:
+
+formula_130
+
+O corpo é considerado em dois instantes no tempo: um ponto "inicial" e o "atual"
+Freqüentemente, problemas na cinemática lidam com mais de dois instantes, e diversas aplicações das equações são necessárias.
+
+formula_131
+
+formula_132
+
+formula_133
+
+formula_134
+
+formula_135
+
+onde
+
+formula_136 é a velocidade inicial do corpo
+
+Seu estado atual é definido por:
+
+formula_137, a distância percorrida desde o instante inicial
+
+formula_138, a velocidade atual
+
+formula_139, a variação de tempo entre o instante atual e o instante inicial
+
+"a" é a aceleração constante, ou no caso de corpos se movendo sob a ação da gravidade, "g".
+
+Note que cada uma das equações contém quatro das cinco variáveis.
+
+Perto da superfície da Terra, todos os objetos que sejam deixados deslocar-se livremente, têm uma aceleração com valor constante, chamada aceleração da gravidade e representada pela letra formula_140.
+
+Em diferentes locais o valor de formula_140 sofre alterações, mas é sempre aproximadamente formula_142
+A resistência do ar produz outra aceleração que contraria o movimento, mas quando essa resistência for desprezável, admite-se que o valor da aceleração é constante e igual a formula_140.
+
+A aceleração segundo a trajetória produzida pela gravidade poderá ser positiva, negativa ou nula, já que pode fazer aumentar ou diminuir a velocidade do objeto, e poderá ter um valor diferente de formula_140 se a trajetória não for vertical
+Mas se o eixo dos formula_2 for definido na vertical e apontando para cima, a componente da aceleração no eixo dos formula_2 (projeção na vertical do movimento do objeto) terá sempre o valor constante formula_147 (ou +9.8 se o sentido positivo do eixo formula_2 for definido para baixo).
+
+Escolhendo o eixo dos formula_129 na direção vertical, com sentido positivo para cima, a forma vetorial da aceleração da gravidade é:
+
+formula_150
+
+onde formula_140 é, aproximadamente, formula_152.
+
+Se um projétil for lançado com velocidade inicial formula_153 , a aceleração da gravidade alterará essa velocidade, na direção de formula_154 , produzindo uma nova velocidade que estará no mesmo plano formado pelos vetores formula_153 e formula_154
+Conclui-se assim que a trajetória do projétil estará sempre no plano vertical formado por formula_153 e formula_154
+A única excepção a essa regra é quando formula_153 for vertical; nesse caso, formula_153 e formula_154 não formam um plano e a trajetória é uma reta vertical.
+

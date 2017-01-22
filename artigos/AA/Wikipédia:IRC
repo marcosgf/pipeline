@@ -1,0 +1,49 @@
+O IRC é utilizado como um meio de comunicação entre wikipedistas da Wikipédia em português, que possuiu o seu canal hospedado no servidor freenode, assim como diversas outras Wikipédias em outros idiomas
+Qualquer um pode entrar e participar, é possível tirar dúvidas e discutir o projeto em geral
+O IRC permite a publicação de seu endereço de IP caso não solicite um cloak, como explicado abaixo.
+
+Caso não queira instalar nenhum aplicativo externo no seu computador, poderá entrar no canal da Wikipédia (codice_1) através do seu navegador por meio do webchat da freenode ou do Kiwiirc, este segundo possui uma interface mais amigável.
+
+Alternativamente, você poderá obter um software cliente IRC
+Veja abaixo a lista de alguns clientes disponíveis.
+
+Instalado seu cliente de IRC, clique aqui.
+
+Depois de entrar, se quiser acessar algum outro canal, digite:
+
+Para se desconectar, digite:
+
+Para saber mais comandos, consulte o artigo sobre IRC
+Se precisar de mais informações, pode consultar (em inglês) este tutorial, o irc primer ou o irc help.
+
+Estes canais possuem um "bot" que apresenta, em tempo real, edições consideradas suspeitas de vandalismo.
+
+Estes canais são hospedados pelo irc.wikimedia.org em vez do chat.freenode.net, e apresentam em tempo real as edições que são feitas em cada projeto
+Nota: Por limitações técnicas, não é possível dialogar nesses canais.
+
+Estes canais possuem um "bot" que apresenta, em tempo real, edições consideradas suspeitas de vandalismo.
+
+Para os que estão preocupados com a sua privacidade, o IRC dispõe de uma funcionalidade conhecida como "cloak"
+O "" é uma máscara de IP, ou seja, esconde o endereço IP do usuário no canal de IRC que, de outra forma, seria acessível a qualquer frequentador do canal
+Exemplo:
+
+Usuário sem cloak ao entrar no canal da #wikipedia-pt:
+
+Note que o endereço IP do usuário (127.0.0.1) fica visível aos demais usuários
+Um usuário com cloak ao entrar no canal da #wikipedia-pt seria exibido dessa forma:
+
+O cloak, nesse caso o "@wikimedia/Sir-Lestaty-de-Lioncourt", escondeu o endereço IP do usuário lhe garantindo certa privacidade.
+
+Há ainda a possibilidade de através de comandos CTCP ser possível determinar alguns dados, como o Sistema Operativo, e no caso do webirc, o browser utilizado
+Para limitar o acesso a esses dados, utilize um cliente externo, e desabilite essa funcionalidade.
+
+Para usuários que não desejam ter cloaks associados aos projetos Wikimedia, a Freenode disponibiliza um cloak padrão (@unaffiliated/user)
+Antes de solicitar um cloak o usuário deverá criar uma conta, o passo a passo está disponível no site da Freenode
+
+Todos os canais lusófonos possuem uma configuração padrão que identifica usuários dos projetos Wikimedia e lhes concede "voz" nos canais
+Caso deseje criar algum canal em português para os projetos Wikimedia, pedimos que fale com um dos usuários com acesso "OP" ( e ) para que eles realizem as devidas configurações no canal.
+
+Registro ("log") das reuniões no IRC: 
+
+Aos participantes que queiram utilizar a opcional, é só incluir o seguinte código em sua página de usuário:
+

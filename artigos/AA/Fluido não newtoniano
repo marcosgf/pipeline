@@ -1,0 +1,14 @@
+Um fluido não-newtoniano é um fluido cujas propriedades são diferentes dos fluidos newtonianos, mais precisamente quando a tensão de cisalhamento não é diretamente proporcional a taxa deformação
+Como conseqüência, fluidos não-newtonianos podem não ter uma viscosidade bem definida.
+
+Embora o conceito de viscosidade clássica seja comumente usado para caracterizar um material, ele pode ser inadequado para descrever o comportamento mecânico de determinadas substâncias líquidas (fluidos não-Newtonianos), nos quais a viscosidade aparente não é constante durante o escoamento
+Estas substâncias são melhor estudados através de suas propriedades reológicas, que mostram as relações entre a tensão aplicada nesta substância e a taxa de deformação sob diferentes condições de escoamento
+A obtenção destas propriedades reológicas é feita com viscosímetros
+Estas propriedades são descritas pelas equações constitutivas na forma tensorial, que são comuns no campo da mecânica do contínuo, ou na forma escalar por meio de definições de taxas de deformação efetiva e tensão de cisalhamento efetiva .
+
+Um exemplo barato e não tóxico de um fluido não-newtoniano pode ser feito facilmente adicionando-se amido de milho a uma xícara de água
+Adicione o amido em porções pequenas e misture devagar
+Quando a suspensão estiver próxima da concentração crítica — tomando a consistência de um creme de leite — a também chamada propriedade "dilatante" deste fluido não newtoniano se torna aparente.
+
+A propriedade pseudoplástica torna-se evidente na agitação de molho de tomate, onde temos uma diminuição da viscosidade.
+

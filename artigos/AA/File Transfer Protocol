@@ -1,0 +1,95 @@
+FTP ou File Transfer Protocol (em português, Protocolo de Transferência de Arquivos) é uma forma bastante rápida e versátil de transferir arquivos (Portugal: conhecidos como ficheiros), sendo uma das mais usadas na Internet.
+
+Pode referir-se tanto ao protocolo quanto ao programa que implementa este protocolo (Servidor FTP, neste caso, tradicionalmente aparece em letras minúsculas, por influência do programa de transferência de arquivos do Unix).
+
+A transferência de dados em redes de computadores envolve normalmente transferência de arquivos e acesso a sistemas de arquivos remotos (com a mesma interface usada nos arquivos locais)
+O FTP (RFC 959) é baseado no TCP, mas é anterior à pilha de protocolos TCP/IP, sendo posteriormente adaptado para o TCP/IP
+É o padrão da pilha TCP/IP para transferir arquivos, é um protocolo genérico independente de hardware.
+
+O protocolo é especificado na RFC959, resumida logo a seguir.
+
+Um cliente realiza uma conexão TCP para a porta 21 do servidor
+Essa conexão, chamada de "conexão de controle", permanece aberta ao longo da sessão enquanto uma segunda conexão, chamada "conexão de dados", é estabelecida na porta 20 do servidor e em alguma porta do cliente (estabelecida no diálogo entre ambos) como requisitado para a transferência de arquivo
+A conexão de controle é utilizada para administração da sessão (comandos, identificação, senhas) entre cliente e servidor utilizando um protocolo semelhante ao Telnet
+Por exemplo, "RETR filename" iria transferir o arquivo especificado de um servidor para um cliente
+Devido a essa estrutura de duas portas, FTP é considerado out-of-band, ao contrário de protocolos in-band, tal como HTTP.
+
+O servidor responde na conexão de controle com três dígitos de código de estado em ASCII com uma mensagem de texto opcional
+Por exemplo, "200" ou "200 OK" significa que o último comando obteve sucesso
+Os números representam o número do código e o texto opcional representa as explicações ou parâmetros necessários
+Uma transferência de arquivo em progresso, sobre uma conexão de dados, pode ser abortada utilizando uma mensagem de interrupção enviada sobre a conexão de controle.
+
+FTP pode ser executado em modo ativo ou passivo, os quais determinam como a conexão de dados é estabelecida
+No modo ativo, o cliente envia para o servidor o endereço IP e o número da porta na qual ele irá ouvir e então o servidor inicia a conexão TCP
+Em situações onde o cliente está atrás de um firewall e inapto para aceitar entradas de conexões TCP, o modo passivo pode ser utilizado
+O cliente envia um comando PASV para o servidor e recebe um endereço IP e um número de porta como resposta, os quais o cliente utiliza para abrir a conexão de dados com o servidor
+Ambos os modos foram atualizados em Setembro de 1998 para adicionar suporte ao IPv6 e feitas algumas mudanças no modo passivo, tornando-o modo passivo estendido..
+
+Durante a transferência de dados sobre a rede, quatro representações de dados podem ser utilizadas:
+
+Para arquivos texto, são fornecidas opções para diferentes controles de formato e estrutura de registros
+Esses recursos foram projetados para suporte à formatação Telnet ou .
+
+A transferência de dados pode ser feita em qualquer um dos três modos a seguir:
+
+A transferência de arquivos dá-se entre um computador chamado "cliente" (aquele que solicita a conexão para a transferência de dados) e um servidor (aquele que recebe a solicitação de transferência).
+
+O utilizador, através de software específico, pode selecionar quais arquivos enviar ou receber do servidor
+Para existir uma conexão ao servidor,caso o servidor exija, o utilizador informa um nome de utilizador (ou "username", em inglês) e uma senha "password", bem como o nome correcto do servidor ou seu endereço IP.
+
+Se os dados foram informados corretamente, a conexão pode ser estabelecida.
+
+O acesso a servidores FTP pode ocorrer de dois modos: através de uma interface ou através da linha de comando, tanto usuários LINUX como usuários Windows podem acessar através dos dois modos
+O modo linha de comando está presente em qualquer distribuição LINUX-like e Windows, através do telnet.
+
+A partir de qualquer navegador credenciado (Internet Explorer, Firefox, ou mesmo no Windows Explorer), conforme a norma RFC1738 também é possível aceder a um servidor FTP digitando na barra de endereço:
+
+codice_1
+
+ou
+
+codice_2
+
+O protocolo subjacente ao FTP pode rodar nos modos interativo ou "batch"
+O cliente FTP fornece uma interface interativa, enquanto que o MIME e o HTTP usam-no diretamente
+O protocolo permite a gravação e obtenção de arquivos, a listagem da pasta e a alteração da pasta de trabalho.
+
+Os servidores de FTP raramente mudam, mas novos clientes FTP aparecem com bastante regularidade
+Estes clientes variam no número de comandos que implementam, a maioria dos clientes FTP comerciais implementam apenas um pequeno subgrupo de comandos FTP
+Mesmo que o FTP seja um protocolo orientado a linha de comandos, a nova geração dos clientes FTP esconde esta orientação num ambiente gráfico, muitas vezes, muito desenvolvido.
+
+A interface cliente do FTP do BSD UNIX é um padrão por si mesma, possuindo muitos comandos arcaicos como codice_3 ou codice_4, que hoje não têm uso
+Os comandos mais usados são o codice_5, codice_6, codice_7,codice_8 e codice_9.
+
+O FTP tem particularidades que são hoje pouco comuns
+Depois da ativação do codice_10, é estabelecida uma conexão ao host remoto
+Esta conexão envolve o uso da conta do usuário no host remoto, sendo que alguns servidores FTP disponibilizam "anonymous FTP".
+
+Certos comandos são os que fazem a transferência bidirecional de arquivos, são eles:
+
+Nota: alguns comandos podem não funcionar com o usuário sendo "anonymous", pois tal conta tem limitações de direitos a nível do sistema operacional.
+
+A sintaxe dos nomes dos arquivos pode ser incompatível entre diferentes Sistemas Operacionais
+O UNIX usa 128 caracteres, maiúsculas e minúsculas, enquanto que o DOS usa 8 + 3 caracteres e apenas maiúsculas
+Certos nomes não podem ser usados em alguns sistemas
+Devido a isto tudo o BSD ftp define regras para a tradução de nomes.
+
+O FTP permite dois modos de transferência de mensagens FTP: "texto" (com traduções apropriadas) ou "binário" (sem tradução)
+Cada mensagem do servidor inclui um identificador decimal de 3 dígitos (exemplo:codice_15)
+Estas mensagens podem ser vistas ou não, usando para isso o modo "verbose" ou "quiet", respectivamente.
+
+O servidor remoto aceita uma "conexão de controle" do cliente local
+O cliente envia comandos para o servidor e a conexão persiste ao longo de toda a sessão (tratando-se assim de um protocolo que usa o TCP).
+
+O servidor cria uma "conexão de dados" para a transferência de dados, sendo criada uma conexão para cada arquivo transferido
+Estes dados são transferidos do servidor para o cliente e vice e versa.
+
+Os comandos estão separados dos dados e o cliente pode enviar comandos durante a transferência de dados
+O encerramento da conexão indica o fim do arquivo.
+
+Os comandos abaixo podem ser executados no FTP através da linha de comando
+Os comandos do FTP podem ser abreviados, desde que não formem expressões ambíguas.
+
+Os comandos podem estar abreviados
+Seguem os comandos:
+

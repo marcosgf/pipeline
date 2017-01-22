@@ -1,0 +1,76 @@
+Fibra ótica é um filamento flexível e transparente fabricado a partir de vidro ou plástico extrudido e que é utilizado como condutor de elevado rendimento de luz, imagens ou impulsos codificados
+Têm diâmetro de alguns micrómetros, ligeiramente superior ao de um cabelo humano
+Por ser um material que não sofre interferências eletromagnéticas, a fibra ótica possui uma grande importância em sistemas de comunicação de dados.
+
+Inicialmente, as fibras óticas, utilizadas como guias de transmissão de sinais óticos, operavam entre distâncias limitadas, pois apresentavam grande perda de luz na transmissão e alto calor que os lasers produziam
+Contudo, em meados dos anos 70, ocorreu um aprimoramento significativo das técnicas ópticas utilizadas e, devido a isso, tornou-se possível a monitoração de grandezas e a troca de informações a longas distâncias
+Já no Brasil, a fibra óptica foi introduzida apenas em 1977, após grandes pesquisas, realizadas na sua maioria pela UNICAMP.
+
+Há dois tipos de denominação recorrentes às fibras óticas, os quais possuem características e finalidades próprias
+Um deles é a fibra óptica monomodo
+Esta apresenta um caminho possível de propagação e é a mais utilizada em transmissão a longas distâncias (devido a baixas perdas de informação)
+Já a fibra multimodo, permite a propagação da luz em diversos modos e é a mais utilizada em redes locais (LAN), devido ao seu custo moderado
+As fibras óticas consistem, geralmente, de um núcleo central cilíndrico e transparente de vidro puro, o qual é envolvido por uma camada de material com menor índice de refração (fator que viabiliza a reflexão total)
+Ou seja, a fibra óptica é composta por um material com maior índice de refração (núcleo) envolto por um material com menor índice de refração (casca)
+Ao redor da casca ainda há uma capa feita de material plástico necessária para proteger o interior contra danos mecânicos.
+
+A transmissão da luz pela fibra segue um princípio único, independentemente do material usado ou da aplicação: é lançado um feixe de luz numa extremidade da fibra e, pelas características ópticas do meio (fibra), esse feixe percorre a fibra por meio de reflexões sucessivas
+A fibra possui no mínimo duas camadas: o núcleo (filamento de vidro) e o revestimento (material eletricamente isolante)
+No núcleo, ocorre a transmissão da luz propriamente dita
+A transmissão da luz dentro da fibra é possível graças a uma diferença de índice de refração entre o revestimento e o núcleo, sendo que o núcleo possui sempre um índice de refração mais elevado, característica que aliada ao ângulo de incidência do feixe de luz, possibilita o fenômeno da reflexão total
+Ou seja, a luz é mantida no núcleo através de reflexão interna total
+Isto faz com que a fibra funcione como guia de onda, transmitindo luz entre as duas extremidades.
+
+formula_1
+
+De modo que formula_2.
+
+Para termos a reflexão total, o formula_3 tem de ser maior do que o formula_4, o qual ocorre quando o ângulo de refração for de 90º.
+
+formula_5, como seno de 90º é 1, 
+
+formula_6
+
+formula_7
+
+formula_8 Índice de refração da casca
+
+formula_9 Índice de refração do núcleo
+
+formula_10 Ângulo de incidência (em relação à normal)
+
+formula_11 Ângulo de refração (em relação à normal)
+
+formula_12 Ângulo máximo em que ainda ocorre refração
+
+Desse modo, a partir do formula_4 , ocorrerá o fenômeno da reflexão total dentro da fibra óptica, de modo que apenas os raios com formula_14 permanecerão no núcleo.
+
+Mesmo confinada a um meio físico, a luz transmitida pela fibra óptica proporciona o alcance de taxas de transmissão (velocidades) elevadíssimas, da ordem de 10 a 10 bits por segundo (cerca de 40 Gbps), com baixa taxa de atenuação por quilômetro
+Mas a velocidade de transmissão total possível ainda não foi alcançada pelas tecnologias existentes
+Como a luz se propaga no interior de um meio físico, sofrendo ainda o fenômeno de reflexão, ela não consegue alcançar a velocidade de propagação no vácuo, que é de cerca de 300.000 km/s.
+
+Para transmitir dados pela fibra ótica, são necessários equipamentos especiais, que contêm um componente fotoemissor, que pode ser um diodo emissor de luz ou um diodo laser
+O fotoemissor converte sinais elétricos em pulsos de luz que representam os valores digitais binários (0 e 1)
+Tecnologias como WDM fazem a multiplexação de vários comprimentos de onda em um único pulso de luz, chegando a taxas de transmissão de 1,6 terabits por segundo em um único par de fibras.
+
+Os cabos de fibra ótica atravessam oceanos ligando os continentes através dos cabos submarinos
+A utilização desses cabos para conectar o mundo é um projeto incrível
+Existem milhares de quilômetros de extensão de cabos sob o mar, atravessando fossas e montanhas submarinas
+Nos anos 80, tornou-se disponível, o primeiro cabo fibra óptica intercontinental desse tipo
+Instalado em 1988, o cabo associado ao sistema TAT-8, tinha capacidade para 40.000 conversas telefônicas simultâneas, usando tecnologia digital
+Desde então, a capacidade dos cabos aumentou
+Alguns cabos que atravessam o oceano Atlântico têm capacidade para 200 milhões de circuitos telefônicos.
+
+Os milhares de quilômetros de fibra ótica presentes nos cabos submarinos representam aproximadamente 99% das conexões existentes em nosso planeta
+Desse modo, a internet coberta pelos satélites tem uma atuação secundária em comparação a tais cabos
+Existem cabos de tamanhos exorbitantes
+Um grande exemplo disso é o SeaMeWe 3, o qual conecta 32 países e possui em torno de 39 mil quilômetros de extensão
+Os cabos possuem uma estrutura composta de 8 camadas com um diâmetro total de cerca de 7 centímetros.
+
+As fibras óticas são amplamente utilizadas em redes telefônicas
+Em comparação com os cabos convencionais de metal, permitem a transmissão de dados a distâncias muito superiores e com maior largura de banda, de modo que economizam custos em relação aos demais cabos utilizados para os mesmos fins.
+
+As primeiras aplicações das fibras óticas foram em aparelhos de endoscopia desenvolvidos pela medicina, utilizadas para examinar diversos partes do corpo internamente.
+
+As fibras óticas podem ainda ser utilizadas para diversas aplicações, como iluminação, sensores, lasers ou em instrumentos médicos para examinar as cavidades interiores do corpo.
+

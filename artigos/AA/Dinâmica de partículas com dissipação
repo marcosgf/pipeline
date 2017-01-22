@@ -1,0 +1,11 @@
+A Dinâmica de partículas com dissipação é um caso particular do Modelo das Partículas Fluidas em que um fluido é representado por partículas discretas
+Estas partículas estão sujeitas a três tipos de forças:
+
+Forças repulsivas que têm a particularidade de serem conservativas:
+
+Forças de atrito que são dissipativas:
+
+Forças aleatórias:
+
+em que:
+

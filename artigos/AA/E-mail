@@ -1,0 +1,146 @@
+Um ou, ainda, e-mail, é um método que permite compor, enviar e receber mensagens através de sistemas eletrônicos de comunicação
+O termo "e-mail" é aplicado tanto aos sistemas que utilizam a Internet e que são baseados nos protocolos POP3, IMAP e SMTP, como àqueles sistemas conhecidos como intranets, que permitem a troca de mensagens dentro de uma empresa ou organização e que são, normalmente, baseados em protocolos proprietários.
+
+O correio eletrônico é mais antigo que a internet, e foi, de fato, uma ferramenta crucial para criá-la, mas, na história moderna, os serviços de comunicação globais iniciaram no início da ARPANET
+Padrões para codificação de mensagens de "e-mail" foram propostas em 1973 (RFC 561)
+A conversão da ARPANET à internet no início de 1980 produziu o núcleo dos serviços atuais
+Um "e-mail" enviado no início de 1970 parece muito semelhante a uma mensagem de texto dos dias atuais.
+
+O correio eletrônico é, frequentemente, chamado pelo seu nome em inglês, mesmo em textos em português
+Existem diversas grafias, que, ocasionalmente, provocam discussões entre os adeptos de cada forma:
+
+Também há variações na forma plural do termo
+Em inglês americano, "email" é usado como um substantivo coletivo (como o termo correspondência para itens enviados pelo sistema postal), mas, no inglês britânico, é mais comumente usado como um substantivo comum, com a forma plural "emails".
+
+A história do correio postal e a primeira menção à transmissão de mensagens têm origem na Grécia antiga, em 190 a.C., quando um general da cidade de Atenas enviou um mensageiro para comunicar aos atenienses a vitória de seu exército sobre os Persas.
+
+É justamente daí que se origina a palavra "correio", do original "correr"
+Reza a história que o mensageiro de Atenas, Filípides, correu aproximadamente 42 quilômetros para levar a mensagem, e apenas balbuciou "Vitória" antes de cair morto de exaustão
+Homenageou-se, posteriormente, essa distância como padrão das maratonas.
+
+Há registros, do século XV a.C., de redes postais entre egípcios e babilônicos, transmitidas por meio de tábuas de argila
+É também dos egípcios que vem o registro do primeiro sistema de correio
+O historiador Xenofonte escreveu:
+
+Já os romanos, para registrarem suas mensagens, utilizavam tábuas cobertas com cera quente (os "tabularis") ou pergaminhos e papiros
+Essas informações eram trocadas continuamente entre Roma, seus exércitos e funcionários espalhados nos vastos territórios conquistados
+No entanto, com a queda do Império Romano, os correios praticamente desapareceram.
+
+Muitos povos trocavam mensagens utilizando pombos-correios, grous e andorinhas
+Esses pássaros eram pintados com cores de determinado significado, de acordo com um código estabelecido, e depois soltos
+Ou tinham mensagens amarradas aos seus pés e seguiam uma rota pré-ensinada.
+
+O telégrafo, criado por Samuel Morse, que teve sua primeira transmissão em 1844, foi a primeira intervenção da eletricidade na mediação da comunicação entre pessoas.
+
+Em 1876, Alexander Graham Bell descreve sua primeira experiência bem-sucedida com o telefone
+Outra forma de transmissão de mensagem é o fax
+Apesar de ter sido inventado antes do telefone, só se popularizou em 1966, quando foi lançado o aparelho de fax operado em linha telefônica.
+
+O correio eletrônico é anterior ao surgimento da Internet
+Os sistemas de "e-mail" foram uma ferramenta crucial para a criação da rede internacional de computadores.
+
+O primeiro sistema de troca de mensagens entre computadores que se tem notícia foi criado em 1965, e possibilitava a comunicação entre os múltiplos usuários de um computador do tipo "mainframe"
+Apesar da história ser um tanto obscura, acredita-se que os primeiros sistemas criados com tal funcionalidade foram o Q32 da SDC e o CTSS do MIT.
+
+O sistema eletrônico de mensagens transformou-se rapidamente em um ""e-Mail" em rede", permitindo que usuários situados em diferentes computadores trocassem mensagens
+Também não é muito claro qual foi o primeiro sistema que suportou o "e-Mail" em rede
+O sistema AUTODIN, em 1966, parece ter sido o primeiro a permitir que mensagens eletrônicas fossem transferidas entre computadores diferentes, mas é possível que o sistema SAGE tivesse a mesma funcionalidade algum tempo antes.
+
+A rede de computadores ARPANET fez uma grande contribuição para a evolução do "e-Mail"
+Existe um relato que indica a transferência de mensagens eletrônicas entre diferentes sistemas situados nesta rede logo após a sua criação, em 1969
+A data de 29 de Outubro de 1969 é a da primeira mensagem enviada para computadores situados em locais distantes
+O texto dessa primeira mensagem continha apenas duas letras e um ponto - "LO."
+O investigador da Universidade da Califórnia em Los Angeles (UCLA) Leonard Kleinrock queria escrever "LOGIN", mas o sistema foi abaixo a meio da transmissão
+A mensagem seguiu do computador do laboratório de Kleinrock na UCLA para o de Douglas Engelbart no Stanford Research Institute, utilizando como suporte a recém-criada rede da ARPA (Advanced Research Projects Agency).
+
+O programador Ray Tomlinson iniciou o uso do sinal @ para separar os nomes do usuário e da máquina no endereço de correio eletrônico em 1971
+É considerado um dos inventores do e-mail, e foi de fato uma ferramenta crucial para criá-la, também criou outros programas parecidos com o "e-mail": SNDMSG e READMAIL
+A primeira mensagem enviada por Ray Tomlinson não foi preservada; era uma mensagem anunciando a disponibilidade de um "e-Mail" em rede
+A ARPANET aumentou significativamente a popularidade do correio eletrônico.
+
+O Departamento de Informática da Universidade do Minho enviou pela primeira vez em Portugal um "e-mail" em 15 de agosto de 1986.
+
+O conteúdo do "e-mail" eram "pormenores técnicos sobre uma tecnologia que estava a dar os primeiros passos - a Internet"
+O receptor da mensagem foi a Universidade de Manchester, no Reino Unido.
+
+O envio e recebimento de uma mensagem de "e-mail" é realizada através de um sistema de correio eletrônico
+Um sistema de correio eletrônico é composto de programas de computador que suportam a funcionalidade de cliente de "e-mail" e de um ou mais servidores de "e-mail" que, através de um endereço de correio eletrônico, conseguem transferir uma mensagem de um usuário para outro
+Estes sistemas utilizam protocolos de Internet que permitem o tráfego de mensagens de um remetente para um ou mais destinatários que possuem computadores conectados à Internet.
+
+O formato na Internet para mensagens de "e-mail" é definido na CRF 2822 e uma série de outras RFCs (RFC 2045 até a RFC 2049) que são conhecidas como MIME.
+
+Mensagens de "e-mail" consistem basicamente de duas seções principais:
+
+O corpo é separado do cabeçalho por uma linha em branco.
+
+Hoje, os grandes sítios da Internet criaram uma série de facilidades para o usuário
+Note que essa variação é só uma facilidade e não um novo tipo de "e-mail"
+Entre estas podemos citar:
+
+Alguns sítios restringem alguns tipos de "e-mail"
+Esse tipo de restrição normalmente é usado a fim de evitar a atuação de um "spammer" ou divulgador não autorizado de mensagens em massa
+Normalmente esse tipo de mensagem eletrônica é mais usado em empresas.
+
+Normalmente, é usado por autoridades e seu uso é controlado.
+
+Por medida de segurança, alguns organismos e entidades internacionais ou mesmo ligados a Governos categorizam o "e-mail" como:
+
+Os norte-americanos chegam ao cúmulo de dar níveis e subníveis a esse tipo de mensagem;
+
+Entretanto, vêm crescendo o uso da criação de chaves criptográficas pessoais (facilidade provida por aplicativos especializados), assegurando a privacidade das informações "de qualquer importância" de cada indivíduo.
+
+Tais chaves possuem uma grande flexibilidade, escalabilidade e confiabilidade.
+
+Algumas dicas de segurança:
+
+Especial ou categorizado em níveis, que são de uso exclusivo dos provedores de Internet
+Servem para testes e para verificar se funciona ou não o seu sistema anti-"spam" (contra as mensagens eletrônicas em massa).
+
+Com a popularização da Internet através dos provedores gratuitos (cujos usuários ganhavam também uma caixa de correio eletrônico grátis), muitos sítios começaram a oferecer endereços de "e-mail" gratuitos desvinculados de qualquer outro serviço
+Essas mensagens de "e-mail" podem ser lidas com o uso do próprio navegador, sem a necessidade de um programa específico, sendo por isso também chamados "webmail".
+
+O correio eletrônico tornou-se popular devido a sua grande facilidade em quebrar barreiras geográficas
+Pessoas que estão em diferentes continentes podem se comunicar livremente (desde que possuam computadores ou qualquer outro dispositivo com tal funcionalidade conectados a Internet), enviando e recebendo mensagens a qualquer hora do dia e para qualquer parte do mundo.
+
+Observa-se que o correio eletrônico deixa de ser apenas um meio de troca de mensagens entre pessoas para se tornar um grande fator na produtividade das empresas
+Grandes empresas estão, cada vez mais, usando o correio eletrônico para desempenhar papéis decisivos em suas negociações
+Dentro disso, uma intranet pode ser estabelecida para tornar a comunicação de funcionários com outros grupos, tornando assim mais fácil o trabalho e eliminando mensagens em massa e outras mensagens indesejadas.
+
+A Campaign Monitor, produtora de um "software" de mesmo nome, tem medido a popularidade de clientes de "e-mail" e "webmail" entre as bilhões de mensagens enviadas pelo seu sistema
+Esta amostra pode dar uma panorama geral dos programas ou plataformas de correio-e mais utilizados atualmente
+Em setembro de 2012, a medição apresentou os seguintes resultados:
+
+Outra tendência que se verifica é o crescimento da leitura de correio eletrônico em aparelhos móveis
+A popularidade destes dispositivos também é corroborada pelo relatório citado.
+
+As aplicações de correio eletrônico normalmente oferecem ao usuário uma série de facilidades
+A maior parte delas fornece um editor de textos embutido e a possibilidade do envio de arquivos anexados a correspondência
+Além disso, a maioria das aplicações permite o envio de correspondências para um único destinatário ou o envio para mais de uma pessoa ou para um grupo de pessoas.
+
+Embora não tenham sido desenvolvidos como uma ferramenta de trabalho cooperativo, os serviços de correio eletrônico adaptaram-se muito bem ao ambiente de grupos de trabalho, se tornando indispensáveis nas organizações, agilizando processos, democratizando o acesso as informações e diminuindo os custos
+Esta é uma das formas mais usadas para o estabelecimento de comunicações por meio do computador.
+
+Muitas organizações também usam o correio eletrônico como forma de troca de mensagens, mas, se quiserem usar recursos de "groupware", poderão incluí-los de forma simples e com baixo custo, com uma boa segurança.
+
+A desvantagem está na falta de conhecimento da grande maioria dos internautas e, ainda, os "spammers" ou geradores de "spam", grandes remetentes de vírus
+Como podemos ver em seguida:
+
+É aconselhável nunca abrir "e-mail" desconhecido, exceto se for de um site confiável, não sem antes observar os procedimentos de segurança.
+
+Com o grande aumento do uso da Internet e do correio eletrônico na vida das pessoas, tornou-se grande o número de pessoas maliciosas que tentam utilizar esses meios para realizar fraudes.
+
+O grande foco desses fraudadores são pessoas que utilizam sítios de instituições financeiras na Internet
+Os fraudadores eletrônicos utilizam a grande facilidade com que uma caixa de correio pode ser forjada e falsificada
+Eles utilizam listas e programas para envio de "spam" em grande escala juntamente com arquivos executáveis e serviços de hospedagem gratuitos e que não necessitem de identificação legítima.
+
+Esses fraudadores enviam mensagens de "e-mail" se passando por bancos e outras instituições financeiras, solicitando dados pessoais, número de conta corrente, cartão bancário e, às vezes, até mesmo o número de senhas de clientes
+Esses clientes desavisados enviam esses dados pensando se tratar realmente de um pedido dessas instituições, sem saberem que estão a se tornar vítimas de fraudadores
+Cada vez mais, cresce o número de pessoas que tem suas contas fraudadas, compras através de seus cartões e outros tipos de fraudes
+A falta de legislação e meios de segurança que controlem esse tipo de ação tem se tornado um fator positivo para que esses fraudadores continuem a atuar
+Além disso não há nenhum mecanismo que permita rastrear, identificar e coibir a ação desses fraudadores tornando assim cada vez mais difícil a atuação das autoridades nesses casos
+Mensagens de "e-mail" indesejadas de instituições que queiram solicitar dados pessoais devem ser ignoradas, pois essas não enviam tais mensagens para seus clientes.
+
+A melhor maneira de se prevenir contra fraudes ao utilizar o correio eletrônico é mesmo procurar o máximo de informações sobre sua origem e desconfiar de qualquer indício que possa levantar alguma suspeita
+Mensagens de "e-mail" que foram enviadas por pessoas ou empresas desconhecidas encabeçam essa lista
+Deve-se ter uma atenção especial com estes tipos de mensagem, pois podem instalar programas-espiões maliciosos, que podem capturar dados que estejam ou foram digitados no computador em que tais programas sejam executados, tornando assim fácil a obtenção de dados de seus usuários.
+

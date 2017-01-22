@@ -1,0 +1,260 @@
+O dilema do prisioneiro é um problema da teoria dos jogos e um exemplo claro, mas atípico, de um problema de soma não nula
+Neste problema, como em outros muitos, supõe-se que cada jogador, de modo independente, quer aumentar ao máximo a sua própria vantagem sem lhe importar o resultado do outro jogador.
+
+As técnicas de análise da teoria de jogos padrão - como, por exemplo, determinar o equilíbrio de Nash - podem levar cada jogador a escolher trair o outro, mas curiosamente ambos os jogadores obteriam um resultado melhor se colaborassem
+Infelizmente (para os prisioneiros), cada jogador é incentivado individualmente para defraudar o outro, mesmo após lhe ter prometido colaborar
+Este é o ponto-chave do dilema.
+
+No dilema do prisioneiro iterado, a cooperação pode obter-se como um resultado de equilíbrio
+Aqui joga-se repetidamente, pelo que, quando se repete o jogo, oferece-se a cada jogador a oportunidade de castigar o outro jogador pela não cooperação em jogos anteriores
+Assim, o incentivo para defraudar pode ser superado pela ameaça do castigo, o que conduz a um resultado melhor, cooperativo.
+
+O dilema do prisioneiro foi originalmente formulado por Merrill Flood e Melvin Dresher enquanto trabalhavam na RAND em 1950
+Mais tarde, Albert W
+Tucker fez a sua formalização com o tema da pena de prisão e deu ao problema geral esse nome específico
+O dilema do prisioneiro (DP) dito "clássico" funciona da seguinte forma:
+
+O fato é que pode haver dois vencedores no jogo, sendo esta última solução a melhor para ambos, quando analisada em conjunto
+Entretanto, os jogadores confrontam-se com alguns problemas: Confiam no cúmplice e permanecem negando o crime, mesmo correndo o risco de serem colocados numa situação ainda pior, ou confessam e esperam ser libertados, apesar de que, se ele fizer o mesmo, ambos ficarão numa situação pior do que se permanecessem calados?
+
+Um experimento baseado no simples dilema encontrou que cerca de 40% de participantes cooperaram (ou seja, ficaram em silêncio).
+
+Em abstracto, não importa os valores das penas, mas o cálculo das vantagens de uma decisão cujas conseqüências estão atreladas às decisões de outros agentes, onde a confiança e traição fazem parte da estratégia em jogo.
+
+Casos como este são recorrentes na economia, na biologia e na estratégia
+O estudo das táticas mais vantajosas num cenário onde esse dilema se repita é um dos temas da teoria dos jogos.
+
+O enunciado clássico do dilema do prisioneiro, acima exposto, pode resumir-se, do ponto de vista individual de um dos prisioneiros, na seguinte tabela (tabela de ganhos):
+
+Vamos supor que ambos os prisioneiros são completamente egoístas e a sua única meta é reduzir a sua própria estadia na prisão
+Como prisioneiros têm duas opções: ou cooperar com o seu cúmplice e permanecer calado, ou trair o seu cúmplice e confessar
+O resultado de cada escolha depende da escolha do cúmplice
+Infelizmente, um não sabe o que o outro escolheu fazer
+Incluso se pudessem falar entre si, não poderiam estar seguros de confiar mutuamente.
+
+Se se esperar que o cúmplice escolha cooperar com ele e permanecer em silêncio, a opção óptima para o primeiro seria confessar, o que significaria que seria libertado imediatamente, enquanto o cúmplice terá que cumprir uma pena de 10 anos
+Se espera que seu cúmplice decida confessar, a melhor opção é confessar também, já que ao menos não receberá a pena completa de 10 anos, e apenas terá que esperar 5, tal como o cúmplice
+Se ambos decidirem cooperar e permanecerem em silêncio, ambos serão libertados em apenas 6 meses.
+
+Confessar é uma estratégia dominante para ambos os jogadores
+Seja qual for a eleição do outro jogador, podem reduzir sempre sua sentença confessando
+Por desgraça para os prisioneiros, isto conduz a um resultado regular, no qual ambos confessam e ambos recebem longas condenações
+Aqui se encontra o ponto chave do dilema
+O resultado das interacções individuais produz um resultado que não é óptimo no sentido de Pareto; existe uma situação tal que a utilidade de um dos detidos poderia melhorar (ou mesmo a de ambos) sem que isto implique uma piora para o resto
+Por outras palavras, o resultado no qual ambos os detidos não confessam domina o resultado no qual os dois escolhem confessar.
+
+Se se pensar pela perspectiva do interesse óptimo do grupo (dos dois prisioneiros), o resultado correcto seria que ambos cooperassem, já que isto reduziria o tempo total de pena do grupo a um total de um ano
+Qualquer outra decisão seria pior para ambos se se considerar conjuntamente
+Apesar disso, se continuarem no seu próprio interesse egoísta, cada um dos dos prisioneiros receberá uma dura pena.
+
+Se um jogador tiver uma oportunidade para castigar o outro jogador ao confessar, então um resultado cooperativo pode manter-se
+A forma iterada de este jogo (mencionada mais abaixo) oferece uma oportunidade para este tipo de castigo
+Nesse jogo, se o cúmplice trai e confessa uma vez, pode-se castigá-lo traindo-o na próxima
+Assim, o jogo iterado oferece uma opção de castigo que está ausente no modo clássico do jogo.
+
+Este jogo possui como solução do ponto de vista Ótimo de Pareto a estratégia:
+
+Este jogo possui como Equilíbrios de Nash a estratégia:
+
+O cientista cognitivo Douglas Hofstadter (ver as referências abaixo) sugeriu uma vez que as pessoas encontram muitas vezes problemas como o dilema do prisioneiro mais fáceis de entender quando são apresentados como um simples jogo ou intercâmbio
+Um dos exemplos que usou foi o de duas pessoas que se encontrem e troquem malas fechadas, com o acordo de que uma delas contenha dinheiro e a outra contenha um objecto que está sendo comprado
+Cada jogador pode escolher seguir o acordo pondo na sua mala o que acordou, ou pode enganar oferecendo uma mala vazia
+Neste jogo de intercâmbio, ao contrário do dilema do prisioneiro, o engano é sempre a melhor opção.
+
+No mesmo artigo, Hofstadter também observou que a matriz de ganhos do dilema do prisioneiro pode, de facto, tomar múltiplos valores, sempre que se adira ao seguinte princípio:
+
+onde T é a tentação para trair (isto é, o que se obtém quando se deserta e o outro jogador coopera); R é a recompensa pela cooperação mútua; C é o castigo pela deserção mútua; e P é a "paga do ingénuo" (isto é, o que se obtém quando um jogador coopera e o outro deserta).
+
+A matriz de ganhos seria:
+
+O dilema do prisioneiro cumpre a fórmula : 0 > -0,5 > -5 > -10 (em negativo porquanto os números representam anos de cárcere).
+
+Costuma também cumprir-se (T + C)/2 < R, e isto é exigido no caso iterado.
+
+As fórmulas anteriores asseguram que, independentemente dos números exactos em cada parte da matriz de ganhos, é sempre "melhor" para cada jogador desertar, faça o que fizer o outro.
+
+Seguindo este princípio, e simplificando o dilema do prisioneiro ao cenário da troca de malas anterior (ou a um jogo de dois jogadores tipo Axelrod — ver mais abaixo), obteremos a seguinte matriz de ganhos canónica para o dilema do prisioneiro, isto é, a que se costuma mostrar na literatura sobre este tema:
+
+Em terminologia "ganho-ganho" a tabela seria semelhante a esta:
+
+Estes exemplos em concreto em que intervêm prisioneiros, troca de malas e coisas parecidas podem parecer rebuscados, mas existem, de facto, muitos exemplos de interacções humanas e interacções naturais nas quais se obtém a mesma matriz
+O dilema do prisioneiro é só por si de interesse para as ciências sociais, como a economia, a ciência política e sociologia, além das ciências biológicas como a etologia e a biologia evolutiva.
+
+Em ciência política, por exemplo, o cenário do dilema do prisioneiro usa-se para ilustrar o problema dos estados envolvidos nas corridas às armas
+Ambos concluíram que têm duas opções: ou incrementar os gastos militares, ou chegar a um acordo para reduzir o seu armamento
+Nenhum dos dois estados pode estar seguro de que o outro acatará o acordo; deste modo, ambos se inclinam para a expansão militar
+A ironia está em que ambos os estados parecem actuar racionalmente, mas o resultado é completamente irracional
+Outro interessante exemplo tem a ver com um conceito conhecido das corridas no ciclismo, por exemplo, na Volta à França
+Considerem-se dois ciclistas a metade da corrida, com o pelotão a grande distância
+Os dois ciclistas trabalham em cooperação mútua, compartindo a pesada carga da posição dianteira, donde não se podem refugiar do vento
+Se nenhum dos ciclistas faz um esforço para permanecer adiante, o pelotão alcançá-los-á rapidamente ("deserção mútua")
+Um exemplo visto com frequência é que um ciclista faz sozinho todo o seu trabalho, mantendo ambos longe do pelotão
+No final, isto levará provavelmente a uma vitória do segundo ciclista, que teve uma corrida mais fácil graças o trabalho do primeiro corredor.
+
+Por último, a conclusão teórica do dilema do prisioneiro é a razão pela qual, em muitos países, se proíbem os acordos judiciais
+Frequentemente aplica-se precisamente o cenário do dilema do prisioneiro: é do interesse de ambos os suspeitos ou confessar ou testemunhar contra o outro prisioneiro/suspeito, mesmo que ambos sejam inocentes do suposto crime ou actividade ilícita
+Pode-se dizer que o pior caso dá-se quando apenas um deles é culpado: não é provável que o inocente confesse, enquanto o culpado tenderá a confessar e a testemunhar contra o inocente.
+
+No seu livro "A evolução da cooperação: o dilema do prisioneiro e a teoria de jogos" (1984), Robert Axelrod estudou uma extensão ao cenário clássico do dilema do prisioneiro que denominou dilema do prisioneiro iterado (DPI)
+Aqui, os participantes devem escolher uma e outra vez a sua estratégia mútua, e têm memória dos seus encontros prévios
+Axelrod convidou colegas académicos de todo o mundo a conceber estratégias automatizadas para competir num torneio de DPI
+Os programas que participaram variavam amplamente na complexidade do algoritmo: hostilidade inicial, capacidade de perdão e similares.
+
+Axelrod descobriu que quando se repetem estes encontros durante um longo período de tempo com muitos jogadores, cada um com distintas estratégias, as estratégias "egoístas" tendiam a ser piores a longo prazo, enquanto que as estratégias "altruístas" eram melhores, julgando-as unicamente com respeito ao interesse próprio
+Usou isto para mostrar um possível mecanismo que explicasse o que antes tinha sido um difícil ponto na teoria da evolução: como pode evoluir um comportamento altruísta a partir de mecanismos puramente egoístas na selecção natural?
+
+Descobriu-se que a melhor estratégia determinista era a de "olho por olho" ("tit for tat"), que foi desenvolvida e apresentada no torneio por Anatol Rapoport
+Era o mais simples de todos os programas apresentados, contendo apenas quatro linhas de BASIC, e foi o que ganhou o concurso
+A estratégia consiste simplesmente em cooperar na primeira iteração do jogo, e depois de isso escolher o que o oponente escolheu na ronda anterior
+Uma estratégia ligeiramente melhor é ""Tit for Tat" com capacidade de perdão"
+Quando o oponente deserta, na seguinte ronda coopera-se por vezes com ele com uma pequena probabilidade (de 1% a 5%)
+Isto permite a recuperação ocasional de ficar encerrado num círculo vicioso de deserções
+A probabilidade exacta depende do alinhamento dos oponentes
+""Tit for Tat" com capacidade de perdão" é a melhor estratégia quando se introduzem problemas de comunicação no jogo
+Isto significa que às vezes a jogada é transmitida incorrectamente ao oponente: coopera-se mas o oponente crê que se desertou.
+
+"Tit for Tat" funcionava, segundo Axelrod, por dois motivos
+O primeiro é que é "amável", isto é, começa cooperando e apenas deserta como resposta à deserção de outro jogador, e assim nunca é o responsável por iniciar um ciclo de deserções mútuas
+O segundo é que pode ser provocado, ao responder sempre o que faz o outro jogador
+Castiga imediatamente o outro jogador se este deserta, mas igualmente responde adequadamente se cooperam de novo
+Este comportamento claro e directo significa que o outro jogador entende facilmente a lógica por trás das acções de "Tit for Tat", e pode portanto encontrar uma forma de trabalhar com ele produtivamente
+Não é uma coincidência que a maioria das estratégias que funcionaram pior no torneio de Axelrod fossem as que não estavam desenhadas para responder às escolhas dos outros jogadores
+Contra esse tipo de jogador, a melhor estratégia é desertar sempre, já que nunca se pode assegurar ter estabelecido uma cooperação mútua fiável.
+
+Para o DPI, nem sempre é correcto dizer que uma certa estratégia é a melhor
+Por exemplo, considere-se uma população onde todos desertam sempre, excepto um único individuo que continua a estratégia "Tit for Tat"
+Este individuo tem uma pequena desvantagem porque perde a primeira ronda
+Numa população com um certa percentagem de indivíduos que desertam sempre e outros que continuam a estratégia "Tit for Tat", a estratégia óptima para um indivíduo depende da percentagem, e da duração do jogo
+Realizaram-se simulações de populações, onde morrem os indivíduos com pontuações baixas e se reproduzem aqueles com pontuações altas
+A mistura de algoritmos na população final depende da mistura na população inicial.
+
+Se um DPI vai ser iterado exactamente N vezes, para alguma constante conhecida N, há outro dato interessante
+O equilíbrio de Nash é desertar sempre
+Isto prova-se facilmente por indução: Pode-se desertar a última ronda, já que o oponente não terá oportunidade de castigar
+Por isso, ambos desertarão na última ronda
+Então, pode-se desertar a ronda anterior, já que o oponente desertará na última faça-se o que se fizer
+E continua-se deste modo
+Para que a cooperação continue atractiva, o futuro deve ser indeterminado para ambos os jogadores
+Uma solução consiste em fazer aleatório o número total de rondas N.
+
+Outro caso especial é "jogar eternamente" o dilema do prisioneiro
+O jogo repete-se um número infinito de rondas, e a pontuação é a média.
+
+O jogo do dilema do prisioneiro é fundamental para entender certas teorias de cooperação e confiança humana
+Na suposição de que as transacções entre duas pessoas que exijam confiança podem ser modeladas pelo dilema do prisioneiro, o comportamento cooperativo em populações pode ser modelado por uma versão para varios jogadores e iterada do jogo
+Por isso tem fascinado muitos estudiosos ao longo dos anos
+Uma estimativa não demasiado actualizada ("Grofman and Pool", 1975) situa o número de artigos dedicados ao mesmo acima dos 2.000.
+
+Ao analisar as estratégias que conseguiram melhor pontuação, Axelrod estabeleceu várias condições necessárias para que uma estratégia tivesse êxito:
+
+A condição mais importante é a de que a estratégia deve ser "amável", ou seja, não desertar antes que o opositor o faça
+Quase todas as estratégias melhor pontuadas eram amáveis; daí uma estratégia puramente egoísta não fará "batota" com o oponente, principalmente por razões puramente utilitárias.
+
+Todavia, notou Axelrod, a estratégia vencedora não pode ser optimista cega
+De vez em quando tem de retaliar
+Um exemplo de uma estratégia não retaliadora é a de "colaborar sempre"
+É uma escolha muito má, pois estratégias oportunistas ou maldosas irão explorar essa fraqueza sem piedade.
+
+Uma qualidade das estratégias vencedoras é que são capazes de perdoar
+Embora retaliem, tornam a cooperar logo que o opositor não continue a desertar
+Isto evita grandes sequências de vinganças em círculo vicioso, maximizando os pontos.
+
+A última qualidade é não serem invejosas, ou seja, não tentarem fazer mais pontos que os opositores (impossível para uma estratégia "amável", isto é, uma estratégia "amável" nunca pode fazer mais pontos que o opositor).
+
+Assim, Axelrod atinge a conclusão talvez utópica de que os indivíduos egoístas pelo seu próprio egoísmo tenderão a ser amáveis e colaborantes, indulgentes e não invejosos
+Uma das mais importantes conclusões do estudo de Axelrod's quanto a este problema é que os indivíduos "amáveis" acabam com as melhores classificações.
+
+No vigésimo aniversário da competição do dilema do prisioneiro iterado (2004), a equipe da Universidade de Southampton ganhou as primeiras posições, vencendo, entre os demais competidores, algoritmos modelo tit-for-tat e seus derivados
+A competição era da variante do dilema do prisioneiro iterado com problemas de comunicação (isto é, algumas vezes não se comunicavam bem os movimentos ao outro jogador).
+
+Nessa edição apresentaram-se 223 competidores, dos quais 60 foram inscritos por Southampton
+Todos eram variantes de um mesmo algoritmo, e nas primeiras 5 a 10 iterações do dilema do prisioneiro utilizavam as suas respostas como "saudação secreta" para se identificarem entre si
+Então, identificavam-se ao outro jogador como pertencentes à "sociedade", e alguns algoritmos estavam desenhados para sacrificar-se colaborando sempre, de modo que os outros, traindo-os sempre, pudessem conseguir uma pontuação máxima
+Se não identificavam o outro algoritmo como pertencente à sociedade, após ver as suas jogadas iniciais, todas as variantes o traíam sempre para baixar tanto quanto possível a sua pontuação.
+
+Essa estratégia, embora de discutível correspondência com o espírito do jogo, já que requer uma comunicação inicial entre os participantes da "sociedade" para decidir o formato da "saudação", ajusta-se às regras da competição
+seguindo-a, Southampton conseguiu que três de seus participantes ocupassem as três primeiras posições, mas à custa de muitos dos seus outros algoritmos terem ficado entre os de pior pontuação.
+
+Quando os jogadores aprendem a estimar a probabilidade de deserção dos outros, o seu próprio comportamento é influenciado pela sua experiência desse comportamento externo
+Estatísticas simples mostram que jogadores sem experiência são mais propensos a ter globalmente interacções invulgarmente boas ou más com os outros
+Se agem na base dessas experiências (desertando ou cooperando mais do que fariam em outros casos) é mais provável que sofram em transacções futuras
+Ao ganhar experiência consegue-se uma impressão mais verdadeira da probabilidade de deserção e o jogo torna-se mais favorável
+As transacções iniciais feitas por jogadores imaturos poderão ter maior efeito no jogo futuro do que as que o são por jogadores já experientes
+Este princípio explicará porque experiências formativas de jovens são tão influentes e porque é que estes são particularmente vulneráveis a violências psicológicas como o bullying, por vezes tornando-se eles próprios abusadores.
+
+A probabilidade de traição/deserção numa população pode ser reduzida pela experiência da cooperação em anteriores jogos permitindo a construção de uma relação de confiança
+Daí o comportamento de auto-sacrifício poderá, em alguns casos, aumentar a coesão moral de um grupo
+Se o grupo for pequeno o comportamento positivo é mais provável de retornar de forma mútua, encorajando os indivíduos no grupo para que continuem a cooperar
+Estes processos são preocupações de relevo no estudo do altruísmo recíproco, selecção de grupo, selecção de parentesco e filosofia moral.
+
+Existem algumas variantes do jogo, com diferenças sutis mas importantes nas matrizes de ganhos, que se mostram de seguida.
+
+Outro importante jogo de soma não nula chama-se "galinha"
+Neste caso, se o teu oponente deserta, te beneficias mais se cooperas, e este é o teu melhor resultado
+A deserção mútua é o pior resultado possível (e por isso um equilíbrio instável), enquanto que no dilema do prisioneiro o pior resultado possível é a cooperação enquanto o outro jogador deserta (assim a deserção mútua é um equilíbrio estável)
+Em ambos os jogos, a "cooperação mútua" é um equilíbrio instável.
+
+Uma matriz de ganhos típica seria:
+
+Chama-se "galinha" devido ao jogo de corridas de carros homónimo
+Dois jogadores correm um contra o outro para uma aparente colisão frontal: o primeiro a desviar-se da trajectória é o galinha
+Ambos os jogadores evitam o choque (cooperam) ou continuam com a trajectória (desertam)
+Outro exemplo é dado quando dois fazendeiros usam o mesmo sistema de irrigação nos seus campos
+O sistema pode ser mantido adequadamente por uma pessoa, mas ambos os fazendeiros beneficiam disso
+Se um fazendeiro não contribui para a sua manutenção, continua sendo do interesse do outro fazendeiro fazê-lo, porque beneficiará faça o que fizer o outro
+Assim, se um fazendeiro pode estabelecer-se como o desertor dominante — isto é, se seu hábito ficar tão enraizado que o outro faz todo o trabalho de manutenção — seguramente continuará com esse comportamento.
+
+Um jogo de confiança tem uma estrutura similar ao dilema do prisioneiro, excepto que a recompensa pela cooperação mútua é maior que a outorgada pela deserção mútua
+Uma matriz de vitórias típica seria:
+
+O jogo de confiança é potencialmente muito estável, já que dá a máxima recompensa a jogadores que estabelecem um hábito de cooperação mútua
+Apesar disto, existe o problema de que os jogadores não sejam conscientes de que está em seu interesse cooperar
+Podem, por exemplo, crer incorrectamente que estão a jogar um jogo de dilema do prisioneiro ou galinha, e escolher a sua estratégia de acordo com ela.
+
+"Amigo ou inimigo" ("Friend or Foe") é um jogo emitido na televisão, no canal de cabo e satélite estado-unidense "Game Show Network"
+É um exemplo do jogo do dilema do prisioneiro provado em pessoas reais, mas num ambiente artificial
+No concurso, competem três pares de pessoas
+Quando cada par é eliminado, jogam a um jogo do dilema do prisioneiro para determinar como se repartem seus ganhos
+Se ambos cooperam ("amigo"), compartem benefícios em 50%
+Se um coopera e o outro deserta ("inimigo"), o desertor leva todos os ganhos e o cooperador nenhum
+Se ambos desertam, ninguém leva nada
+Adverte-se que a matriz de ganhos é ligeiramente diferente do padrão dado anteriormente, já que os ganhos de "ambos desertam" e o de "eu coopero e o outro deserta" são idênticos
+Isto faz que "ambos desertam" seja um equilíbrio neutral, comparado com o dilema do prisioneiro padrão
+Se sabes que o teu oponente vai votar "inimigo", então a escolha não afecta os ganhos
+De certo modo, "amigo ou inimigo" encontra-se entre o dilema do prisioneiro e a galinha.
+
+A matriz de ganhos é:
+
+"Amigo ou inimigo" é útil para alguém que queira fazer uma análise do dilema do prisioneiro aplicado à vida real
+Fixe-se em que apenas se pode jogar uma vez, sendo que todos os conceitos que implicam jogos repetidos não se apresentam, e não se pode desenvolver a estratégia da vingança.
+
+Em "amigo ou inimigo", cada jogador pode fazer um comentário para convencer o outro quanto à sua amizade antes de fazer a decisão em segredo de cooperar ou desertar
+Um possível modo de "ganhar ao sistema" seria dizer ao rival: "Vou escolher 'inimigo'
+Se confias em que te dê a metade dos benefícios depois, escolhe 'amigo'
+De outro modo, iremos ambos embora sem nada." Uma versão mais egoísta disto seria: "Vou escolher 'inimigo'
+Vou dar-te X% e ficarei com (100-X)% do prémio total
+Assim que (é "pegar ou largar"), ambos levamos algo ou nenhum de nós leva nada." 
+
+Agora o truque está em minimizar X de modo que o outro concorrente continue escolhendo 'amigo'
+Basicamente, deve-se saber o limiar no qual a utilidade (benefícios potenciais) que o opositor ganha ao ver-nos a nada receber ultrapassa a utilidade que ele ganha no caso de alinhar no jogo cooperativo
+Todavia, nos seus contratos, os jogadores tiveram de acordar que no caso em que ambos vencem, nada podem dar ao parceiro, ou arriscam o prémio inteiro.
+
+Esta aproximação não foi tentada no jogo: é possível que os juízes não a permitissem.
+
+A chamada "tragédia dos comuns" (dos pastos comunitários) é um caso de dilema do prisioneiro que envolve muitos agentes e que parece referir-se a situações reais.
+
+Na formulação que popularizou Garrett Harding, cada vizinho de uma comunidade campestre prefere alimentar o seu gado em pastos comunitários que em outros próprios de pior qualidade; se o número de vizinhos que satisfaz esta preferência superar certo limite, os pastos comunitários ficam esgotados, e é a isto precisamente que conduz a solução do jogo
+Para que algum vizinho beneficie dos pastos, outros devem pagar o custo de renunciar, ou cada um deve renunciar em parte; mas o equilíbrio está na situação onde cada qual utiliza os pastos sem se preocupar com os demais.
+
+Traduzindo a situação no esquema de Hofstadter, cada vizinho tem aqui a tentação "T" de beneficiar dos pastos sem pagar o custo; a recompensa "R" pela cooperação mútua consiste em negociar quantos hão-de deixar de beneficiar dos pastos comunitários para os conservar em boas condições; o castigo "C" é para todos, quando cada um cede à tentação, e é a ruína dos pastos; a perda P é a de que ao não se aproveitar dos pastos comunitários, se permita que outros o venham a fazer
+Estas possibilidades combinam-se como no dilema do prisioneiro bipessoal, fazendo que perante o risco de receber P, a "paga do ingénuo", todos cedam à tentação de não cooperar e provoquem a situação de castigo.
+
+A mesma estrutura pode aplicar-se a qualquer dinâmica de esgotamento de recursos por sobre-exploração, e parece estar no origem da contaminação ambiental – onde uma atmosfera não contaminada poderia desempenhar o papel dos pastos comunitários -, e o automóvel privado o papel do gado-
+Interpretou-se que evitar soluções sub-óptimas como estas passa pela privatização dos bens de acesso público, limitando em função da renda o número de pessoas que podem cair na tentação.
+
+Para o filósofo inglês Derek Parfit, são os jogos de muitos agentes, como a "tragédia dos comuns" – e não os jogos bipessoais ou os jogos iterados -, os que têm mais interesse para estudar a lógica do dilema do prisioneiro: por um lado, a situação que os provoca não depende de ganhos desenhados externamente - por um experimentador ou uma instituição-, mas da simples concorrência de múltiplos agentes; por outro, quantos mais sejam os participantes, mais irracional é abandonar unilateralmente a solução sub-óptima que leva a C – mais improvável são os benefícios de não ceder à tentação T -, e menos peso têm as soluções que se postulam em contextos artificiais de iteração
+Em suma, o grande número de participantes é para Parfit tanto causa como garantia de que a não cooperação seja uma solução estável, e fá-la permanente e inevitável (para agentes racionais que procurem satisfazer o seu próprio interesse).
+
+Paula Casal afirma que a capacidade secular das comunidades indígenas para manter em bom estado os pastos comunitários desmente a inevitabilidade de C, graças "à educação, aos costumes, aos conselhos dos anciãos ou a outras instituições sociais"
+Parece então que o dilema se supera graças à paradoxal receita que admite Parfit: o próprio interesse prescreve que, para chegar a soluções óptimas de Pareto estáveis, os indivíduos devem ser educados em teorias morais contrárias à satisfação do próprio interesse.
+

@@ -1,0 +1,164 @@
+Berkeley Software Distribution (BSD) é um sistema operacional Unix com desenvolvimento derivado e distribuído pela Computer Systems Research Group (CSRG) da Universidade da Califórnia em Berkeley, de 1977 a 1995
+Hoje o termo "BSD" é frequentemente usado de forma não específica para se referir a qualquer descendente que juntos, formam uma ramificação da família Unix-like de sistemas operacionais
+Sistemas operacionais derivados do código do BSD original ainda são ativamente desenvolvidos e largamente utilizados.
+
+Historicamente, o BSD ou Berkeley Unix foi considerado uma ramificação do Unix da AT&T, porque compartilhou a base de dados inicial e o projeto original
+Nos anos de 1980, o BSD foi largamente adotado por fornecedores de sistemas de estação de trabalho na forma de variantes proprietárias de Unix como DEC, ULTRIX e o SunOS da Sun Microsystems 
+Isto pode ser atribuído à facilidade com que ele pode ser licenciado, além da familiaridade que os fundadores de muitas empresas de tecnologia da época tinham com ele.
+
+Embora estes derivados proprietários do BSD foram amplamente superados pelo UNIX System V Release 4 e o OSF / 1, sistemas da década de 1990 (sendo que ambos incorporaram código BSD e são a base de outros sistemas Unix modernos), mais tarde os lançamentos BSD forneceram uma base para vários projetos de desenvolvimento de código aberto, por exemplo: FreeBSD, OpenBSD, NetBSD, Darwin ou PC-BSD, que estão em contínuo desenvolvimento
+Estes, por sua vez foram incorporados, no todo ou em parte, em sistemas operacionais proprietários modernos, como por exemplo o conjunto de protocolos de Internet TCP/IP, código de rede em Windows NT 3.1 e também da maioria dos OS X da Apple's e iOS.
+
+As primeiras distribuições do Unix da Bell Labs em 1970 incluíram o código fonte para o sistema operacional, habilitando os pesquisadores em universidades a modificar e estender o Unix
+O sistema operacional surgiu em Berkeley em 1974, a pedido do professor de Ciência da Computação Bob Fabry que havia estado no comitê do programa para o Symposium on Operating Systems Principles onde o Unix foi apresentado pela primeira vez
+Um PDP-11/45 foi vendido para rodar o sistema, mas, por razões orçamentais, esta máquina foi compartilhada com os grupos de Matemática e Estatística em Berkeley, que usaram RSTS, de modo que o Unix funcionava somente oito horas por dia na máquina (às vezes durante o dia, às vezes durante a noite)
+Um maior computador, o PDP-11/70 foi instalado em Berkeley no ano seguinte, usando o dinheiro do projeto de banco de dados Ingres.
+
+Também em 1975, Ken Thompson chegou à Berkeley como professor visitante
+Ele ajudou a instalar o Unix Versão 6 e começou a trabalhar com Pascal para implementação do sistema
+Alunos de graduação como Chuck Haley e Bill Joy melhoraram o Pascal de Thompson e implementaram um editor de textos melhorado: o ex
+Outras universidades se interessaram pelo software em Berkeley, e assim em 1977, Joy começou a compilar a primeira "Berkeley Software Distribution" (BSD 1), que foi lançado em 9 de março de 1978
+O BSD 1 foi um add-on para a versão 6 do Unix em vez de um sistema operacional completo por si mesmo
+Umas trinta cópias foram vendidas.
+
+O segundo BSD, lançado em maio de 1979, incluiu versões atualizadas do BSD 1, bem como dois novos programas de Joy que persistem no Unix até os dias de hoje: o editor de textos vi, um editor visual do ex e o C Shell
+Cerca de 75 cópias do BSD 2 foram enviadas por Bill Joy
+Uma outra característica foi um pacote de rede chamado Berknet, desenvolvido pela Eric Schmidt como parte da tese de seu trabalho de mestrado, que pode conectar até vinte e seis computadores e e-mail fornecidos, além de transferência de arquivos.
+
+Depois, o BSD 3 (veja abaixo) saiu para a linha de computadores VAX, novos lançamentos do BSD 2 para o PDP-11 ainda foram emitidos e distribuídos através de USENIX; por exemplo, de 1982, a versão 2.8.1 do BSD incluiu uma coleção de correções para problemas de desempenho na Versão 7 do Unix, e em versões posteriores continham ports de mudanças dos lançamentos baseados no VAX de BSD, voltados para a arquitetura do PDP-11
+A versão do BSD 2.9 de 1983 incluiu código do BSD 4.1c, e foi o primeiro lançamento que era um sistema operacional completo (um Unix V7 modificado) em vez de um conjunto de aplicativos e patches
+O mais recente lançamento, o BSD 2.11, foi emitido pela primeira vez em 1992
+A partir de 2008, as atualizações de manutenção de voluntários ainda estão em andamento, com o patch 448 sendo lançado em 17 de junho de 2012.
+
+Um computador VAX foi instalado em Berkeley em 1978, mas o port do Unix para a arquitetura VAX, o UNIX/32V, não tirou vantagem das capacidades de memória virtual do VAX
+O kernel do 32V foi amplamente reescrito por estudantes de Berkeley que incluía uma implementação de memória virtual e um sistema operacional completo incluindo o novo kernel, ports de utilidades do BSD 2 para o VAX, e as utilidades do 32V também foram lançadas como BSD 3, no final de 1979
+O BSD também foi alternativamente chamado de Virtual VAX/UNIX ou VMUNIX (para memórias virtuais Unix), e as imagens do Kernel do BSD eram conhecidas como /vmunix até o BSD 4.4.
+
+O sucesso do BSD 3 foi um maior fator na decisão do Defense Advanced Research Projects Agency's (DARPA) em financiar o Berkeley's Computer Systems Research Group (CSRG), no qual desenvolveram uma plataforma Unix padrão para a futura pesquisa do DARPA no Berkeley's Computer Systems Research Group.
+
+O BSD 4 foi lançado em novembro de 1980 oferecendo um número de melhorias sobre o BSD 3, notavelmente um job control no csh lançado previamente, além do "delivermail" (o antecedente do sendmail), além de "confiáveis" sinais e a biblioteca de programação do Curses
+Em 1985 num review de lançamento do BSD, John Quarterman, escreveu:
+
+O BSD na versão 4.1 foi lançado em junho de 1981 e foi uma resposta ao criticismo de performance relativa aos BSDs nos sistemas operacionais dos VAX da época, o VMS
+O kernel do BSD 4.1 foi sistematicamente sintonizado pelo Bill Joy até que ele obtivesse uma performance semelhante ao VMS nos benchmarks
+O lançamento deveria ter sido chamado de "BSD 5", mas depois de objeções da AT&T o nome foi mudado; a AT&T temia confusão com o UNIX System V.
+
+Foi lançado em agosto de 1983, levou mais de 2 anos para ser implementado e continha várias e grandes reparações
+Antes de seu lançamento oficial vieram três versões intermediárias: a " 4.1a " que incorporava uma versão preliminar modificada de Bolt, Beranek e Newman da BBN do TCP IP; O "4.1b" que incluia o novo UFS, implementado por Marshall Kirk McKusick; e o "4.1c" que foi uma liberdade provisória durante os últimos meses de desenvolvimento do BSD 4.2
+De volta à Bell Labs, o BSD 4.1c se tornou a base da oitava edição de Research Unix, e uma versão suportada comercialmente era disponível a partir do mtXinu.
+
+Para orientar a concepção do BSD 4.2, Duane Adams do DARPA formou um "comitê de direção" que consiste em: Bob Fabry, Bill Joy e Sam Leffler a partir da UCB, Alan Nemeth e Rob Gurwitz da BBN, Dennis Ritchie da Bell Labs, Keith Lantz de Stanford, Rick Rashid da Carnegie-Mellon, Bert Halstead do MIT, Dan Lynch do ISI e Gerald J
+Popek da UCLA
+A comissão reuniu-se a partir de abril de 1981 à junho de 1983.
+
+Além do UFS, foram aceites várias características de colaboradores externos, incluindo as quotas de disco e controle de trabalho
+A Sun Microsystems, elaborou testes em suas máquinas Motorola 68000, antes da liberação, assegurando a portabilidade do sistema.
+
+O lançamento oficial do BSD 4.2 veio em agosto de 1983
+Foi notável como a primeira versão lançada após o início, em 1982, Bill Joy cofundador da Sun Microsystems; Mike Karels e Marshall Kirk McKusick assumiram funções de liderança dentro do projeto a partir desse ponto em diante
+Em uma nota mais leve, ele também marcou a estreia do mascote do BSD em um desenho feito por John Lasseter que apareceu na capa dos manuais impressos distribuídos por USENIX.
+
+A versão 4.3 foi lançada em junho de 1986
+Suas principais mudanças foram para melhorar o desempenho de muitas das novas contribuições do BSD 4.2 que não tinha sido tão fortemente afinadas como o código do BSD 4.1
+Antes do lançamento, a implementação do BSD de TCP/IP havia divergido consideravelmente de implementações oficiais da BBN
+Depois de vários meses de testes, o DARPA determinou que a versão BSD 4.2 foi superior e permaneceria no BSD 4.3.
+
+Após o BSD 4.3, foi determinado que o BSD iria afastar-se da antiga plataforma VAX
+O Power 6/32 platforma de codinome "Tahoe" desenvolvido pela Computer Inc
+Consoles parecia promissor na época, mas foi abandonado por seus desenvolvedores pouco depois
+No entanto, o port do BSD 4.3-Tahoe em junho de 1988, foi valiosa, uma vez que levou a uma separação de máquina dependente e também código independente de máquina no BSD que iria melhorar a portabilidade futura do sistema.
+
+Além de portabilidade, o CSRG trabalhou em uma implementação do OSI uma pilha de protocolos de rede, melhorias no sistema de memória virtual do kernel e (com Van Jacobson do LBL) novos algoritmos TCP/IP para acomodar o crescimento da internet.
+
+Até então, todas as versões do BSD incorporavam código proprietário do Unix da AT&T e foram, portanto, sujeitas a uma licença de software AT&T
+Licenças de código-fonte tornaram-se muito caras e vários grupos de terceiros expressaram interesse em uma versão separada do código de rede, que tinha sido desenvolvido completamente fora da AT&T e portanto não estaria sujeito ao requisito de licenciamento
+Isso levou ao Networking Release 1 (Net/1), que foi feito disponível para não-licenciados do código AT&T e foi redistribuído livremente, nos termos da licença BSD
+E foi lançado em junho de 1989.
+
+O BSD 4.3-Reno veio no início de 1990
+Era uma versão provisória durante o desenvolvimento precoce do BSD 4.4, e sua utilização foi considerada uma "aposta", daí a denominação após o centro de jogos de azar de Reno, Nevada
+Esta versão foi explicitamente se movendo em direção à conformidade POSIX, e, segundo alguns, longe da filosofia BSD (como o POSIX é muito baseado no System V, e o Reno foi bastante inchado em comparação às versões anteriores)
+Entre os novos recursos estiveram um Sistema de Arquivos de Rede NFS implementada pela Universidade de Guelph e apoio para a gama de computadores HP 9000, originários da Universidade de Utah, o port "HPBSD".
+
+Em agosto de 2006, a revista InformationWeek classificou o BSD 4.3 como "O Maior Software Jamais Escrito"
+Eles comentaram: "o BSD 4.3 representa o único grande suporte teórico da Internet."
+
+Depois do Net/1, um dos desenvolvedor do BSD Keith Bostic propôs que mais seções não-AT&T do sistema BSD fossem liberadas sob a mesma licença como Net/1
+Para este fim, ele iniciou um projeto para reimplementar a maioria dos programas do NetBSD sem usar o código AT&T
+Por exemplo, o vi, que tinha sido baseado na versão original do Unix ed, foi reescrita como nvi (novo vi)
+No prazo de dezoito meses, todos os utilitários AT&T tinham sido substituídos, e determinou-se que apenas alguns arquivos da AT&T permanecessem no kernel
+Esses arquivos foram removidos, e o resultado foi o lançamento em junho de 1991, o "Networking Release 2" (Net/2), um sistema operacional quase completo que foi distribuído gratuitamente.
+
+O Net/2 foi a base para dois ports separados do BSD para a arquitetura Intel 80386: o livre 386BSD por William Jolitz e o proprietário BSD/386 (mais tarde renomeado como BSD/OS) por Berkeley Software Design (BSDi)
+O 386BSD foi de curta duração, mas tornou-se a base de código inicial dos projetos NetBSD e FreeBSD que foram iniciados pouco depois.
+
+A BSDi logo se viu em problemas legais com a subsidiária da AT&T Unix System Laboratories (USL), em seguida, os donos do System V copyright e a marca Unix
+A ação "USL v
+BSDi" foi ajuizada em 1992 e levou a uma liminar sobre a distribuição do Net 2 até que a validade das reivindicações de direitos autorais do USL nos fontes pudessem ser determinadas.
+
+A ação desacelerou o desenvolvimento de software livre dos descendentes do BSD por quase dois anos, enquanto o seu estatuto jurídico estava em questão, e como sistemas de resultado com base no kernel Linux, o que não tem essa ambiguidade legal, ganharam maior apoio
+Apesar de não ser lançado até 1992, o desenvolvimento do 386BSD antecedeu o de Linux
+Linus Torvalds disse que se o 386BSD ou o GNU Hurd não estivessem disponíveis no momento, ele provavelmente não teria criado o Linux.
+
+A ação foi estabelecida em janeiro de 1994, em grande parte, em favor da Berkeley
+Dos 18.000 arquivos na distribuição Berkeley, apenas três tiveram que ser removidos e 70 modificados para mostrar avisos de direitos autorais da USL
+Uma outra condição do acordo foi que USL não iria apresentar novas ações judiciais contra usuários e distribuidores do código de Berkeley detido na próxima versão: o BSD 4.4
+Marshall Kirk McKusick resume o processo e seu resultado:
+
+Em junho de 1994, o BSD 4.4 foi lançado em duas formas: a distribuição livre 4.4 BSD-Lite que não continha nenhuma fonte AT&T, enquanto a versão 4.4 BSD-Encumbered estava disponível, como versões anteriores, tinha sido só para licenciados da AT&T.
+
+A versão final de Berkeley foi em 1995 do BSD 4.4-Lite Release 2, após o CSRG ser dissolvido e o desenvolvimento do BSD em Berkeley ter cessado
+Desde então, diversas variantes baseadas direta ou indiretamente no BSD 4.4-Lite (como o FreeBSD, NetBSD, OpenBSD e o DragonFly BSD) foram mantidos.
+
+Além disso, a natureza permissiva da licença BSD tem permitido que muitos outros sistemas operacionais, tanto livres quanto proprietários, tenham código BSD incorporado
+Por exemplo, o Microsoft Windows tem utilizado código derivado do BSD na sua implementação de TCP/IP
+e pacotes recompilados de versões BSD de ferramentas de redes de interpretador de comando desde o Windows 2000
+Também o Darwin, o sistema no qual o Mac OS X da Apple é construído, é um derivado do BSD 4.4-Lite2 e FreeBSD
+Vários sistemas operacionais comerciais de UNIX, tal como o Solaris, também contêm quantidades variáveis ​​de código BSD.
+
+Começando com a oitava edição, versões de pesquisa Unix na Bell Labs tinham uma estreita relação com o BSD
+Isso começou quando o BSD 4.1c para o VAX foi usado como base para a "Research Unix: oitava edição"
+Isto continuou em versões posteriores, como a 9ª Edição, que incorporou código fonte e melhorias do BSD 4.3
+O resultado foi que essas versões posteriores do Research Unix estavam mais próximas do BSD do que do System V
+Em uma publicação da Usenet em 2000, Dennis Ritchie descreveu esta relação entre BSD Unix e Pesquisa:
+
+Eric S
+Raymond resumiu a relação de longa data entre o System V e o BSD, afirmando: ""A divisão era aproximadamente entre cabelos longos e curtos; programadores e pessoal técnico tendem a se alinhar com a Berkeley e o BSD, tipos mais orientados para o negócio, com a AT&T e o System V."
+
+Em 1989, David A
+Curry escreveu sobre as diferenças entre BSD e System V
+Ele caracterizou o segundo como sendo frequentemente considerado como o "Unix padrão." No entanto, ele descreveu como os BSD's sendo mais populares entre os centros de computação de universidades e do governo, devido às suas características avançadas e desempenho:
+
+O Unix de Berkeley foi o primeiro Unix a incluir bibliotecas que suportam as pilhas de protocolos da internet: "Soquetes Berkeley"
+A implementação Unix do antecessor do IP, o NCP da ARPAnet, com os clientes FTP e Telnet, tinham sido produzidos na Universidade de Illinois em 1975, e estavam disponíveis em Berkeley
+Entretanto, a escassez de memória no PDP-11 forçou um projeto complicado e problemas de performance.
+
+Ao integrar soquetes com o descritor de arquivo do sistema operacional Unix, tornou-se quase tão fácil de ler e gravar dados em toda a rede como o fôra para acessar um disco
+O laboratório AT&T finalmente lançou sua própria biblioteca de stream, que incorporou grande parte da mesma funcionalidade em uma pilha de software com uma arquitetura diferente, mas a ampla distribuição da biblioteca de sockets existente reduziu o impacto da nova API
+Foram usadas as primeiras versões do BSD para formar o SunOS da Sun Microsystems, fundando a primeira onda de estações de trabalho UNIX populares.
+
+Sistemas operacionais BSD podem executar software nativo de muitos outros sistemas operacionais na mesma arquitetura, usando uma camada de compatibilidade binária
+Muito mais simples e rápido que emulação, o que permite, por exemplo, aplicações previstas para Linux serem executadas em velocidade efetivamente completa
+Isso faz com que os BSDs não só sejam adequados para ambientes de servidores, mas também para as estações de trabalho, dada a crescente disponibilidade de software comercial ou de código fechado apenas para Linux
+Isto também permite que os administradores migrem para aplicações comerciais normais, o que pode ter apenas variantes comerciais do Unix suportadas, para um sistema operacional mais moderno, mantendo a funcionalidade de tais aplicações até que eles possam ser substituídos por uma alternativa melhor.
+
+As variantes dos sistemas operacionais BSD atuais suportam muitos dos padrões: IEEE, ANSI, ISO e POSIX, enquanto retém a maior parte do comportamento BSD tradicional
+Como o Unix AT&T, o kernel BSD é um monolítico, o que significa que os drivers de dispositivos rodam no modo privilegiado, como parte do núcleo do sistema operacional.
+
+O BSD tem sido a base de um grande número de sistemas operacionais
+O mais notável entre estes hoje são talvez os principais de código aberto: FreeBSD, NetBSD e OpenBSD, que são todos derivados do 386BSD e do BSD 4.4 - Lite por várias vias
+Ambos NetBSD e FreeBSD começaram a existir em 1993, inicialmente derivados do 386BSD, mas em 1994 migraram para uma base de código BSD 4.4-Lite
+O OpenBSD foi um fork em 1995 a partir do NetBSD
+Os três descendentes mais notáveis na atual utilização, às vezes conhecidos como Os BSDs - têm gerado uma série de descendentes, incluindo: DragonFly BSD, FreeSBIE, Miros BSD, DesktopBSD, PC-BSD e mais recentemente o GhostBSD
+Eles são direcionados para uma variedade de sistemas para fins diferentes e são comuns em instalações governamentais, universidades e em uso comercial
+Um número de sistemas operacionais comerciais também estão parcial ou totalmente baseados em BSD ou nos seus descendentes, incluindo: SunOS e o Mac OS X.
+
+A maioria dos atuais sistemas operacionais BSD são código aberto e disponíveis para download gratuitamente sob a BSD License, a exceção mais notável é o Mac OS X
+Eles também usam geralmente um kernel monolítico, além do Mac OS X e DragonFly BSD que apresentam kernel híbrido
+Os vários projetos de código aberto BSD, geralmente desenvolvem programas e bibliotecas em conjunto e um kernel com espaço do usuário , além do código-fonte ser gerenciado através de um único repositório de origem central.
+
+No passado, BSD também foi usado como base para várias versões proprietárias do Unix, como o: SunOS, Sequent, Dynix, NeXT, NeXTSTEP, DEC, Ultrix e OSF/1 AXP agora conhecido como Tru64 UNIX
+Partes do software da NeXT se tornaram a base para o Mac OS X, entre as variantes BSD mais bem sucedidas comercialmente no mercado em geral.
+
+Uma seleção de versões significantes do Unix e Unix-like que descendem do BSD, incluem:
+

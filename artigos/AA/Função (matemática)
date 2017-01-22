@@ -1,0 +1,82 @@
+Uma função ou aplicação é uma relação de um conjunto formula_1 com um conjunto formula_2 onde cada elemento de formula_1 se relaciona unicamente com um elemento de formula_4 Usualmente, denotamos uma tal função por formula_5 formula_6 onde formula_7 é o nome da função, formula_1 é chamado de conjunto de partida, formula_9 é chamado de contradomínio e formula_10 expressa a lei de correspondência (relação) dos elementos formula_11 com os elementos formula_12 Conforme suas características, as funções são agrupadas em várias categorias, entre as principais temos: função sobrejetora, função injetora, função bijetora, função trigonométrica, função linear, função modular, função quadrática, função exponencial, função logarítmica, função polinomial, dentre inúmeras outras.
+
+As funções são definidas por certas relações
+Por causa de sua generalidade, as funções aparecem em muitos contextos matemáticos e muitas áreas da matemática baseiam-se no estudo de funções
+Deve-se notar que as palavras "função", "mapeamento", "mapa" e "transformação" são geralmente usadas como termos equivalentes
+Além disso pode-se ocasionalmente se referir a funções como "funções bem definidas" ou "funções totais"
+O conceito de uma função é uma generalização da noção comum de fórmula matemática
+As funções descrevem relações matemáticas especiais entre dois elementos
+Intuitivamente, uma função é uma maneira de associar a cada valor do argumento formula_13 (às vezes denominado "variável independente") um único valor da função formula_14 (também conhecido como "variável dependente")
+Isto pode ser feito através de uma equação, um relacionamento gráfico, diagramas representando os dois conjuntos, uma regra de associação, uma tabela de correspondência, etc.
+Muitas vezes, é útil associar cada par de elementos relacionados pela função com um ponto em um espaço adequado (por exemplo, no espaço formula_15 geometricamente representado no plano cartesiano)
+Neste caso, a exigência de unicidade da imagem (valor da função) implica um único ponto para cada entrada formula_13 (valor do argumento).
+
+Assim como a noção intuitiva de funções não se limita a cálculos usando números individuais, a noção matemática de funções não se limita a cálculos e nem mesmo a situações que envolvam números
+De forma geral, uma função liga um domínio (conjunto de valores de entrada) com um segundo conjunto, o contradomínio ou codomínio (conjunto de valores de saída), de tal forma que a cada elemento do domínio está associado exatamente um elemento do contradomínio
+O conjunto dos elementos formula_17 do contradomínio para os quais existe pelo menos um formula_13 no domínio tal que formula_19 (i.e., formula_13 se relaciona com formula_17), é o conjunto imagem ou chamado simplesmente de imagem da função.
+
+Sejam dados os conjuntos formula_22 formula_2 uma relação formula_24 e o conjunto dos pares ordenados formula_25 Dizemos que formula_7 é uma função se, e somente se, para todos formula_27 com formula_28 temos formula_29 Ou, em outras palavras, para todo formula_30 existe no máximo um formula_31 tal que formula_32 se relaciona com formula_33 Assim sendo, escrevemos formula_34 quando formula_32 se relaciona com formula_36 por formula_37 O conjunto formula_1 é chamado de conjunto de partida e formula_9 é chamado de contradomínio da função formula_37 
+
+Outra maneira de dizer isto é afirmar que formula_7 é uma relação binária entre os dois conjuntos tal que formula_7 é unívoca, i.e
+se formula_34 e formula_44 então formula_45 Algumas vezes, na definição de função, impõe-se todo o elemento do conjunto formula_1 se relaciona com algum elemento de formula_4 
+
+Vejamos as seguintes relações formula_48 
+
+Podemos usar uma função para modelar o número de indivíduos em uma população de acordo com o tempo (modelos de crescimento demográfico)
+Por exemplo, denotando o tempo por formula_49 e o número de indivíduos em um dado tempo formula_50 por formula_51 escrevemos formula_52 formula_53 Assim, temos abstratamente modelado o número de indivíduos (variável dependente) em função do tempo (variável independente)
+Aqui, o nome da função foi arbitrariamente escolhido como formula_54 o conjunto de partida é o conjunto dos números reais não negativos (assumindo que o tempo é contínuo e não negativo) e o contradomínio é o conjunto dos números naturais (assumindo que o número de indivíduos é sempre um número inteiro não negativo).
+
+Da definição, temos que uma função tem um nome, um conjunto de partida, um contradomínio (conjunto de chegada) e uma lei de correspondência
+Por exemplo, denotamos formula_55 formula_6 onde formula_7 é o nome da função, formula_58 é seu conjunto de partida, formula_59 é seu contradomínio e formula_10 denota sua lei de correspondência.
+
+Em muitos casos, nem todos os elementos do conjunto de partida se relacionam com algum elemento do contradomínio
+Aqueles que se relacionam são elementos do chamado domínio da função
+Mais precisamente, o domínio de uma função formula_55 formula_6 é o conjunto:formula_63Também, geralmente, nem todos os elementos do contradomínio se relacionam com algum elemento do conjunto de partida
+Aqueles que se relacionam são elementos da chamada imagem da função
+A imagem de uma função formula_55 formula_6 é o conjunto:formula_66
+
+Seja formula_67 formula_68 onde o conjunto de partida é dada porformula_69 e o contradomínio porformula_70 Pela lei de correspondência, vemos que, neste caso, formula_71 e formula_72 Veja a ilustração.
+
+O gráfico de uma função formula_55 formula_6 é o conjunto:formula_75i.e, é o conjunto dos pares ordenados formula_76 tal que formula_77 
+
+Quando possível, usualmente fazemos uma representação geométrica do gráfico da função
+Tal representação é usualmente chamada de esboço do gráfico da função (ou, simplesmente gráfico, quando subentendido)
+Popularmente, temos os gráficos de funções de uma variável, para as quais seu esboço é dado pelo conjunto de pontos formula_78 no plano cartesiano (veja a ilustração)
+Neste caso, usualmente as variáveis independentes são chamadas de abcissas e marcadas sobre o eixo horizontal (chamado de eixo das abcissas)
+As variáveis dependentes são chamadas de ordenadas e marcadas sobre o eixo vertical (chamado de eixo das ordenadas).
+
+Funções são usualmente classificadas quanto a sua imagem como: funções injetoras, funções sobrejetoras e funções bijetoras
+Seja dada a função formula_55 formula_77 Por definição, formula_7 é injetora (ou injetiva) se, e somente se, para todos formula_82 temos formula_83 A função formula_7 é dita sobrejetora (ou sobrejetiva) quando formula_85 Por fim, uma função injetora e sobrejetora é dita ser bijetora (ou bijetiva)
+Veja a seguinte tabela.
+
+Dizemos que uma função formula_86 é definida de forma explícita (função explícita) quando seus valores formula_17 podem ser expressados pela variável independente formula_88 i.e., quando temos uma relação da forma formula_77 Por outro lado, dizemos que uma tal função é definida de forma implícita (função implícita) quando a relação entre as variáveis dependente e independente é dada como formula_90 onde formula_91 denota uma expressão envolvendo formula_92 e formula_93 
+
+Seja formula_94 dada por formula_95 Isto é, a função que toma dois valores reais e os associa ao produto entre eles
+Trata-se de uma função explícita
+Agora, a equação formula_96 define implicitamente a função formula_97 que associa um número real não negativo formula_13 ao seu inverso
+Ou seja, tal função formula_7 está, aqui, definida implicitamente por formula_100 Notamos que neste caso em particular, podemos definir a função formula_7 de forma explícita, escrevendo formula_102 
+
+Dadas uma função formula_5 formula_10 e uma função formula_105 formula_106 com formula_107 definimos a função composta de formula_108 com formula_109 por formula_110 formula_111 Analogamente, quando formula_112 também podemos definir a função composta de formula_109 com formula_7 dada por formula_115 formula_116 
+
+Considere as seguintes funções formula_117 e formula_118 dada por:
+
+formula_119 e formula_120 
+
+Notamos que formula_112 e, portanto, podemos definir a função composta formula_122por:
+
+formula_123 
+
+Também, como formula_107 temos a composição formula_125 dada por:
+
+formula_126 
+
+Função são classificadas quanto a uma séries de propriedades (características) além das já mencionadas
+Alguns desses tipos de funções são listados a seguir.
+
+O conceito matemático de função emergiu no século XVII em conexão com o desenvolvimento do Cálculo
+O termo "função" foi introduzido por Gottfried Leibniz em uma de suas cartas data em 1673, na qual ele descreve a declividade de uma curva em um ponto específico
+Na antiguidade, embora não se conhece o uso explícito de funções, tal conceito pode ser observado em alguns trabalhos percursores de filósofos e matemáticos medievais, como Oresme
+Matemáticos do século XVII tratavam por funções aquelas definidas por expressões analíticas
+Foi durante os desenvolvimentos rigorosos da Análise Matemática por Weierstrass e outros, a reformulação da Geometria em termos da análise e a invenção da Teoria dos Conjuntos por Cantor, que se chegou ao conceito moderno e geral de uma função como um mapeamento unívoco de um conjunto em outro
+Não há consenso sobre a quem se deva os créditos da noção moderna de função, sendo cotada os matemáticos Nikolai Lobachevsky, Peter Gustav Lejeune Dirichlet e Dedekind.
+

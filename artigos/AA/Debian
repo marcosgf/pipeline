@@ -1,0 +1,99 @@
+Debian (se pronúncia "débian") é o nome de um grupo de voluntários que o mantém à volta do mundo
+A principal distribuição mantida pelo projeto é Debian GNU/Linux (ou simplesmente Debian), o projeto também distribui sistemas com outros núcleos Unix-like, como o Debian GNU/kFreeBSD e o Debian GNU/Hurd
+O Debian é especialmente conhecido pelo seu sistema de gestão de pacotes, chamado APT, que permite: atualização relativamente fácil a partir de versões relativamente antigas; instalação quase sem esforço para novos pacotes e remoção limpa de pacotes antigos.
+
+O Debian "Stable" procura sempre manter os pacotes mais estáveis, assim, ele mantém o Gnome e KDE, por exemplo, em versões mais antigas do que muitas outras distribuições GNU/Linux por padrão mantêm
+O fato dele conter pacotes mais antigos garante melhor estabilidade e faz com que ele seja melhor empregado como servidor, bem como utilizado por usuários que desejam estabilidade em estações de trabalho ou "desktops" domésticos.
+
+O projeto Debian é mantido por meio de doações à organização sem fins lucrativos Software in the Public Interest(SPI).
+
+O nome Debian vem dos nomes dos seus fundadores, Ian Murdock e de sua ex-mulher, Debra
+A palavra "Debian" é pronunciada em Português como Débian.
+
+Várias distribuições comerciais baseiam-se (ou basearam-se) no Debian, incluindo: Linspire (antigo Lindows), Xandros, Knoppix, Kurumin, BrDesktop e Ubuntu.
+
+Está atualmente a decorrer trabalho para portar o Debian para outros núcleos livres para além do Linux, incluindo o Hurd e o kFreeBSD
+Para já, no entanto, ainda é muito mais preciso descrever o Debian como uma "Distribuição GNU/Linux", sem mais qualificações.
+
+O Debian foi lançado em 16 Agosto de 1993 por Ian Murdock, ao tempo estudante universitário, que escreveu o "Manifesto Debian" que apelava à criação de uma distribuição GNU/Linux a ser mantida de uma maneira livre, segundo o espírito do GNU.
+
+O Projeto Debian cresceu vagarosamente e lançou suas versões 0.9x em 1994 e 1995, quando dpkg ganhou notoriedade
+Os primeiros ports para outras arquiteturas iniciaram em 1995, e a primeira versão 1.x do Debian aconteceu em 1996.
+
+Bruce Perens substituiu Ian Murdock como líder do projeto
+Ele iniciou a criação de vários documentos importantes (o contrato social e o free software guidelines) e a legítima umbrella organization(SPI), bem como liderou o projeto através dos lançamentos das versões da ELF/libc5 (1.1, 1.2, 1.3).
+
+Bruce Perens deixou o projeto em 1998 antes do lançamento da primeira versão Debian baseada em glibc, a 2.0
+O Projeto continuou elegendo novos líderes e fazendo mais duas versões 2.x, cada qual incluindo mais ports e mais pacotes
+APT foi lançada durante este tempo e o Debian GNU/Hurd também iniciou-se.
+
+O ano de 1999 trouxe as primeiras distribuições GNU/Linux baseadas em Debian, Corel Linux e Stormix's Storm Linux, hoje descontinuadas mas que iniciaram o que é hoje uma notável tendência às distribuições baseadas em Debian.
+
+Perto do ano 2000, o projeto se direcionou ao uso de repositórios de pacotes e à distribuição "testing", alcançando um marco maior no que se refere aos arquivos e o gerenciamento de lançamentos
+Em 2001, os desenvolvedores iniciaram conferências anuais, "Debconf", com conversas, "workshops", e a recepção aos usuários técnicos
+A versão 3.0 de 2002 incluiu mais do que o dobro do número de pacotes da versão anterior e estava disponível para cinco novas arquiteturas.
+
+Debian celebrou o seu décimo aniversário em 16 de Agosto de 2003, com muitas festas de aniversário em todo o mundo.
+
+O ciclo de desenvolvimento das versões do Debian passa por três fases:
+
+Quando as versões estão na fase "testing" elas são identificadas por codinomes tirados dos personagens do filme Toy Story
+Ao se tornarem "stable" as versões recebem um número de versão (ex: 5.0).
+
+Versões, codinomes e datas em que se tornaram "stable":
+
+A Versão "testing" atual é a "Stretch".
+
+A versão "unstable" terá sempre o nome Sid, personagem que costumava a quebrar os brinquedos, em alusão aos bugs que podem ocorrer nessa versão.
+
+O Debian não possui uma interface gráfica padrão
+Ele suporta todas as interface a saber: GNOME, KDE, Xfce, LXDE, Cinnamon etc
+Porém o ambiante GNOME é o que vem incluso no primeiro CD já que estes são ordenados pelos pacotes mais usados
+Os demais discos vem com outros ambiantes
+Caso opte por baixar o DVD, o primeiro já inclui os outros ambiantes que pode ser escolhido no ato da instalação.
+
+O projeto Debian é uma organização voluntária com três documentos de fundação:
+
+Os programadores Debian elegem um líder para o projeto entre os seus "rankings" todos os anos
+O líder do projeto Debian tem vários poderes especiais, mas o seu poder não é absoluto
+Ele pode ser contatado e a sua decisão revertida, pelo voto dos programadores de acordo com o processo de General Resolution
+Na prática, isto ocorre com alguma frequência
+(Normalmente apenas a eleição do líder do projeto Debian ocorre no âmbito do General Resolution, mas já ocorreu várias vezes.)
+
+O líder do projeto Debian é empossado para delegar a sua autoridade, e a vários programadores são confiadas responsabilidades especiais delegadas pelo líder, como por exemplo a equipe Debian System Administration (que possui a password do root das máquinas do projecto), e o Release Manager, que decide os objetivos da release de distribuição, supervisiona o processo e toma a decisão final de quanto libertar uma release
+Muitos dos delegados mantêm-se nas suas posições durante vários mandatos dos diferentes líderes; as posições mais importantes são mantidas por membros de grande confiança e há muito tempo ativos no projecto, e existem muito poucas mudanças mesmo quando muda o líder do projeto.
+
+Uma lista das posições mais importantes no Projecto Debian está disponível em
+
+O projeto Debian tem um fluxo constante de pessoas que desejam ser Programadores
+Estas pessoas devem passar por um processo onde é estabelecida a sua identidade, a sua motivação, e o seu conhecimento dos objetivos do projeto (definido no Contrato Social), e a sua competência técnica.
+
+Os Programadores Debian juntam-se ao projeto pelas mais variadas razões
+No passado foram citadas várias razões, que incluem:
+
+Os Programadores Debian podem demitir-se das suas posições em qualquer altura, enviando a sua intenção à lista privada do projeto (ou apenas aos Debian System Administrators, se quiserem ser mais discretos)
+As suas contas serão então apagadas e as suas chaves criptográficas removidas do Project keyring (que permite o upload de pacotes assinados por eles, para que sejam aceitos no arquivo).
+
+Cada pacote Debian tem um mantenedor (tipicamente, apenas um, mas ocasionalmente pequenas equipes de programadores supervisionam peças de software particularmente complexas)
+É da responsabilidade dos mantenedores manter o ritmo de acordo com as (caso existam) versões definidas pelos autores do software (a que se chama "upstream"), garantir a portabilidade do pacote com as arquitecturas que o Debian suporta, garantir que o pacote é compatível com a política técnica do Debian, corrigir defeitos no pacote reportados pelos seus utilizadores (que também podem ser outros programadores Debian), e melhorias aos pacotes efectuados pelos seus autores que o farão mais fácil de utilizar, mais configurável, mais seguro e por aí fora.
+
+Periodicamente, um mantenedor de pacotes faz uma release de um pacote fazendo o upload para o directório "incoming" do arquivo de pacotes do Debian (ou usando uma "upload queue" que periodicamente transmite em batch os pacotes para o directório incoming)
+Após um intervalo (um dia actualmente), o directório "incoming" é verificado por um processo automático que garante que oupload está bem formado (todos os ficheiros obrigatórios estão no sitio) e que o pacote tem a assinatura digital—produzida por software compatível com o OpenPGP—do programador Debian
+Todos os programadores Debian têm chaves públicas
+Os pacotes são assinados devido a duas razões: 1) para permitir verificar se pacotes não assinados, que podem ter sido enviados hostilmente, não serão processados no futuro; e 2) para permitir a contabilização no caso de um pacote conter umdefeito sério, uma violação de política ou código malicioso.
+
+Se o novo pacote é validado como: correctamente, assinado e bem formado, é instalado no arquivo, para uma área chamada "pool"
+Inicialmente, todos os uploads de pacotes aceitos no arquivo são apenas disponibilizados na versão "unstable", que contem a versão mais recente de cada pacote
+No entanto, o novo código é também código não experimentado, por isso os pacotes são mantidos nesta área de desenvolvimento/QA durante vários dias (a duração exacta depende da urgência do upload).
+
+Para um pacote passar da área de desenvolvimento/QA para a versão "testing"—ou seja, o grupo de pacotes que são candidatos a fazer parte da próxima release da distribuição Debian—tem de cumprir vários critérios:
+
+Desta forma, como é de esperar, um bug release-critical num pacote de que vários pacotes dependam, como por exemplo uma shared library, pode impedir muitos pacotes de entrarem na área de testes, porque essa biblioteca é considerada deficiente.
+
+Periodicamente, o Release Manager, que é um delegado do Debian Project Leader, em concordância com as linhas mestras anunciadas aos programadores alguns meses antes, decide fazer uma release
+Isto ocorre quando todo o software importante está razoávelmente up-to-date na versão "release-candidate" para todas as arquitecturas para as quais está planejada a release e quando todos os outros objectivos definidos pelo Release Manager foram atingidos
+Nesta altura, todos os pacotes na "release-candidate" passam a fazer parte da "release".
+
+Não é possível a um pacote—particularmente a um antigo, estável e alterado frequentemente—pertencer a mais do que uma versão ao mesmo tempo
+As versões são apenas colecções de apontadores para a "pool" de pacotes acima mencionada.
+
