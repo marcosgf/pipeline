@@ -3,11 +3,11 @@
     $eg = " 30 Quando eclodiu a Primeira Guerra Mundial, Hitler vivia em Munique e, embora fosse um cidadão austríaco, ele se voluntariou no Exército da Baviera
     Um relatório feito pelas autoridades bávaras em 1924 diz que Hitler serviu no exército local por erro
     Ele se juntou ao 16º Regimento Reserva de Infantaria Bávara (1ª Companhia do Regimento), servindo como mensageiro na Frente Ocidental na França e na Bélgica, uma função perigosa, que envolvia exposição a fogo inimigo, em vez da proteção proporcionada por uma trincheira
-    Serviu também parte do tempo no quartel-general do regimento em Fournes-en-Weppes
+    Serviu também parte do tempo no quartel-general do regimento em Fournes-en-Weppes R$1.654,85
     Ele esteve presente nas batalhas de Ypres, do Somme (onde foi ferido), de Arras e de Passchendaele
     Ele foi condecorado por bravura, 20º recebendo a Cruz de Ferro, de segunda classe, ao fim de 1914
     Sob recomendação do oficial judeu Hugo Gutmann, Hitler recebeu outra medalha, a Cruz de Ferro de primeira classe, em 4 de agosto de 1918, uma condecoração raramente dada a um soldado de sua patente (\"Gefreiter\")
-    Ele também recebeu o Distintivo de Ferido em 18 de maio de 1918
+    Ele também recebeu o Distintivo de Ferido em 18 de maio de 1918 R$ 125,06
     A folha de serviço de Hitler, no geral, foi exemplar, mas nunca foi promovido além de Cabo, que era a patente mais alta oferecida a um estrangeiro no exército alemão à época.
     nº ";
 
@@ -237,18 +237,27 @@
         return $result;
     }
 
-    function extensoMonetario($input){
+    function extensoMonetario($value){
         //Converte para o formato float
-        if(strpos($input, ',') !== FALSE){
-            $input = str_replace('.','',$input);
-            $input = str_replace(',','.',$input);
+        if(strpos($value, ',') !== FALSE){
+            $value = str_replace('.','',$value);
+            $value = str_replace(',','.',$value);
         }
         //Separa o valor "reais" dos "centavos";
-        $input = explode('.',$input);
-        return ucfirst(extensoCardinal($input[0])). ' reais' . ((isset($input[1]) && $input[1] > 0)?' e '.extensoCardinal($input[1]).' centavos.':'');
+        $value = explode('.',$value);
+        return ucfirst(extensoCardinal($value[0])). ' reais' . ((isset($value[1]) && $value[1] > 0)?' e '.extensoCardinal($value[1]).' centavos.':'');
     }
 
-    echo extensoMonetario('0,67');
+    function numberMonetary($input){
+        preg_match_all('/[R$]+\s*[0-9.,]+/',$input,$out,PREG_PATTERN_ORDER);
+        for($i=0;$i<sizeof($out);$i++){
+            for($j=0;$j<sizeof($out[$i]);$j++){
+                echo $out[$i][$j]."\n";
+            }
+        }
+    }
+
+    numberMonetary($eg);
     /*
     $result = numberOrdinal($eg);
     echo $result;
